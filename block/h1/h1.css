@@ -1,3 +1,13 @@
-
+.h1 {
+  color: #333;
+  font-family: 'PT Serif', serif;
+  font-size: 34px;
+  font-style: italic;
+  line-height: 18px;
+  display: block;
+  padding-bottom: 20px;
+  background-image: url("../../img/dotted.png");
+  background-repeat: repeat-x;
+  background-position: bottom center; }
 
 /*# sourceMappingURL=h1.css.map */
