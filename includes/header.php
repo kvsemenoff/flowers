@@ -33,6 +33,7 @@
 	<link rel="stylesheet" href="block/rateandshare/style.css">
 	<link rel="stylesheet" href="block/mape/mape.css">
 	<link rel="stylesheet" href="block/mape/search.css">
+	<link rel="stylesheet" href="block/header-contact/header-contact.css">
 
 
 	<link rel="stylesheet" href="css/style-db.css">
