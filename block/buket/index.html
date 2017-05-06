@@ -727,11 +727,11 @@
 
 	$('.js-bouquet-mob').on('click', function() {
 		$('.menu-bouquet__accordeon').slideToggle();
+		$('html,body').toggleClass('overlay');
 	});
-	
-
 	$('.menu-bouquet__accordeon__close').on('click', function() {
 		$('.menu-bouquet__accordeon').slideUp();
+		$('html,body').removeClass('overlay');
 	});
 	$(".menu-bouquet__accordeon_link a").on('click', function(e){
 		e.preventDefault();		
