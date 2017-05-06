@@ -199,7 +199,6 @@
     display: none; } }
 
 .menu-bouquet__accordeon {
-  max-width: 290px;
   background-color: #daf4e7;
   border: 1px solid #aed1bf;
   box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
@@ -244,7 +243,11 @@
     background-repeat: no-repeat;
     background-position: left 15px center;
     padding-left: 35px;
-    height: 39px; }
+    height: 39px;
+    width: 60%; }
+    @media only screen and (min-width: 350px) {
+      .menu-bouquet__accordeon_link a {
+        width: auto; } }
     .menu-bouquet__accordeon_link a span {
       display: inline-block;
       border-bottom: 1px dashed #333;
