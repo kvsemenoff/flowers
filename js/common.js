@@ -199,7 +199,7 @@ $(document).ready(function(){
 
 	//// ============ main menu script
 	$('.js-main-menu').on('click', function() {		
-		$('.main-menu_mobile').slideDown();
+		$('.main-menu_mobile').slideToggle();
 		// $('html,body').toggleClass('overlay');
 	});
 	$('.menu-bouquet__accordeon__close').on('click', function() {
@@ -241,11 +241,11 @@ $(document).ready(function(){
 
 	$('.js-bouquet-mob').on('click', function() {
 		$('.menu-bouquet__accordeon').slideToggle();
-		$('html,body').toggleClass('overlay');
+		// $('html,body').toggleClass('overlay');
 	});
 	$('.menu-bouquet__accordeon__close').on('click', function() {
 		$('.menu-bouquet__accordeon').slideUp();
-		$('html,body').removeClass('overlay');
+		// $('html,body').removeClass('overlay');
 	});
 	$(".menu-bouquet__accordeon_link a").on('click', function(e){
 		e.preventDefault();		
@@ -258,7 +258,7 @@ $(document).ready(function(){
 		$(this).toggleClass("linkactivemob"); 
 		$(answerId).slideToggle();
 	});
-	$(".menu-bouquet__accordeon_link a:first").click();
+	// $(".menu-bouquet__accordeon_link a:first").click();
 
 	//// ============== buket menu end
 });

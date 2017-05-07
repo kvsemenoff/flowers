@@ -68,29 +68,39 @@
 	top: 3px;
 	right: 0px;
 	bottom: 2px;
-	left: 3px;
+	left: 2px;
 	background: url("../../img/checked.png") no-repeat;
 }
 
 .bouquet_search__label{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 400;
 	color: #333;
 	display: inline-block;
 	vertical-align: 20%;
-	margin-left: 10px;	
+	margin-left: 0px;	
+		@media only screen and (min-width : 990px) {
+			font-size: 14px;
+			margin-left: 10px;	
+		}
 }
 
 /*end*/
 
 .menu-bouquet{
-	padding: 27px 12px;
+	padding: 27px 1px;
 	background-color: #daf4e7;
 	border: 1px solid #aed1bf;
 	box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
 	margin-top: 4px;
 	display: none;
+	position: absolute;
+	z-index: 999;
+	width: 99%;
+	@media only screen and (min-width : 990px) {
+		padding: 27px 12px;
+	}
 }
 .menu-bouquet__tabs{
 	list-style: none;
@@ -146,7 +156,7 @@
 .bouquet_search{
 	display: none;
 	width: 76%;
-	padding: 5px 0 0 10px;
+	padding: 5px 0 0 3px;
 	@media only screen and (min-width : 990px) {
 		width: 74%;
 		padding: 0px 0 0 26px;
@@ -156,10 +166,10 @@
 	display: inline-block;
 }
 .bouquet_search__box{
-	max-width: 190px;
+	max-width: 179px;
 	width: 100%;
 	display: inline-block;
-	margin-right: 3px;
+	margin-right: 1px;
 	@media only screen and (min-width : 990px) {
 		max-width: 220px;		
 		margin-right: 10px;
@@ -237,7 +247,9 @@
 	padding: 19px 15px 14px 15px;
 	position: relative;
 	display: none;
-
+	position: absolute;
+	z-index: 999;
+	width: 99%;
 	.menu-bouquet__buttons{
 		padding-left: 0px;
 		margin-top: 15px;
