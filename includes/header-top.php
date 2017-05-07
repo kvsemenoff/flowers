@@ -41,7 +41,8 @@
 				</div>
 			</div>
 		</div>
-
+				
+				<!-- desktop  menu-->
 		<div class="akkordeons">
 			<div class="main-menu-wrap">
 				<div class="bouquet js-bouquet">
@@ -731,7 +732,7 @@
 						<span></span>
 					</div>
 					<span class="bouquet__txt main-menu__txt">Меню</span>
-					</div>
+				</div>
 				<div class="main-menu_mobile">
 					<div class="menu-bouquet__accordeon__close"></div>
 					<a href="#" class="main-menu__link_mobile">Просто цветы</a>
