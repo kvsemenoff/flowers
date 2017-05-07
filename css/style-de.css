@@ -1,4 +1,4 @@
-.header-top { background: url(../img/header-bg.jpg); padding: 15px 0; position: relative; margin-bottom: 16px; }
+.header-top { background: url(../img/header-bg.jpg); padding: 15px 0; position: relative; }
 .header-top::before { content: ""; display: block; position: absolute; background: url(../img/header-bg.png) repeat-x; width: 100%; bottom: -15px; left: 0; height: 15px; }
 
 .contacts { padding-top: 15px; float: left; }
@@ -20,7 +20,7 @@
   .top-line .logobox__txt { padding-right: 10px; }
   .top-line .socials-wrap { text-align: left; } }
 
-.logobox { float: left; margin-right: 120px; }
+.logobox { float: left; margin-right: 130px; }
 @media screen and (max-width: 1200px) { .logobox { margin-right: 70px; } }
 
 .register-wrap { float: right; padding-top: 15px; }
@@ -38,7 +38,7 @@
 
 .category-wrap { padding-top: 5px; }
 @media screen and (max-width: 749px) { .category-wrap { padding: 0; }
-  .category-wrap .category-button { line-height: 52px; }
+  .category-wrap .category-button { line-height: 40px; }
   .category-wrap .category-button-active { right: 14px; padding: 0 !important; width: 40px !important; } }
 @media screen and (max-width: 456px) { .category-wrap { position: relative; top: auto; float: left; width: 100%; }
   .category-wrap .category-button { width: 129px; padding-left: 46px; }

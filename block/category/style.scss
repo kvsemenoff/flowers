@@ -29,13 +29,13 @@
 		height: 2px;
 		background: #b7b08c;
 		left: 25px;
-		top: 19px;
+		top: 13px;
 		position: absolute;
 		&:nth-child(2){
-			top: 24px;
+			top: 19px;
 		}
 		&:last-child{
-			top: 30px;
+			top: 25px;
 		}
 	}
 	@media screen and (max-width: 749px) {
