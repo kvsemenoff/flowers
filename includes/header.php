@@ -16,25 +16,17 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<link rel="stylesheet" href="block/h1/h1.css">
-	<link rel="stylesheet" href="block/h2/h2.css">
 	<link rel="stylesheet" href="block/register-and-cart/style.css">
 	<link rel="stylesheet" href="block/logobox/style.css">
 	<link rel="stylesheet" href="block/category/style.css">
 	<link rel="stylesheet" href="block/link/link.css">
-	<link rel="stylesheet" href="block/telefone/telefone.css">
 	<link rel="stylesheet" href="block/address/address.css">
 	<link rel="stylesheet" href="block/search/search.css">
 	<link rel="stylesheet" href="block/button/style.css">
-	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/order/style.css">
-	<link rel="stylesheet" href="block/textarea/style.css">
-	<link rel="stylesheet" href="block/forms/style.css">
 	<link rel="stylesheet" href="block/socials/socials.css">
 	<link rel="stylesheet" href="block/q/q.css">
-	<link rel="stylesheet" href="block/ul/ul.css">
-	<link rel="stylesheet" href="block/rateandshare/style.css">
 	<link rel="stylesheet" href="block/mape/mape.css">
-	<link rel="stylesheet" href="block/mape/search.css">
 	<link rel="stylesheet" href="block/header-contact/header-contact.css">
 	<link rel="stylesheet" href="block/buket/style.css">
 	<link rel="stylesheet" href="block/main-menu/main-menu.css">
