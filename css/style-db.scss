@@ -1,3 +1,61 @@
+.sidebar-testimonials{
+	&_view{
+		background:url("../img/testimonials-fon.png")no-repeat bottom right #fafaf7;
+		border: 1px solid #e7e5d9;
+		border-bottom: 3px solid #e7e5d9;
+	}
+	&_padding{
+		padding: 24px 0 30px 0;
+		margin-top: 20px;
+	}
+	&__span1{
+		color: #444;
+		font-size: 22px;
+		font-weight: 700;
+		font-style: italic;
+		line-height: 26px;
+		font-family: 'PT Serif', serif;
+		padding-left: 23px;
+		padding-bottom: 24px;
+		display: block;
+	}
+	&__p{
+		color: #333;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 20px;
+		padding-left: 19px;
+		padding-right: 10px;
+	}
+	&__span3{
+		color: #666;
+		font-size: 14px;
+		font-weight: 400;
+		display: inline-block;
+		padding-left: 4px;
+		padding-bottom: 14px;
+	}
+	&__span2{
+		color: #333;
+		font-size: 16px;
+		font-style: italic;
+		display: block;
+		padding-bottom: 9px;
+		padding-left: 4px;
+	}
+	&__link{
+		background:url("../img/testimonials-link.png") no-repeat  left;
+		color: #a39762;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 18px;
+		text-decoration: underline;
+		margin-left: 22px;
+		padding-left: 16px;
+		margin-top: 30px;
+		display: block;
+	}
+}
 .sidebar-box{
 	&_view{
 		background: url("../img/sidebar-fon.jpg")no-repeat;
