@@ -15,6 +15,9 @@
       display: inline-block; } }
   @media only screen and (min-width: 990px) {
     .main-menu {
+      width: 81%; } }
+  @media only screen and (min-width: 992px) {
+    .main-menu {
       width: 85.555%; } }
   @media only screen and (min-width: 1200px) {
     .main-menu {
