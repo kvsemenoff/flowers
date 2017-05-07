@@ -6,8 +6,7 @@
 			<span class="sidebar-sale__span2">до 50%</span>
 		</p>
 	</div>
-</div>
-<ul class="sidebar-menu">
+	<ul class="sidebar-menu">
 	<li><a href="#">Индивидуальный заказ</a></li>
 	<li><a href="#">Создать свой букет</a></li>
 	<li><a href="#">Букет сезона</a></li>
@@ -39,3 +38,4 @@
 		<li><a href="#">Композиции из комнатных<br>растений</a></li>
 	</ul>
 </ul>
+</div>
