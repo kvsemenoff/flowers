@@ -12,7 +12,12 @@
 }
 .tovar_block__caption{
 	margin-bottom: 17px;
+	margin-top: 40px;
 	max-width: 855px;
+	text-align: center;
+	@media only screen and (min-width : 990px) {
+		text-align: left;
+	}
 }
 .tovar_block__item{
 	max-width: 265px;
@@ -95,6 +100,9 @@
 	padding: 24px 24px 24px 19px;
 	border: 1px solid #e9e2e2;
 	margin-top: -15px;
+	@media only screen and (min-width : 1200px) {
+		margin-top: 0px;
+	}
 }
 .tovar_block__name{
 	color: #333;
