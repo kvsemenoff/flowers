@@ -8,8 +8,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-9 col-sm-8 col-xs-12 mycolmd">
-						<?php require_once('includes/tovar.php'); ?>
-						<?php require_once('includes/pagination.php'); ?>
+						<div class="tovars-wrap">
+							<?php require_once('includes/tovar.php'); ?>
+							<?php require_once('includes/pagination.php'); ?>
+						</div>
 					</div>	
 					<div class="col-md-3 col-sm-4 col-xs-12">
 						<?php require_once('includes/sidebar.php'); ?>	
