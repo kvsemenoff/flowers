@@ -2,7 +2,7 @@
 	background: url(../img/header-bg.jpg);
 	padding: 15px 0;
 	position: relative;
-	margin-bottom: 16px;
+	// margin-bottom: 16px;
 	&::before{
 		content: "";
 		display: block;
@@ -79,7 +79,7 @@
 }
 .logobox{
 	float: left;
-	margin-right: 120px;
+	margin-right: 130px;
 	@media screen and (max-width: 1200px) {
 		margin-right: 70px;
 	}
@@ -125,10 +125,12 @@
 	@media screen and (max-width: 749px) {
 		padding: 0;
 		.category-button{
-			line-height: 52px;
+			line-height: 40px;
 		}
 		.category-button-active{
 			right: 14px;
+			padding: 0!important;
+			width: 40px!important;
 		}
 	}
 	@media screen and (max-width: 456px) {
@@ -136,6 +138,13 @@
 		top: auto;
 		float: left;
 		width: 100%;
+		.category-button{
+			width: 129px;
+			padding-left: 46px;
+			i{
+				left: 17px;
+			}
+		}
 	}
 }
 @media screen and (max-width: 749px) {
@@ -152,14 +161,14 @@
 @media screen and (max-width: 456px) {
 	.bouquet{
 		position: relative;
-		margin: 0 0 15px;
+		margin: 0 0 8px;
 		float: left;
 	}
 	.main-menu__button{
 		position: relative;
 		float: right;
 		left: auto;
-		margin: 0 0 15px;
+		margin: 0 0 8px;
 	}
 }
 @media screen and (max-width: 749px) and (min-width: 456px) {

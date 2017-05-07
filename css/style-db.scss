@@ -1,3 +1,40 @@
+.sidebar-about{
+	&_border{
+		border-bottom:1px dotted black;
+		max-width: 262px;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	&__content{
+		color: #333;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		span{
+			color: #333;
+			font-family: 'PT Serif', serif;
+			font-size: 20px;
+			font-weight: 700;
+			font-style: italic;
+			line-height: 26px;
+			padding-bottom: 20px;
+			display: inline-block;
+		}
+		a{
+			background: url("../img/testimonials-link.png") no-repeat left;
+			color: #a39762;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 18px;
+			text-decoration: underline;
+			padding-left: 15px;
+			display: inline-block;
+			margin-top: 20px;
+		}
+	}
+}
 .sidebar-work{
 	&_border{
 		border-top:1px dotted black;
@@ -121,6 +158,9 @@
 	position: absolute;
 	top: -49px;
 	right: 53px;
+	&:hover{
+		background:url("../img/df-left_hover.png")no-repeat;
+	}
 }
 .df-right{
 	background:url("../img/df-right.png")no-repeat;
@@ -130,6 +170,9 @@
 	position: absolute;
 	top: -49px;
 	right: 16px;
+	&:hover{
+		background:url("../img/df-right_hover.png")no-repeat;
+	}
 }
 
 .sidebar-box{

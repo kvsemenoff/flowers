@@ -76,4 +76,13 @@
 			<a href="#" class="sidebar-work__link"><span class="sidebar-work__title2">Название нашей работы</span></a>
 		</div>
 	</div>
+	<div class="sidebar-about sidebar-about_border">
+		<p class="sidebar-about__content">
+			<span>О нас</span><br>
+			Рыбным текстом называется текст, служащий для временного 
+			наполнения макета в публикациях или производстве веб-сайтов, пока 
+			финальный текст еще не создан. Рыбный текст также известен как текст-заполнитель или же <br>
+			<a href="#">Читать далее</a>
+		</p>
+	</div>
 </div>
