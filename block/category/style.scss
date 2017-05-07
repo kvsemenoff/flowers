@@ -12,7 +12,7 @@ ul{
 	-moz-box-shadow: 0px 10px 0px -6px rgba(231,229,217,1);
 	box-shadow: 0px 10px 0px -6px rgba(231,229,217,1);
 	background: #fff;
-	@media screen and (max-width: 700px) {
+	@media screen and (max-width: 749px) {
 		display: none;
 	}
 }
@@ -43,7 +43,7 @@ ul{
 			top: 30px;
 		}
 	}
-	@media screen and (max-width: 700px) {
+	@media screen and (max-width: 749px) {
 		display: block;
 	}
 }
@@ -56,17 +56,31 @@ ul{
 		& > a{
 			display: block;
 			line-height: 50px;
-			padding: 0 15px 0 20px;
+			padding: 0 25px 0 20px;
 			color: #988f5b;
 			font-size: 16px;
 			text-decoration: none;
+			position: relative;
+			@media screen and (max-width: 1200px) {
+				padding: 0 17px 0 8px;
+			}
 			@media screen and (max-width: 1000px) {
 				font-size: 13px;
+				padding: 0 10px 0 5px;
 			}
 			.fa{
 				color: inherit;
 				font-size: 11px;
-				margin-left: 6px;
+				position: absolute;
+				right: 12px;
+				top: 21px;
+				@media screen and (max-width: 1200px) {
+					right: 5px;
+				}
+				@media screen and (max-width: 1000px) {
+					right: 1px;
+					font-size: 9px;
+				}
 			}
 			&:hover{
 				color: #625b39;

@@ -23,7 +23,7 @@
 					Время работы: <span class="header-contact__time">8:00 - 21:00</span>
 				</p>
 			</div>
-			<div class="register-wrap">
+			<div class="register-wrap clearfix">
 				<div class="register">
 					<a href="#">Вход</a>
 					<span></span>
@@ -43,33 +43,48 @@
 		</div>
 
 		<div class="akkordeons">
-			<ul class="main-menu">
-				<li><a href="#" class="main-menu__link">Просто цветы</a></li>
-				<li><a href="#" class="main-menu__link">Акции </a></li>
-				<li><a href="#" class="main-menu__link">Скидки</a></li>
-				<li><a href="#" class="main-menu__link">Контакты</a></li>
-				<li><a href="#" class="main-menu__link">Оплата</a></li>
-				<li><a href="#" class="main-menu__link">Доставка</a></li>
-			</ul>
-			<!-- mobile -->
-			<div class="bouquet main-menu__button js-main-menu">
-				<div class="bouquet__burger main-menu__burger">
-					<!--this span - burger css -->
-					<span></span>
-					<span></span>
-					<span></span>
+			<div class="main-menu-wrap">
+				<div class="bouquet js-bouquet">
+					<div class="bouquet__burger">
+						<!--this span - burger css -->
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<span class="bouquet__txt">Букеты</span>
 				</div>
-				<span class="bouquet__txt main-menu__txt">Меню</span>
-			</div>
 
-			<div class="main-menu_mobile">
-				<div class="menu-bouquet__accordeon__close"></div>
-				<a href="#" class="main-menu__link_mobile">Просто цветы</a>
-				<a href="#" class="main-menu__link_mobile">Акции </a>
-				<a href="#" class="main-menu__link_mobile">Скидки</a>
-				<a href="#" class="main-menu__link_mobile">Контакты</a>
-				<a href="#" class="main-menu__link_mobile">Оплата</a>
-				<a href="#" class="main-menu__link_mobile">Доставка</a>
+				<ul class="main-menu">
+					<li><a href="#" class="main-menu__link">Просто цветы</a></li>
+					<li><a href="#" class="main-menu__link">Акции </a></li>
+					<li><a href="#" class="main-menu__link">Скидки</a></li>
+					<li><a href="#" class="main-menu__link">Контакты</a></li>
+					<li><a href="#" class="main-menu__link">Оплата</a></li>
+					<li><a href="#" class="main-menu__link">Доставка</a></li>
+				</ul>
+
+
+				<!-- mobile -->
+				<br>
+				<div class="bouquet main-menu__button js-main-menu">
+					<div class="bouquet__burger main-menu__burger">
+						<!--this span - burger css -->
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<span class="bouquet__txt main-menu__txt">Меню</span>
+				</div>
+
+				<div class="main-menu_mobile">
+					<div class="menu-bouquet__accordeon__close"></div>
+					<a href="#" class="main-menu__link_mobile">Просто цветы</a>
+					<a href="#" class="main-menu__link_mobile">Акции </a>
+					<a href="#" class="main-menu__link_mobile">Скидки</a>
+					<a href="#" class="main-menu__link_mobile">Контакты</a>
+					<a href="#" class="main-menu__link_mobile">Оплата</a>
+					<a href="#" class="main-menu__link_mobile">Доставка</a>
+				</div>
 			</div>
 			<!--  -->
 			<div class="category-wrap">
