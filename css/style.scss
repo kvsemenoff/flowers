@@ -1,30 +1,38 @@
 .body{
 	font-family: 'Open Sans', sans-serif;
+	background: url(../img/body-bg.jpg);
 }
 body, html{
 height:100%;
 }
 
-// .n-header{
-// 	display:table-row;
-// 	height: 1px;
-// }
-// .n-content{
-// 	display:table-row;
+.n-wrapper{
+	background: #fff;
+	width: 100%;
+	max-width: 1214px;
+	margin: 0 auto;
+}
 
-// }
-// .n-footer{
-// 	display:table-row;
-// 	height: 1px;
+.n-header{
+	display:table-row;
+	height: 1px;
+}
+.n-content{
+	display:table-row;
 
-// }
-// .n-wrapper{
-// 	width: 100%;
-// 	display:table;
-// }
-// .n-content-inner{
-// 	display:table-cell;
-// }
-// .vertical-align{
-// 	vertical-align:middle;
-// }
+}
+.n-footer{
+	display:table-row;
+	height: 1px;
+
+}
+.n-wrapper{
+	width: 100%;
+	display:table;
+}
+.n-content-inner{
+	display:table-cell;
+}
+.vertical-align{
+	vertical-align:middle;
+}
