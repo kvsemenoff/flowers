@@ -7,7 +7,7 @@
 	background: #005cbe;
 	text-align: center;
 	vertical-align: middle;
-	padding: 6px;
+	padding: 3px;
 	box-sizing: border-box;
 	transition: 0.1s all ease;
 	&:hover{
@@ -39,7 +39,7 @@
 	}
 	&_viber{
 		height: 30px;
-		background: url(../img/viber-ic.png) center/cover;
+		background: url(../../img/viber-ic.png) center/cover;
 		border-radius: 100%;
 		&::before{
 			border-color: transparent transparent transparent transparent;

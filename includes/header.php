@@ -17,6 +17,9 @@
 
 	<link rel="stylesheet" href="block/h1/h1.css">
 	<link rel="stylesheet" href="block/h2/h2.css">
+	<link rel="stylesheet" href="block/register-and-cart/style.css">
+	<link rel="stylesheet" href="block/logobox/style.css">
+	<link rel="stylesheet" href="block/category/style.css">
 	<link rel="stylesheet" href="block/link/link.css">
 	<link rel="stylesheet" href="block/telefone/telefone.css">
 	<link rel="stylesheet" href="block/address/address.css">

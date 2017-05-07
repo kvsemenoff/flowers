@@ -1,0 +1,12 @@
+.header-top { background: url(../img/header-bg.jpg); padding: 15px 0; position: relative; }
+.header-top::before { content: ""; display: block; position: absolute; background: url(../img/header-bg.png) repeat-x; width: 100%; bottom: -15px; left: 0; height: 15px; }
+
+.logobox { float: left; width: 455px; }
+
+.contacts { padding-top: 15px; float: left; }
+.contacts .socials-wrap { float: left; padding-right: 10px; }
+.contacts .header-contact__telephone { float: right; }
+.contacts .header-contact__telephone { float: right; }
+.contacts .header-contact__link { float: right; }
+
+.register-wrap { float: right; }
