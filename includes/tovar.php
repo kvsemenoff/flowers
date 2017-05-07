@@ -1,5 +1,4 @@
-<div class="container">
-	<div class="col-md-9 mycolmd">
+
 		<div class="tovar_block">
 			<h1 class="h1 tovar_block__caption">Все букеты</h1>
 			<div class="tovar_block__item">
@@ -123,5 +122,3 @@
 
 
 		</div>
-	</div>
-</div>
