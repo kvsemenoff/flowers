@@ -2,6 +2,7 @@
 	background: url(../img/header-bg.jpg);
 	padding: 15px 0;
 	position: relative;
+	margin-bottom: 16px;
 	&::before{
 		content: "";
 		display: block;
@@ -12,10 +13,6 @@
 		left: 0;
 		height: 15px;
 	}
-}
-.logobox{
-	float: left;
-	width: 455px;
 }
 .contacts{
 	padding-top: 15px;
@@ -34,6 +31,85 @@
 		float: right;
 	}
 }
+.top-line{
+	padding-bottom: 25px;
+	@media screen and (max-width: 749px) {
+		.logobox{
+			margin: 0;
+		}
+		.contacts{
+			float: right;
+		}
+		.logobox__img{
+			width: 250px;
+		}
+		.logobox__txt{
+			padding-right: 10px;
+		}
+		.socials-wrap{
+			float: none;
+			display: block;
+			padding-bottom: 2px;
+			padding-right: 0;
+		}
+	}
+	.socials-wrap{
+		text-align: right;
+	}
+	@media screen and (max-width: 490px) {
+		.contacts{
+			float: left;
+			text-align: left;
+			.header-contact__telephone,
+			.header-contact__link{
+				float: none;
+			}
+		}
+		.logobox__img{
+			width: 250px;
+		}
+		.logobox__txt{
+			padding-right: 10px;
+		}
+		.socials-wrap{
+			text-align: left;
+		}
+	}
+}
+.logobox{
+	float: left;
+	margin-right: 120px;
+	@media screen and (max-width: 1200px) {
+		margin-right: 70px;
+	}
+}
 .register-wrap{
 	float: right;
+	padding-top: 15px;
+	@media screen and (max-width: 1000px) {
+		float: left;
+		width: 100%;
+		padding-top: 20px;
+		padding-right: 45px;
+		.register{
+			float: left;
+			padding-top: 10px;
+		}
+		.cart{
+			float: right;
+		}
+	}
+	@media screen and (max-width: 749px) {
+		padding-right: 0;
+	}
+	@media screen and (max-width: 490px) {
+		padding-top: 10px;
+		.register, .cart{
+			float: none;
+			padding-top: 10px;
+		}
+	}
+}
+.main-menu-wrap{
+	padding-bottom: 5px;
 }

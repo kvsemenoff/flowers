@@ -1,7 +1,5 @@
-.header-top { background: url(../img/header-bg.jpg); padding: 15px 0; position: relative; }
+.header-top { background: url(../img/header-bg.jpg); padding: 15px 0; position: relative; margin-bottom: 16px; }
 .header-top::before { content: ""; display: block; position: absolute; background: url(../img/header-bg.png) repeat-x; width: 100%; bottom: -15px; left: 0; height: 15px; }
-
-.logobox { float: left; width: 455px; }
 
 .contacts { padding-top: 15px; float: left; }
 .contacts .socials-wrap { float: left; padding-right: 10px; }
@@ -9,4 +7,28 @@
 .contacts .header-contact__telephone { float: right; }
 .contacts .header-contact__link { float: right; }
 
-.register-wrap { float: right; }
+.top-line { padding-bottom: 25px; }
+@media screen and (max-width: 749px) { .top-line .logobox { margin: 0; }
+  .top-line .contacts { float: right; }
+  .top-line .logobox__img { width: 250px; }
+  .top-line .logobox__txt { padding-right: 10px; }
+  .top-line .socials-wrap { float: none; display: block; padding-bottom: 2px; padding-right: 0; } }
+.top-line .socials-wrap { text-align: right; }
+@media screen and (max-width: 490px) { .top-line .contacts { float: left; text-align: left; }
+  .top-line .contacts .header-contact__telephone, .top-line .contacts .header-contact__link { float: none; }
+  .top-line .logobox__img { width: 250px; }
+  .top-line .logobox__txt { padding-right: 10px; }
+  .top-line .socials-wrap { text-align: left; } }
+
+.logobox { float: left; margin-right: 120px; }
+@media screen and (max-width: 1200px) { .logobox { margin-right: 70px; } }
+
+.register-wrap { float: right; padding-top: 15px; }
+@media screen and (max-width: 1000px) { .register-wrap { float: left; width: 100%; padding-top: 20px; padding-right: 45px; }
+  .register-wrap .register { float: left; padding-top: 10px; }
+  .register-wrap .cart { float: right; } }
+@media screen and (max-width: 749px) { .register-wrap { padding-right: 0; } }
+@media screen and (max-width: 490px) { .register-wrap { padding-top: 10px; }
+  .register-wrap .register, .register-wrap .cart { float: none; padding-top: 10px; } }
+
+.main-menu-wrap { padding-bottom: 5px; }
