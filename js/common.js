@@ -188,12 +188,12 @@ $(document).ready(function(){
 
 	//// ============ main menu script
 	$('.js-main-menu').on('click', function() {		
-		$('.main-menu_mobile').slideToggle();
-		$('html,body').toggleClass('overlay');
+		$('.main-menu_mobile').slideDown();
+		// $('html,body').toggleClass('overlay');
 	});
 	$('.menu-bouquet__accordeon__close').on('click', function() {
 		$('.main-menu_mobile').slideUp();
-		$('html,body').removeClass('overlay');
+		// $('html,body').removeClass('overlay');
 	});	
 
 	//// ============ main menu script end
