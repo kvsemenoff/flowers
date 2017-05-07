@@ -4,6 +4,20 @@
 	padding-right: 0 !important;
 	padding-left: 0 !important;	
 }
+
+
+
+.pagination__style{
+	padding: 0 15px;
+	@media only screen and (min-width : 770px) {
+		margin-bottom: 25px;
+	}
+	@media only screen and (min-width : 990px) {
+		padding-left: 3px;
+		margin-bottom: 45px;
+	}
+}
+
 .tovar_block{
 	text-align: center;
 	// padding-left: 10px;
