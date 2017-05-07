@@ -129,6 +129,8 @@
 		}
 		.category-button-active{
 			right: 14px;
+			padding: 0!important;
+			width: 40px!important;
 		}
 	}
 	@media screen and (max-width: 456px) {
@@ -136,6 +138,13 @@
 		top: auto;
 		float: left;
 		width: 100%;
+		.category-button{
+			width: 129px;
+			padding-left: 46px;
+			i{
+				left: 17px;
+			}
+		}
 	}
 }
 @media screen and (max-width: 749px) {
@@ -152,14 +161,14 @@
 @media screen and (max-width: 456px) {
 	.bouquet{
 		position: relative;
-		margin: 0 0 15px;
+		margin: 0 0 8px;
 		float: left;
 	}
 	.main-menu__button{
 		position: relative;
 		float: right;
 		left: auto;
-		margin: 0 0 15px;
+		margin: 0 0 8px;
 	}
 }
 @media screen and (max-width: 749px) and (min-width: 456px) {
