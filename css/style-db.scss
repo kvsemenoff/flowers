@@ -1,3 +1,12 @@
+.sidebar-active{
+display: block !important;
+}
+.sidebar-all{
+	display: none;
+	@media only screen and (min-width : 768px) {
+		display: block;
+	}
+}
 .sidebar-about{
 	&_border{
 		border-bottom:1px dotted black;
@@ -91,6 +100,7 @@
 }
 .sidebar-testimonials{
 	&_view{
+
 		background:url("../img/testimonials-fon.png")no-repeat bottom right #fafaf7;
 		border: 1px solid #e7e5d9;
 		border-bottom: 3px solid #e7e5d9;
@@ -292,6 +302,32 @@
 .sidebar{
 	&_margin{
 		margin-top: 40px;
+	}
+}
+.sidebar-mobile{
+	&_view{
+		background-color: #ecfcf4;
+		border: 1px solid #cae5d6;
+		max-width: 262px;
+		margin: 0 auto;
+		padding: 25px 0;
+		margin-bottom: 20px;
+		@media only screen and (min-width : 768px) {
+			display: none;
+		}
+	}
+	span{
+		text-align: center;
+		color: #0e8a5d;
+		font-family: 'PT Serif', serif;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+		border-bottom: 1px  dashed #0e8a5d;
+		display: block;
+		cursor: pointer;
+		width: 182px;
+		margin: 0 auto;
 	}
 }
 

@@ -2,6 +2,12 @@
 
 $(document).ready(function(){
 
+	$('.sidebar-mobile').on('click',function(){
+			$('.sidebar-all').toggleClass('sidebar-active');
+	});
+
+	
+
 	$(".menu-button").click(function(){
 		$(".toggle__menu").slideToggle(500);
 	});
