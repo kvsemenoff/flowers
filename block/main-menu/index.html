@@ -7,6 +7,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+<div class="bouquet js-bouquet">
+	<div class="bouquet__burger">
+		<!--this span - burger css -->
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<span class="bouquet__txt">Букеты</span>
+</div>
+
 <ul class="main-menu">
 	<li><a href="#" class="main-menu__link">Просто цветы</a></li>
 	<li><a href="#" class="main-menu__link">Акции </a></li>
@@ -38,3 +48,16 @@
 	<a href="#" class="main-menu__link_mobile">Оплата</a>
 	<a href="#" class="main-menu__link_mobile">Доставка</a>
 </div>
+
+
+<script src="../../libs/jquery/jquery-1.11.1.min.js"></script>
+<script>	
+	$('.js-main-menu').on('click', function() {		
+		$('.main-menu_mobile').slideToggle();
+		$('html,body').toggleClass('overlay');
+	});
+	$('.menu-bouquet__accordeon__close').on('click', function() {
+		$('.main-menu_mobile').slideUp();
+		$('html,body').removeClass('overlay');
+	});	
+</script>
