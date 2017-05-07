@@ -1,8 +1,45 @@
 .sidebar-box{
 	&_view{
 		background: url("../img/sidebar-fon.jpg")no-repeat;
-		max-width: 265px;
+		width: 262px;
 		margin: 0 auto;
+		padding-bottom: 17px;
+		border-bottom: 3px solid #bddfce;
+	}
+	span{
+		color: #333;
+		font-size: 13px;
+		font-weight: 700;
+		font-style: italic;
+		line-height: 46px;
+		font-family: 'PT Serif', serif;
+		padding-left: 23px;
+		letter-spacing: 0.02em;
+	}
+}
+.sidebar-menu{
+	&_margin{
+		margin-top: -5px;
+		margin-bottom: 5px;
+	}
+	&__item{
+		padding-left: 24px;
+		&_first{
+			padding: 9px 24px;
+			border-bottom: 1px solid #bddfce;
+		}
+	}
+	&__link{
+		color: #0e8a5d;
+		font-size: 16px;
+		font-family: 'PT Serif', serif;
+		font-weight: 400;
+		background: url("../img/sidebar-link.png")no-repeat top 7px left;
+		padding-left: 12px;
+		&:hover{
+			color: #ee671b;
+			background: url("../img/sidebar-link_active.png")no-repeat top 7px left;
+		}
 	}
 }
 .sidebar-sale{
@@ -12,7 +49,7 @@
 		font-weight: 200;
 		font-size: 18px;
 		line-height: 22px;
-		max-width: 265px;
+		width: 265px;
 		margin: 0 auto;
 	}
 	&_padding{
@@ -30,9 +67,6 @@
 		display: block;
 
 	}
-}
-.col-md-3{
-	outline: 1px solid red;
 }
 
 .footer-bottom{

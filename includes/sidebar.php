@@ -6,35 +6,35 @@
 	</p>
 	<div class="sidebar-box sidebar-box_view">
 		<ul class="sidebar-menu">
-			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Индивидуальный заказ</a></li>
-			<li class="sidebar-menu__item"><a href="#">Создать свой букет</a></li>
-			<li class="sidebar-menu__item"><a href="#">Букет сезона</a></li>
+			<li class="sidebar-menu__item sidebar-menu__item_first"><a href="#" class="sidebar-menu__link">Индивидуальный заказ</a></li>
+			<li class="sidebar-menu__item sidebar-menu__item_first"><a href="#" class="sidebar-menu__link">Создать свой букет</a></li>
+			<li class="sidebar-menu__item sidebar-menu__item_first"><a href="#" class="sidebar-menu__link">Букет сезона</a></li>
 		</ul>
-		<span>Свадебная флористика</span>
-		<ul class="sidebar-menu">
+		<span>СВАДЕБНАЯ ФЛОРИСТИКА</span>
+		<ul class="sidebar-menu sidebar-menu_margin">
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Букет невесты</a></li>
-			<li class="sidebar-menu__item"><a href="#">Свадебное оформление</a></li>
+			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Свадебное оформление</a></li>
 		</ul>
 
-		<span>Флористическое оформление</span>
+		<span>ФЛОРИСТИЧЕСКОЕ ОФОРМЛЕНИЕ</span>
 		<ul class="sidebar-menu">
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Праздники</a></li>
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Мероприятия</a></li>
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Интерьерные композиции</a></li>
 		</ul>
 
-		<span>Траурная флористика</span>
+		<span>ТРАУРНАЯ ФЛОРИСТИКА</span>
 		<ul class="sidebar-menu">
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Траурные букеты</a></li>
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Венки из живых цветов</a></li>
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Оформление</a></li>
 		</ul>
 
-		<span>Комнатные растения</span>
+		<span>КОМНАТНЫЕ РАСТЕНИЯ</span>
 		<ul class="sidebar-menu">
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Озеленение помещений</a></li>
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Уход</a></li>
-			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Композиции из комнатных<br>растений</a></li>
+			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Композиции из комнатных<br>&nbsp;&nbsp;&nbsp;растений</a></li>
 		</ul>
 
 	</div>
