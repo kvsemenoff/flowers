@@ -12,6 +12,7 @@
 }
 .tovar_block__caption{
 	margin-bottom: 17px;
+	max-width: 855px;
 }
 .tovar_block__item{
 	max-width: 265px;
@@ -33,7 +34,9 @@
 	}
 	@media only screen and (min-width : 770px) {
 		width: 48%;
-		margin-right: 5px;
+	}
+	@media only screen and (min-width : 1024px) {
+		width: 32%;
 	}
 	@media only screen and (min-width : 1200px) {
 		max-width: 265px;
@@ -102,7 +105,7 @@
 	padding-bottom: 32px;
 	padding-right: 8px;
 	text-align: center;
-	@media only screen and (min-width : 990px) {
+	@media only screen and (min-width : 1024px) {
 		text-align: right;
 	}
 }
@@ -114,7 +117,7 @@
 	margin-left: 3px;
 	display: inline-block;
 	float: left;
-	@media only screen and (min-width : 990px) {
+	@media only screen and (min-width : 1200px) {
 		font-size: 18px;
 	}
 }
@@ -126,7 +129,7 @@
 	display: inline-block;
 	margin-bottom: 21px;
 	float: right;
-	@media only screen and (min-width : 990px) {
+	@media only screen and (min-width : 1200px) {
 		font-size: 20px;
 	}
 }
