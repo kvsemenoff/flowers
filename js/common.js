@@ -138,6 +138,17 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.category-mobile').slideUp(0);
+	$('.category-button').click(function(){
+		if (!$(this).hasClass('category-button-active')){
+			$(this).addClass('category-button-active');
+			$('.category-mobile').slideDown(300)
+		} else {
+			$(this).removeClass('category-button-active');
+			$('.category-mobile').slideUp(300)
+		}
+	});
+
 	$('.sub-category').slideUp(0);
 	$('.mobile-category > li').click(function(){
 		if (!$(this).hasClass('category-active')){

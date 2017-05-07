@@ -6,6 +6,9 @@ ul{
 *{
 	box-sizing: border-box;
 }
+.category-wrap{
+	position: relative;
+}
 .category{
 	border: 1px solid #e2dece;
 	-webkit-box-shadow: 0px 10px 0px -6px rgba(231,229,217,1);
@@ -17,6 +20,7 @@ ul{
 	}
 }
 .category-button{
+	transition: 0.05s all ease;
 	text-decoration: none;
 	display: none;
 	font-size: 14px;
@@ -28,6 +32,7 @@ ul{
 	padding-left: 57px;
 	line-height: 50px;
 	cursor: pointer;
+	z-index: 101;
 	i{
 		display: block;
 		width: 20px;
@@ -156,7 +161,26 @@ ul{
 	display: none;
 	width: 100%;
 }
+.category-button-active{
+	z-index: 101;
+	color: transparent;
+	background: #9f9668 url(../../img/close.png) center no-repeat;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 45px;
+	right: 14px;
+	padding-left: 0;
+	i{
+		display: none;
+	}
+}
 .mobile-category{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
 	padding: 45px 70px 22px 15px;
 	background: #fff;
 	.category-active .fa{
