@@ -1,7 +1,7 @@
 .main-menu{
 	list-style: none;
 	display: none;	
-	width: 81.7%;
+	width: 80.7%;
 	background-image: linear-gradient(to top, #a6d2bb 0%, #bedfce 100%);
 	border: 1px solid #aacfbc;
 	box-shadow: 0 2px 3px rgba(0, 74, 47, 0.35);
@@ -16,10 +16,10 @@
 	}
 	@media only screen and (min-width : 990px) {
 		// max-width: 1005px;
-		width: 86%;
+		width: 85.555%;
 	}
 	@media only screen and (min-width : 1200px) {		
-		width:88.4%;
+		width:88%;
 	}
 }
 .main-menu__link{
