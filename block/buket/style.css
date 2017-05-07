@@ -2,14 +2,15 @@
   clear: both; }
 
 .bouquet {
-  padding: 17.5px 0px 15px 14px;
+  padding: 17px 0px 15px 14px;
   background-image: -webkit-linear-gradient(bottom, #50ab82, #59b48b);
   background-image: linear-gradient(to top, #50ab82 0%, #59b48b 100%);
   width: 135px;
   display: inline-block;
   text-align: left;
   cursor: pointer;
-  box-shadow: 0 2px 3px rgba(0, 74, 47, 0.35); }
+  box-shadow: 0 2px 3px rgba(0, 74, 47, 0.35);
+  height: 53px; }
 
 .bouquet__burger {
   text-align: center;
