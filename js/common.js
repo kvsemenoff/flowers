@@ -142,6 +142,26 @@ $(document).ready(function(){
 				}
 			});
 
+			$('.sub-category').slideUp(0);
+			$('.mobile-category > li').click(function(){
+				if (!$(this).hasClass('category-active')){
+					$('.mobile-category > li').removeClass('category-active');
+					$('.sub-category').slideUp(300);
+					$(this).addClass('category-active');
+					$('.category-active > .sub-category').slideDown(300)
+				} else {
+					$(this).removeClass('category-active');
+					$('.sub-category').slideUp(300)
+				}
+			});
+
+			$(".category-fancybox").fancybox({
+				fitToView	: false,
+				closeClick	: false,
+				openEffect	: 'true',
+				closeEffect	: 'true'
+			});
+
 			$(".fancybox").fancybox({
 				fitToView	: false,
 				closeClick	: false,

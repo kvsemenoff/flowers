@@ -6,14 +6,18 @@ ul{
 *{
 	box-sizing: border-box;
 }
-.category-wrap{
+.category{
 	border: 1px solid #e2dece;
 	-webkit-box-shadow: 0px 10px 0px -6px rgba(231,229,217,1);
 	-moz-box-shadow: 0px 10px 0px -6px rgba(231,229,217,1);
 	box-shadow: 0px 10px 0px -6px rgba(231,229,217,1);
 	background: #fff;
+	@media screen and (max-width: 700px) {
+		display: none;
+	}
 }
 .category-button{
+	text-decoration: none;
 	display: none;
 	font-size: 14px;
 	color: #988f5b;
@@ -59,9 +63,6 @@ ul{
 			@media screen and (max-width: 1000px) {
 				font-size: 13px;
 			}
-			@media screen and (max-width: 700px) {
-				font-size: 14px;
-			}
 			.fa{
 				color: inherit;
 				font-size: 11px;
@@ -73,12 +74,6 @@ ul{
 					display: block;
 				}
 			}
-			ul{
-				display: none;
-			}
-		}
-		.with-sub{
-			background: url(../img/);
 		}
 		&:hover{
 			background: #f4f2ed;
@@ -134,8 +129,63 @@ ul{
 					@media screen and (max-width: 1000px) {
 						font-size: 13px;
 					}
-					@media screen and (max-width: 700px) {
-						font-size: 14px;
+				}
+				&:last-child a{
+					border-bottom: none;
+				}
+			}
+		}
+	}
+}
+.category-mobile{
+	display: none;
+	width: 100%;
+}
+.mobile-category{
+	padding: 45px 70px 22px 15px;
+	background: #fff;
+	.category-active .fa{
+		transform: rotate(90deg);
+	}
+	& > li{
+		background: #f4f2ed;
+		list-style: none;
+		cursor: pointer;
+		margin-bottom: 2px;
+		& > span{
+			display: block;
+			line-height: 50px;
+			padding: 0 15px 0 20px;
+			color: #988f5b;
+			font-size: 14px;
+			text-decoration: none;
+			position: relative;
+			.fa{
+				color: inherit;
+				font-size: 11px;
+				margin-left: 6px;
+				position: absolute;
+				right: 14px;
+				top: 17px;
+				transition: 0.3s all ease;
+			}
+		}
+		ul{
+			padding: 5px 0;
+			background: #fff;
+			li{
+				padding: 0 19px 0 12px;
+				list-style: none;
+				a{
+					display: block;
+					color: #b1a77c;
+					font-size: 13px;
+					position: relative;
+					padding: 14px 0 14px 25px;
+					border-bottom: 1px solid #eeece2;
+					text-decoration: none;
+					&:hover{
+						color: #6e6540;
 					}
 				}
 				&:last-child a{
