@@ -101,7 +101,7 @@ $(document).ready(function(){
 			autoplay:false,
 			smartSpeed:1000,
 			margin:0,
-			mouseDrag:false,
+			mouseDrag:true,
 			touchDrag: false,
 			center:false,     //если нужны обрезаные края
 			navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
