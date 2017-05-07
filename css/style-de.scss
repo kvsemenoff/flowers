@@ -113,3 +113,16 @@
 .main-menu-wrap{
 	padding-bottom: 5px;
 }
+.akkordeons{
+	position: relative;
+}
+.category-wrap{
+	padding-top: 5px;
+	@media screen and (max-width: 749px) {
+		display: inline-block;
+		padding: 0;
+	}
+}
+.bouquet{
+	float: left;
+}
