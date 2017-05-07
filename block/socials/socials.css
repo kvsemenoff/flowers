@@ -5,7 +5,7 @@
 .socials-link_whats::before { border-color: transparent transparent #00b933 transparent; transform: rotate(112deg); }
 .socials-link_plane { background: #009ccf; }
 .socials-link_plane::before { border-color: transparent transparent transparent transparent; }
-.socials-link_viber { height: 30px; background: url(../../img/viber-ic.png) center/cover; border-radius: 100%; }
+.socials-link_viber { height: 30px; background: url(../img/viber-ic.png) center/cover; border-radius: 100%; }
 .socials-link_viber::before { border-color: transparent transparent transparent transparent; }
 .socials-link_vk { background: #2f67a0; }
 .socials-link_vk::before { border-color: transparent transparent #2f67a0 transparent; }
