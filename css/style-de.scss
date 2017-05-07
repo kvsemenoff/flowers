@@ -60,6 +60,7 @@
 		.contacts{
 			float: left;
 			text-align: left;
+			width: 100%;
 			.header-contact__telephone,
 			.header-contact__link{
 				float: none;
@@ -112,4 +113,58 @@
 }
 .main-menu-wrap{
 	padding-bottom: 5px;
+}
+.akkordeons{
+	position: relative;
+	@media screen and (max-width: 749px) {
+		min-height: 60px;
+	}
+}
+.category-wrap{
+	padding-top: 5px;
+	@media screen and (max-width: 749px) {
+		padding: 0;
+		.category-button{
+			line-height: 52px;
+		}
+		.category-button-active{
+			right: 14px;
+		}
+	}
+	@media screen and (max-width: 456px) {
+		position: relative;
+		top: auto;
+		float: left;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 749px) {
+	.bouquet{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.main-menu__button{
+		left: 50%;
+		margin-left: -79px;
+	}
+}
+@media screen and (max-width: 456px) {
+	.bouquet{
+		position: relative;
+		margin: 0 0 15px;
+		float: left;
+	}
+	.main-menu__button{
+		position: relative;
+		float: right;
+		left: auto;
+		margin: 0 0 15px;
+	}
+}
+@media screen and (max-width: 749px) and (min-width: 456px) {
+	.category-button{
+		position: absolute;
+		right: 0;
+	}
 }

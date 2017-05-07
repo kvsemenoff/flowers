@@ -1,7 +1,7 @@
 .main-menu {
   list-style: none;
   display: none;
-  width: 81.7%;
+  width: 80.7%;
   background-image: linear-gradient(to top, #a6d2bb 0%, #bedfce 100%);
   border: 1px solid #aacfbc;
   box-shadow: 0 2px 3px rgba(0, 74, 47, 0.35);
@@ -15,10 +15,13 @@
       display: inline-block; } }
   @media only screen and (min-width: 990px) {
     .main-menu {
-      width: 86%; } }
+      width: 81%; } }
+  @media only screen and (min-width: 992px) {
+    .main-menu {
+      width: 85.555%; } }
   @media only screen and (min-width: 1200px) {
     .main-menu {
-      width: 88.4%; } }
+      width: 88%; } }
 
 .main-menu__link {
   display: inline-block;
@@ -32,7 +35,7 @@
   transition: 0.3s; }
   .main-menu__link:hover {
     background-color: #84c0a3; }
-  @media only screen and (min-width: 990px) {
+  @media only screen and (min-width: 995px) {
     .main-menu__link {
       padding: 0 22px;
       font-size: 18px; } }
@@ -40,10 +43,11 @@
 .main-menu__button {
   background-image: linear-gradient(to top, #a6d2bb 0%, #bedfce 100%);
   border: 1px solid #aacfbc;
-  padding: 16px 0px 14px 22px; }
+  padding: 12px 0px 15px 18px; }
   @media only screen and (min-width: 750px) {
     .main-menu__button {
-      display: none; } }
+      display: none;
+      padding: 16px 0px 14px 22px; } }
 
 .main-menu__burger span {
   background-color: #58645e; }
