@@ -48,13 +48,12 @@
 
 .main-menu__button{
 	background-image: linear-gradient(to top, #a6d2bb 0%, #bedfce 100%);
-	border: 1px solid #aacfbc;	
-	// padding: 10px 0px 10px 22px;
-	padding: 16px 0px 14px 22px;
-	// width: 105px;
+	border: 1px solid #aacfbc;		
+	padding: 12px 0px 15px 18px;
 	@media only screen and (min-width : 750px) {
 		display: none;
-	}
+		padding: 16px 0px 14px 22px;	
+	}	
 }
 .main-menu__burger{	
 	span{		
