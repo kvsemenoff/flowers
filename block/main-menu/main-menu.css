@@ -32,7 +32,7 @@
   transition: 0.3s; }
   .main-menu__link:hover {
     background-color: #84c0a3; }
-  @media only screen and (min-width: 990px) {
+  @media only screen and (min-width: 995px) {
     .main-menu__link {
       padding: 0 22px;
       font-size: 18px; } }
