@@ -5,9 +5,17 @@
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
-			<?php require_once('includes/sidebar.php'); ?>
-			<?php require_once('includes/tovar.php'); ?>
-			<?php require_once('includes/pagination.php'); ?>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9">
+						<?php require_once('includes/tovar.php'); ?>
+						<?php require_once('includes/pagination.php'); ?>
+					</div>	
+					<div class="col-md-3">
+						<?php require_once('includes/sidebar.php'); ?>	
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="n-footer">
