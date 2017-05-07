@@ -2,13 +2,14 @@
 	clear: both;
 }
 .bouquet{
-	padding: 18px 0px 18px 14px;
+	padding: 17.5px 0px 15px 14px;
 	background-image: -webkit-linear-gradient(bottom, #50ab82, #59b48b);
 	background-image: linear-gradient(to top, #50ab82 0%, #59b48b 100%);
 	width: 124px;
 	display: inline-block;
 	text-align: left;
 	cursor: pointer;
+	box-shadow: 0 2px 3px rgba(0, 74, 47, 0.35);
 }
 .bouquet__burger{
 	text-align: center;
@@ -16,6 +17,7 @@
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 12px;
+	padding-top: 2.5px;
 	span{
 		display: block;
 		height: 2px;
@@ -164,7 +166,7 @@
 	}
 	@media only screen and (min-width : 1200px) {
 		max-width: 230px;		
-		margin-right: 57px;
+		margin-right: 50px;//57
 	}
 }
 .bouquet_search .bouquet_search__box:nth-child(3n){

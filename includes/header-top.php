@@ -53,6 +53,493 @@
 					</div>
 					<span class="bouquet__txt">Букеты</span>
 				</div>
+				<div class="menu-bouquet">
+					<ul class="menu-bouquet__tabs">
+						<li class="menu-bouquet__links"><a href="js-flowers" class="linkactive"><span>Цветы</span></a></li>
+						<li class="menu-bouquet__links"><a href="js-forwho"><span>Для кого</span></a></li>
+						<li class="menu-bouquet__links"><a href="js-color"><span>Цвет</span></a></li>
+						<li class="menu-bouquet__links"><a href="js-reason"><span>Повод</span></a></li>
+					</ul>
+
+					<div class="bouquet_search js-flowers">
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" checked="checked">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Амариллис</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Анемоны</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты пионов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты ромашек</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты сирени</span>
+							</label>
+						</div>
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Ирисы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Каллы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Лилии</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Орхидеи</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Подсолнухи</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Розы</span>
+							</label>
+						</div>
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Ирисы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Каллы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты пионов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты ромашек</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты сирени</span>
+							</label>			
+						</div>
+
+					</div>
+
+					<div class="bouquet_search js-forwho">
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Амариллис2</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Анемоны</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты пионов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты ромашек</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты сирени</span>
+							</label>
+						</div>
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Ирисы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Каллы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Лилии</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Орхидеи</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Подсолнухи</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Розы</span>
+							</label>
+						</div>
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Ирисы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Каллы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты пионов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты ромашек</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты сирени</span>
+							</label>			
+						</div>
+
+					</div>
+
+					<div class="bouquet_search js-color">
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Амариллис3</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Анемоны</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты пионов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты ромашек</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты сирени</span>
+							</label>
+						</div>
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Ирисы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Каллы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Лилии</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Орхидеи</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Подсолнухи</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Розы</span>
+							</label>
+						</div>
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Ирисы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Каллы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты пионов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты ромашек</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты сирени</span>
+							</label>			
+						</div>
+
+					</div>
+
+					<div class="bouquet_search js-reason">
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Амариллис4</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Анемоны</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты пионов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты ромашек</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты сирени</span>
+							</label>
+						</div>
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Ирисы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Каллы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Лилии</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Орхидеи</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Подсолнухи</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Розы</span>
+							</label>
+						</div>
+
+						<div class="bouquet_search__box">
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Ирисы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Каллы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты пионов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты ромашек</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты сирени</span>
+							</label>			
+						</div>
+
+					</div>
+
+
+
+					<div class="menu-bouquet__buttons">
+						<a href="#" class="menu-bouquet__apply">Применить</a>
+						<a href="#" class="menu-bouquet__clear">Сбросить</a>
+					</div>
+				</div>
 
 				<ul class="main-menu">
 					<li><a href="#" class="main-menu__link">Просто цветы</a></li>
@@ -62,10 +549,180 @@
 					<li><a href="#" class="main-menu__link">Оплата</a></li>
 					<li><a href="#" class="main-menu__link">Доставка</a></li>
 				</ul>
-
+				<!-- end desktop -->
 
 				<!-- mobile -->
-				<br>
+				<div class="bouquet js-bouquet-mob">
+					<div class="bouquet__burger">
+						<!--this span - burger css -->
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<span class="bouquet__txt">Букеты</span>
+				</div>
+				<div class="menu-bouquet__accordeon">
+					<div class="menu-bouquet__accordeon__close"></div>
+					<div class="menu-bouquet__accordeon_link">
+						<a href="js-flowers-mob" ><span>Цветы</span></a>
+						<div class="bouquet_search_mob js-flowers-mob">	
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" checked="checked">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Амариллис</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Анемоны</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты пионов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты ромашек</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты сирени</span>
+							</label>		
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Ирисы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Каллы</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Лилии</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Орхидеи</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Подсолнухи</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Розы</span>
+							</label>			
+						</div>
+					</div>
+					<div class="menu-bouquet__accordeon_link">
+						<a href="js-forwho-mob"><span>Для кого</span></a>
+						<div class="bouquet_search_mob js-forwho-mob">	
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Амариллис</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Анемоны</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>				
+						</div>
+					</div>
+					<div class="menu-bouquet__accordeon_link">
+						<a href="js-color-mob"><span>Цвет</span></a>
+						<div class="bouquet_search_mob js-color-mob">	
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test" >
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Амариллис</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Анемоны</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>				
+						</div>
+					</div>
+					<div class="menu-bouquet__accordeon_link">
+						<a href="js-reason-mob"><span>Повод</span></a>
+						<div class="bouquet_search_mob js-reason-mob">	
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Амариллис</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Анемоны</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букет из ранункулюсов</span>
+							</label>
+							<label class="bouquet_search__flower">
+								<input class="bouquet_search__checkbox" type="checkbox" name="checkbox-test">
+								<span class="bouquet_search__checkbox_custom"></span>
+								<span class="bouquet_search__label">Букеты альстромерий</span>
+							</label>				
+						</div>
+					</div>
+
+					<div class="menu-bouquet__buttons">
+						<a href="#" class="menu-bouquet__apply">Применить</a>
+						<a href="#" class="menu-bouquet__clear">Сбросить</a>
+					</div>
+				</div>
+
+				<!-- mobile end-->
+				
+				<!-- mobile main menu -->
 				<div class="bouquet main-menu__button js-main-menu">
 					<div class="bouquet__burger main-menu__burger">
 						<!--this span - burger css -->
@@ -74,8 +731,7 @@
 						<span></span>
 					</div>
 					<span class="bouquet__txt main-menu__txt">Меню</span>
-				</div>
-
+					</div>
 				<div class="main-menu_mobile">
 					<div class="menu-bouquet__accordeon__close"></div>
 					<a href="#" class="main-menu__link_mobile">Просто цветы</a>
@@ -85,6 +741,8 @@
 					<a href="#" class="main-menu__link_mobile">Оплата</a>
 					<a href="#" class="main-menu__link_mobile">Доставка</a>
 				</div>
+
+				<!-- mobile main menu end -->
 			</div>
 			<!--  -->
 			<div class="category-wrap">
