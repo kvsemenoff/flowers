@@ -1,3 +1,10 @@
+.sidebar-box{
+	&_view{
+		background: url("../img/sidebar-fon.jpg")no-repeat;
+		max-width: 265px;
+		margin: 0 auto;
+	}
+}
 .sidebar-sale{
 	&_view{
 		background: url("../img/sale.jpg") no-repeat;
