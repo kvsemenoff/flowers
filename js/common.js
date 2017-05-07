@@ -96,12 +96,12 @@ $(document).ready(function(){
 
 		var owl2 = $(".examples__slider");
 		owl2.owlCarousel({
-			loop:false,
+			loop:true,
 			nav:true, 
 			autoplay:false,
 			smartSpeed:1000,
 			margin:0,
-			mouseDrag:true,
+			mouseDrag:false,
 			touchDrag: false,
 			center:false,     //если нужны обрезаные края
 			navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
