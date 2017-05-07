@@ -18,7 +18,7 @@
       width: 86.7%; } }
   @media only screen and (min-width: 1200px) {
     .main-menu {
-      width: 100%; } }
+      width: 88%; } }
 
 .main-menu__link {
   display: inline-block;
@@ -29,13 +29,12 @@
   color: #333;
   text-decoration: none;
   padding: 0 10px;
-  letter-spacing: 0.8px;
   transition: 0.3s; }
   .main-menu__link:hover {
     background-color: #84c0a3; }
   @media only screen and (min-width: 990px) {
     .main-menu__link {
-      padding: 0 23px;
+      padding: 0 22px;
       font-size: 18px; } }
 
 .main-menu__button {

@@ -18,7 +18,7 @@
 		width: 86.7%;
 	}
 	@media only screen and (min-width : 1200px) {		
-		width:100%;
+		width:88%;
 	}
 }
 .main-menu__link{
@@ -30,13 +30,13 @@
 	color: #333;
 	text-decoration: none;
 	padding: 0 10px;
-	letter-spacing: 0.8px;
+	// letter-spacing: 0.8px;
 	transition:0.3s;
 	&:hover{
 		background-color: #84c0a3;
 	}
 	@media only screen and (min-width : 990px) {
-		padding: 0 23px;
+		padding: 0 22px;
 		font-size: 18px;
 	}
 }
