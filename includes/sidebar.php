@@ -16,7 +16,7 @@
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Свадебное оформление</a></li>
 		</ul>
 
-		<span>ФЛОРИСТИЧЕСКОЕ ОФОРМЛЕНИЕ</span>
+		<span class="alone">ФЛОРИСТИЧЕСКОЕ ОФОРМЛЕНИЕ</span>
 		<ul class="sidebar-menu">
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Праздники</a></li>
 			<li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Мероприятия</a></li>
