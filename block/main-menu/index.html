@@ -1,33 +1,40 @@
 <meta charset="UTF-8">
-<link rel="stylesheet" href="main-menu.css">
+
 <link rel="stylesheet" href="../../css/fonts.css">
+<link rel="stylesheet" href="../../css/reset.css">
+<link rel="stylesheet" href="../buket/style.css">
+<link rel="stylesheet" href="main-menu.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<div class="menu-wrap">
-	<div class="menu-button">
-		<i></i>
-		<i></i>
-		<i></i>
-		<span>Меню</span>
+<ul class="main-menu">
+	<li><a href="#" class="main-menu__link">Просто цветы</a></li>
+	<li><a href="#" class="main-menu__link">Акции </a></li>
+	<li><a href="#" class="main-menu__link">Скидки</a></li>
+	<li><a href="#" class="main-menu__link">Контакты</a></li>
+	<li><a href="#" class="main-menu__link">Оплата</a></li>
+	<li><a href="#" class="main-menu__link">Доставка</a></li>
+</ul>
+
+
+<!-- mobile -->
+<br>
+<div class="bouquet main-menu__button js-main-menu">
+	<div class="bouquet__burger main-menu__burger">
+		<!--this span - burger css -->
+		<span></span>
+		<span></span>
+		<span></span>
 	</div>
-	<nav class="menu">
-		<ul class="main-menu">
-			<li class="point-active">
-				<a href="#">О компании</a>
-			</li>
-			<li>
-				<a href="#">Продукция</a>
-			</li>
-			<li>
-				<a href="#">Производство</a>
-			</li>
-			<li>
-				<a href="#">Гарантия</a>
-			</li>
-			<li>
-				<a href="#">Контакты</a>
-			</li>
-		</ul>
-	</nav>
+	<span class="bouquet__txt main-menu__txt">Меню</span>
+</div>
+
+<div class="main-menu_mobile">
+	<div class="menu-bouquet__accordeon__close"></div>
+	<a href="#" class="main-menu__link_mobile">Просто цветы</a>
+	<a href="#" class="main-menu__link_mobile">Акции </a>
+	<a href="#" class="main-menu__link_mobile">Скидки</a>
+	<a href="#" class="main-menu__link_mobile">Контакты</a>
+	<a href="#" class="main-menu__link_mobile">Оплата</a>
+	<a href="#" class="main-menu__link_mobile">Доставка</a>
 </div>
