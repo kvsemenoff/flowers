@@ -70,4 +70,10 @@
 		</div>
 		<a href="#" class="sidebar-testimonials__link">Все отзывы</a>
 	</div>
+	<div class="sidebar-work sidebar-work_border sidebar-work_margin">
+		<span class="sidebar-work__title">Наши работы</span><br>
+		<div class="sidebar-work__content">
+			<a href="#" class="sidebar-work__link"><span class="sidebar-work__title2">Название нашей работы</span></a>
+		</div>
+	</div>
 </div>
