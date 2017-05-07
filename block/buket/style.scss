@@ -95,16 +95,19 @@
 	box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
 	margin-top: 4px;
 	display: none;
-	// position: absolute;
-	// z-index: 999;
-	//     width: 99%;
-   
+	position: absolute;
+	z-index: 999;
+	    width: 99%;
+	@media only screen and (min-width : 770px) {
+		
+		width: 747px;
+	}
 	@media only screen and (min-width : 990px) {
 		padding: 27px 12px;
-		width: 84%;
+		width: 970px;
 	}
 	@media only screen and (min-width : 1200px) {
-		 max-width: 1140px;
+		 width: 1170px;
 	}
 }
 .menu-bouquet__tabs{
@@ -163,7 +166,7 @@
 	width: 76%;
 	padding: 5px 0 0 3px;
 	@media only screen and (min-width : 990px) {
-		width: 74%;
+		width: 77%;
 		padding: 0px 0 0 26px;
 	}
 }
@@ -252,9 +255,9 @@
 	padding: 19px 15px 14px 15px;
 	position: relative;
 	display: none;
-	// position: absolute;
-	// z-index: 999;
-	// width: 99%;
+	position: absolute;
+	z-index: 999;
+	width: 99%;
 	.menu-bouquet__buttons{
 		padding-left: 0px;
 		margin-top: 15px;

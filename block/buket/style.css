@@ -84,14 +84,20 @@
   border: 1px solid #aed1bf;
   box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
   margin-top: 4px;
-  display: none; }
+  display: none;
+  position: absolute;
+  z-index: 999;
+  width: 99%; }
+  @media only screen and (min-width: 770px) {
+    .menu-bouquet {
+      width: 747px; } }
   @media only screen and (min-width: 990px) {
     .menu-bouquet {
       padding: 27px 12px;
-      width: 84%; } }
+      width: 970px; } }
   @media only screen and (min-width: 1200px) {
     .menu-bouquet {
-      max-width: 1140px; } }
+      width: 1170px; } }
 
 .menu-bouquet__tabs {
   list-style: none;
@@ -144,7 +150,7 @@
   padding: 5px 0 0 3px; }
   @media only screen and (min-width: 990px) {
     .bouquet_search {
-      width: 74%;
+      width: 77%;
       padding: 0px 0 0 26px; } }
 
 .js-flowers {
@@ -217,7 +223,10 @@
   box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
   padding: 19px 15px 14px 15px;
   position: relative;
-  display: none; }
+  display: none;
+  position: absolute;
+  z-index: 999;
+  width: 99%; }
   .menu-bouquet__accordeon .menu-bouquet__buttons {
     padding-left: 0px;
     margin-top: 15px; }
