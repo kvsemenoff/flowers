@@ -14,7 +14,7 @@
   .top-line .logobox__txt { padding-right: 10px; }
   .top-line .socials-wrap { float: none; display: block; padding-bottom: 2px; padding-right: 0; } }
 .top-line .socials-wrap { text-align: right; }
-@media screen and (max-width: 490px) { .top-line .contacts { float: left; text-align: left; }
+@media screen and (max-width: 490px) { .top-line .contacts { float: left; text-align: left; width: 100%; }
   .top-line .contacts .header-contact__telephone, .top-line .contacts .header-contact__link { float: none; }
   .top-line .logobox__img { width: 250px; }
   .top-line .logobox__txt { padding-right: 10px; }
@@ -34,8 +34,16 @@
 .main-menu-wrap { padding-bottom: 5px; }
 
 .akkordeons { position: relative; }
+@media screen and (max-width: 749px) { .akkordeons { min-height: 60px; } }
 
 .category-wrap { padding-top: 5px; }
-@media screen and (max-width: 749px) { .category-wrap { display: inline-block; padding: 0; } }
+@media screen and (max-width: 749px) { .category-wrap { padding: 0; }
+  .category-wrap .category-button { line-height: 52px; }
+  .category-wrap .category-button-active { right: 14px; } }
+@media screen and (max-width: 456px) { .category-wrap { position: relative; top: auto; float: left; width: 100%; } }
 
-.bouquet { float: left; }
+@media screen and (max-width: 749px) { .bouquet { position: absolute; top: 0; left: 0; }
+  .main-menu__button { left: 50%; margin-left: -79px; } }
+@media screen and (max-width: 456px) { .bouquet { position: relative; margin: 0 0 15px; float: left; }
+  .main-menu__button { position: relative; float: right; left: auto; margin: 0 0 15px; } }
+@media screen and (max-width: 749px) and (min-width: 456px) { .category-button { position: absolute; right: 0; } }
