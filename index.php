@@ -7,11 +7,11 @@
 		<div class="n-content-inner vertical-align">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-9 col-sm-9 col-xs-12 mycolmd">
+					<div class="col-md-9 col-sm-8 col-xs-12 mycolmd">
 						<?php require_once('includes/tovar.php'); ?>
 						<?php require_once('includes/pagination.php'); ?>
 					</div>	
-					<div class="col-md-3 col-sm-3 col-xs-12">
+					<div class="col-md-3 col-sm-4 col-xs-12">
 						<?php require_once('includes/sidebar.php'); ?>	
 					</div>
 				</div>
