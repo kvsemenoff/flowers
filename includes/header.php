@@ -28,8 +28,10 @@
 	<link rel="stylesheet" href="block/q/q.css">
 	<link rel="stylesheet" href="block/mape/mape.css">
 	<link rel="stylesheet" href="block/header-contact/header-contact.css">
-	<link rel="stylesheet" href="block/buket/style.css">
+	<link rel="stylesheet" href="block/buket/style.css">	
 	<link rel="stylesheet" href="block/main-menu/main-menu.css">
+	<link rel="stylesheet" href="block/checkboxandradio/style.css">
+	
 
 
 	<link rel="stylesheet" href="css/style-db.css">
