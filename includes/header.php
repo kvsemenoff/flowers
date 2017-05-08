@@ -16,6 +16,9 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<link rel="stylesheet" href="block/h1/h1.css">
+	<link rel="stylesheet" href="block/h2/style.css">
+	<link rel="stylesheet" href="block/h3/style.css">
+	<link rel="stylesheet" href="block/h4/style.css">
 	<link rel="stylesheet" href="block/register-and-cart/style.css">
 	<link rel="stylesheet" href="block/logobox/style.css">
 	<link rel="stylesheet" href="block/category/style.css">
