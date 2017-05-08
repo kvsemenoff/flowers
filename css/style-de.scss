@@ -17,6 +17,9 @@
 .contacts{
 	padding-top: 15px;
 	float: left;
+	@media screen and (max-width: 1000px) {
+		float: right;
+	}
 	.socials-wrap{
 		float: left;
 		padding-right: 10px;
@@ -91,7 +94,7 @@
 		float: left;
 		width: 100%;
 		padding-top: 20px;
-		padding-right: 45px;
+		padding-right: 15px;
 		.register{
 			float: left;
 			padding-top: 10px;
@@ -133,7 +136,7 @@
 			width: 40px!important;
 		}
 	}
-	@media screen and (max-width: 456px) {
+	@media screen and (max-width: 549px) {
 		position: relative;
 		top: auto;
 		float: left;
@@ -165,7 +168,7 @@
 		margin-left: -79px;
 	}
 }
-@media screen and (max-width: 456px) {
+@media screen and (max-width: 549px) {
 	.bouquet{
 		position: relative;
 		margin: 0 0 8px;
@@ -178,7 +181,7 @@
 		margin: 0 0 8px;
 	}
 }
-@media screen and (max-width: 749px) and (min-width: 456px) {
+@media screen and (max-width: 749px) and (min-width: 549px) {
 	.category-button{
 		position: absolute;
 		right: 0;
