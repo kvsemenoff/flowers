@@ -232,7 +232,7 @@ display: block !important;
 	&__item{
 		padding-left: 24px;
 		@media only screen and (min-width : 768px) {
-			padding-left: 5px;
+			padding-left: 18px;
 		}
 		@media only screen and (min-width : 1200px) {
 			padding-left: 24px;
@@ -240,7 +240,7 @@ display: block !important;
 		&_first{
 			padding: 9px 0px 9px 24px;
 			@media only screen and (min-width : 768px) {
-				padding: 9px 0px 9px 5px;
+				padding: 9px 0px 9px 18px;
 			}
 			@media only screen and (min-width : 1200px) {
 				padding: 9px 0px 9px 24px;
