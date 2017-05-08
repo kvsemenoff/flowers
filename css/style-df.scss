@@ -125,11 +125,15 @@
 	font-style: italic;
 	line-height: 18px;
 	text-decoration: underline; 
-	padding-bottom: 32px;
+	margin-bottom: 32px;
 	padding-right: 8px;
 	text-align: center;
+	display: block;
 	@media only screen and (min-width : 1024px) {
 		text-align: right;
+	}
+	&:hover{
+		text-decoration: none; 
 	}
 }
 .tovar_block__oldprice{
