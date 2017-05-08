@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
 
-	<link rel="stylesheet" href="block/h1/h1.css">
+	<link rel="stylesheet" href="block/h1/style.css">
 	<link rel="stylesheet" href="block/h2/style.css">
 	<link rel="stylesheet" href="block/h3/style.css">
 	<link rel="stylesheet" href="block/h4/style.css">
