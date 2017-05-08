@@ -1,35 +1,19 @@
-.body {
-  font-family: 'Open Sans', sans-serif;
-  background: url(../img/body-bg.jpg); }
+.body { font-family: 'Open Sans', sans-serif; background: url(../img/body-bg.jpg); }
 
-body, html {
-  height: 100%; }
+body, html { height: 100%; }
 
-.n-wrapper {
-  background: #fff;
-  width: 100%;
-  max-width: 1214px;
-  margin: 0 auto;
-  -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18);
-  box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); }
+.n-wrapper { background: #fff; width: 100%; max-width: 1214px; margin: 0 auto; -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); -moz-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); }
 
-.n-header {
-  display: table-row;
-  height: 1px; }
+.n-header { display: table-row; height: 1px; }
 
-.n-content {
-  display: table-row; }
+.n-content { display: table-row; }
 
-.n-footer {
-  display: table-row;
-  height: 1px; }
+.n-footer { display: table-row; height: 1px; }
 
-.n-wrapper {
-  width: 100%;
-  display: table; }
+.n-wrapper { width: 100%; display: table; }
 
-.n-content-inner {
-  display: table-cell; }
+.n-content-inner { display: table-cell; }
 
-.vertical-align {
-  vertical-align: middle; }
+.vertical-align { vertical-align: middle; }
+
+strong { color: #999; font-weight: 600; }
