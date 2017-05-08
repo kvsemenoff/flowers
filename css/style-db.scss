@@ -43,6 +43,9 @@
 			padding-left: 15px;
 			display: inline-block;
 			margin-top: 20px;
+			&:hover{
+				text-decoration: none;
+			}
 		}
 	}
 }
