@@ -1,0 +1,13 @@
+.h2 {
+	color: #333;
+	font-family: 'PT Serif', serif;
+	font-size: 37px;
+	font-style: italic;
+	line-height: 18px;
+	@media only screen and (min-width : 1000px) {
+		font-size: 32px;
+	}
+	@media only screen and (min-width : 700px) {
+		font-size: 26px;
+	}
+}
