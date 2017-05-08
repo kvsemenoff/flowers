@@ -11,7 +11,6 @@ body, html {
   max-width: 1214px;
   margin: 0 auto;
   -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18);
-  -moz-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); }
 
 .n-header {
@@ -34,5 +33,3 @@ body, html {
 
 .vertical-align {
   vertical-align: middle; }
-
-/*# sourceMappingURL=style.css.map */
