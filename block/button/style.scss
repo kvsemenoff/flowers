@@ -1,1 +1,46 @@
-
+.button{
+	font-family: 'Open sans';
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 3px;
+	transition: 0.3s all ease;
+	&_delete{
+		font-size: 14px;
+		background: #fff;
+		border: 1px solid #0e8a5d;
+		line-height: 30px;
+		padding: 0 36px 0 16px;
+	}
+	&_delete-single{
+		background: url(../../img/cross-green.png) top 9px right 12px no-repeat;
+		color: #0e8a5d;
+		border-color: #baddcb;
+		&:hover{
+			background-color: #baddcb;
+		}
+	}
+	&_delete-all{
+		background: url(../../img/cross-red.png) top 9px right 12px no-repeat;
+		color: #bb1833;
+		border-color: #fde4e8;
+		&:hover{
+			background-color: #fde4e8;
+		}
+	}
+	&_main{
+		font-size: 16px;
+		color: #fff;
+		background: #0e8a5d;
+		text-align: center;
+		line-height: 44px;
+		width: 165px;
+		&:hover{
+			background-color: #0b6142;
+		}
+	}
+	&_review{
+		width: auto;
+		padding: 0 21px 0 49px;
+		background: #0e8a5d url(../../img/comment.png) 11px 14px no-repeat;
+	}
+}
