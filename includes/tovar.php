@@ -8,7 +8,7 @@
 					<span class="tovar_block__hit">ХИТ</span>					
 				</div>
 				<div class="tovar_block__text">
-					<h4 class="tovar_block__name">Драцента Джанет Крейг</h4>
+					<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
 					<span class="tovar_block__oldprice">1 269 руб.</span>
 					<span class="tovar_block__newprice">2 269 руб.</span>
 					<div class="clearfix"></div>
@@ -21,7 +21,7 @@
 					<img src="img/flower2.jpg" alt="">					
 				</div>
 				<div class="tovar_block__text">
-					<h4 class="tovar_block__name">Драцента Джанет Крейг</h4>
+					<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
 					<span class="tovar_block__oldprice">1 269 руб.</span>
 					<span class="tovar_block__newprice">2 269 руб.</span>
 					<div class="clearfix"></div>
@@ -34,7 +34,7 @@
 					<img src="img/flower3.jpg" alt="">					
 				</div>
 				<div class="tovar_block__text">
-					<h4 class="tovar_block__name">Драцента Джанет Крейг</h4>
+					<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
 					<span class="tovar_block__oldprice">1 269 руб.</span>
 					<span class="tovar_block__newprice">2 269 руб.</span>
 					<div class="clearfix"></div>
@@ -47,7 +47,7 @@
 					<img src="img/flower4.jpg" alt="">					
 				</div>
 				<div class="tovar_block__text">
-					<h4 class="tovar_block__name">Драцента Джанет Крейг</h4>
+					<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
 					<span class="tovar_block__oldprice">1 269 руб.</span>
 					<span class="tovar_block__newprice">2 269 руб.</span>
 					<div class="clearfix"></div>
@@ -60,7 +60,7 @@
 					<img src="img/flower5.jpg" alt="">				
 				</div>
 				<div class="tovar_block__text">
-					<h4 class="tovar_block__name">Драцента Джанет Крейг</h4>
+					<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
 					<span class="tovar_block__oldprice">1 269 руб.</span>
 					<span class="tovar_block__newprice">2 269 руб.</span>
 					<div class="clearfix"></div>
@@ -73,7 +73,7 @@
 					<img src="img/flower6.jpg" alt="">
 				</div>
 				<div class="tovar_block__text">
-					<h4 class="tovar_block__name">Драцента Джанет Крейг</h4>
+					<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
 					<span class="tovar_block__oldprice">1 269 руб.</span>
 					<span class="tovar_block__newprice">2 269 руб.</span>
 					<div class="clearfix"></div>
@@ -86,7 +86,7 @@
 					<img src="img/flower4.jpg" alt="">					
 				</div>
 				<div class="tovar_block__text">
-					<h4 class="tovar_block__name">Драцента Джанет Крейг</h4>
+					<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
 					<span class="tovar_block__oldprice">1 269 руб.</span>
 					<span class="tovar_block__newprice">2 269 руб.</span>
 					<div class="clearfix"></div>
@@ -99,7 +99,7 @@
 					<img src="img/flower5.jpg" alt="">					
 				</div>
 				<div class="tovar_block__text">
-					<h4 class="tovar_block__name">Драцента Джанет Крейг</h4>
+					<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
 					<span class="tovar_block__oldprice">1 269 руб.</span>
 					<span class="tovar_block__newprice">2 269 руб.</span>
 					<div class="clearfix"></div>
@@ -112,7 +112,7 @@
 					<img src="img/flower6.jpg" alt="">					
 				</div>
 				<div class="tovar_block__text">
-					<h4 class="tovar_block__name">Драцента Джанет Крейг</h4>
+					<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
 					<span class="tovar_block__oldprice">1 269 руб.</span>
 					<span class="tovar_block__newprice">2 269 руб.</span>
 					<div class="clearfix"></div>
