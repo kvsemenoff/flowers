@@ -41,6 +41,21 @@
 	&_review{
 		width: auto;
 		padding: 0 21px 0 49px;
-		background: #0e8a5d url(../../img/comment.png) 11px 14px no-repeat;
+		background: #0e8a5d url(../../img/comment.png) 11px 13px no-repeat;
+	}
+	&__switch{
+		width: 32px;
+		height: 32px;
+		background: #e5e5e5;
+		text-align: center;
+		border: 1px solid #e5e5e5;
+		color: #fff;
+		border-radius: 0;
+		padding-top: 6px;
+		&:hover{
+			background: #fff;
+			border-color: #999;
+			color: #000;
+		}
 	}
 }
