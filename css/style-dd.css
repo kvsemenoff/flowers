@@ -110,7 +110,10 @@
     display: inline-block; }
     .footer-top__item_social ul li a {
       padding-top: 5px;
-      display: inline-block; }
+      display: inline-block;
+      opacity: 0.7; }
+      .footer-top__item_social ul li a:hover {
+        opacity: 1; }
 .footer-top__item_social_span {
   font-size: 14px;
   color: #999;
