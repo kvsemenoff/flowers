@@ -39,6 +39,7 @@
 	<link rel="stylesheet" href="block/breadcrumps/style.css">
 	<link rel="stylesheet" href="block/ul/style.css">
 	<link rel="stylesheet" href="block/ol/style.css">
+	<link rel="stylesheet" href="block/table/style.css">
 	
 
 
