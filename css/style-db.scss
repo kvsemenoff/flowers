@@ -1,5 +1,5 @@
 .sidebar-active{
-display: block !important;
+	display: block !important;
 }
 .sidebar-all{
 	display: none;
@@ -9,7 +9,9 @@ display: block !important;
 }
 .sidebar-about{
 	&_border{
-		border-bottom:1px dotted black;
+		background-image: url(../../img/dotted.png);
+		background-repeat: repeat-x;
+		background-position: bottom center;
 		max-width: 262px;
 		margin: 0 auto;
 		margin-top: 20px;
@@ -46,11 +48,22 @@ display: block !important;
 }
 .sidebar-work{
 	&_border{
-		border-top:1px dotted black;
-		border-bottom:1px dotted black;
+		background-image: url(../../img/dotted.png);
+		background-repeat: repeat-x;
+		background-position: top center;
+		&:after{
+			content:"";
+			background-image: url(../../img/dotted.png);
+			background-repeat: repeat-x;
+			background-position: bottom center;
+			display: block;
+			height: 1px;
+			width: 100%;
+			padding-top: 30px;	
+		}
 	}
 	&_margin{
-		padding: 20px 0;
+		padding: 20px 0 0 0;
 		max-width: 262px;
 		margin: 0 auto;
 		margin-top: 30px;
@@ -89,7 +102,7 @@ display: block !important;
 	&__link{
 		background: rgba(#199f6d, 0.8);
 		display: block;
-		
+
 	}
 	&__content{
 		background: url("../img/sidebar-work_fon.jpg")no-repeat;
@@ -232,7 +245,7 @@ display: block !important;
 	&__item{
 		padding-left: 24px;
 		@media only screen and (min-width : 768px) {
-			padding-left: 5px;
+			padding-left: 18px;
 		}
 		@media only screen and (min-width : 1200px) {
 			padding-left: 24px;
@@ -240,7 +253,7 @@ display: block !important;
 		&_first{
 			padding: 9px 0px 9px 24px;
 			@media only screen and (min-width : 768px) {
-				padding: 9px 0px 9px 5px;
+				padding: 9px 0px 9px 18px;
 			}
 			@media only screen and (min-width : 1200px) {
 				padding: 9px 0px 9px 24px;
