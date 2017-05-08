@@ -2,13 +2,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<img src="img/footer-bottom1.png" alt="img" class="footer-bottom__pay">
-				<img src="img/footer-bottom2.png" alt="img" class="footer-bottom__pay">
-				<img src="img/footer-bottom3.png" alt="img" class="footer-bottom__pay">
-				<img src="img/footer-bottom4.png" alt="img" class="footer-bottom__pay">
-				<img src="img/footer-bottom5.png" alt="img" class="footer-bottom__pay">
-				<img src="img/footer-bottom6.png" alt="img" class="footer-bottom__pay">
-				<img src="img/footer-bottom7.png" alt="img" class="footer-bottom__pay">
+				<img src="img/footer-bottom1.jpg" alt="img" class="footer-bottom__pay">
+				<img src="img/footer-bottom2.jpg" alt="img" class="footer-bottom__pay">
+				<img src="img/footer-bottom3.jpg" alt="img" class="footer-bottom__pay">
+				<img src="img/footer-bottom4.jpg" alt="img" class="footer-bottom__pay">
+				<img src="img/footer-bottom5.jpg" alt="img" class="footer-bottom__pay">
+				<img src="img/footer-bottom6.jpg" alt="img" class="footer-bottom__pay">
+				<img src="img/footer-bottom7.jpg" alt="img" class="footer-bottom__pay">
 			</div>
 			<div class="col-md-4">
 				<p class="footer-bottom__contact">

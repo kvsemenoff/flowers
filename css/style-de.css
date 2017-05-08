@@ -135,24 +135,22 @@
     position: absolute;
     top: 0;
     left: 0; }
-
   .main-menu__button {
     left: 50%;
     margin-left: -79px; } }
+
 @media screen and (max-width: 549px) {
   .bouquet {
     position: relative;
     margin: 0 0 8px;
     float: left; }
-
   .main-menu__button {
     position: relative;
     float: right;
     left: auto;
     margin: 0 0 8px; } }
+
 @media screen and (max-width: 749px) and (min-width: 549px) {
   .category-button {
     position: absolute;
     right: 0; } }
-
-/*# sourceMappingURL=style-de.css.map */

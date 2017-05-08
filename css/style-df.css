@@ -34,12 +34,15 @@
   text-align: right;
   background-color: #fdfdfd;
   border: 3px solid transparent;
-  border-radius: 3px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   margin-bottom: 22px; }
   .tovar_block__item:hover {
     border: 3px solid #dcd7c4;
-    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15); }
+    -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15); }
   @media only screen and (min-width: 550px) {
     .tovar_block__item {
       width: 48%;
@@ -155,15 +158,15 @@
   background-repeat: no-repeat;
   background-position: left 5px center;
   border: 1px solid #b3ac86;
-  border-radius: 3px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
   border-bottom-width: 3px;
   display: inline-block;
   background-color: #fff;
+  -webkit-transition: 0.3s;
   transition: 0.3s; }
   .tovar_block__add_busket:hover {
     background-color: #b3ac86;
     background-image: url("../img/busket2.png");
     color: #fff;
     border-color: #9f9871; }
-
-/*# sourceMappingURL=style-df.css.map */
