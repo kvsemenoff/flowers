@@ -1,19 +1,20 @@
-.body { font-family: 'Open Sans', sans-serif; background: url(../img/body-bg.jpg); }
+.body {
+  font-family: 'Open Sans', sans-serif;
+  background: url(../img/body-bg.jpg); }
 
-body, html { height: 100%; }
+body, html {
+  height: 100%; }
 
-.n-wrapper { background: #fff; width: 100%; max-width: 1214px; margin: 0 auto; -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); -moz-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); }
+.n-wrapper {
+  background: #fff;
+  width: 100%;
+  max-width: 1214px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); }
 
-.n-header { display: table-row; height: 1px; }
+strong {
+  font-weight: 600; }
 
-.n-content { display: table-row; }
-
-.n-footer { display: table-row; height: 1px; }
-
-.n-wrapper { width: 100%; display: table; }
-
-.n-content-inner { display: table-cell; }
-
-.vertical-align { vertical-align: middle; }
-
-strong { font-weight: 600; }
+/*# sourceMappingURL=style.css.map */
