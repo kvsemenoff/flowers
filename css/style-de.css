@@ -131,7 +131,7 @@
 .filter-block .filter__quantity .jq-selectbox__trigger { width: 22px; }
 .filter-block .filter__quantity .jq-selectbox__trigger-arrow { right: 5px; top: 9px; }
 
-.review-block { padding: 35px 0; }
+.review-block { padding: 35px 0 0; }
 .review-block .tabs { border-bottom: 3px solid #58b38a; }
 .review-block .tabs .tab { background: #fff; cursor: pointer; display: inline-block; margin-right: 3px; border: 1px solid #abd9c4; border-bottom: 0; border-top-right-radius: 2px; border-top-left-radius: 2px; padding: 0 35px; text-align: center; text-transform: uppercase; line-height: 40px; font-size: 14px; color: #333; font-family: 'PT Serif', serif; transition: 0.4s all ease; }
 .review-block .tabs .active { background: #58b38a; }
@@ -161,3 +161,7 @@
 .review-block .big-wrap { width: 100%; }
 .review-block .checkbox-wrap { float: left; padding: 9px 0; }
 .review-block .button-right { float: right; }
+
+.cart-order { padding: 26px 0 0; background: #faf8f8; }
+.cart-order .h4-wrap { border-bottom: 1px dotted #7d7c7c; padding-bottom: 10px; margin: 0 1px; }
+.cart-order .tovars-block { padding: 20px 0 0; }

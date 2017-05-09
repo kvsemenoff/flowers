@@ -469,7 +469,7 @@
 	}
 }
 .review-block{
-	padding: 35px 0;
+	padding: 35px 0 0;
 	.tabs{
 		border-bottom: 3px solid #58b38a;
 		.tab{
@@ -622,5 +622,17 @@
 	}
 	.button-right{
 		float: right;
+	}
+}
+.cart-order{
+	padding: 26px 0 0;
+	background: #faf8f8;
+	.h4-wrap{
+		border-bottom: 1px dotted #7d7c7c;
+		padding-bottom: 10px;
+		margin: 0 1px;
+	}
+	.tovars-block{
+		padding: 20px 0 0;
 	}
 }
