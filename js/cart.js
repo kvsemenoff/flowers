@@ -24,13 +24,13 @@ $(document).ready(function() {
 				0:{
 					items:1
 				},
-				480:{
+				320:{
 					items:2   
 				},        
-				700:{
+				500:{
 					items:3
 				},
-				1000:{
+				1200:{
 					items:4
 				}
 			}

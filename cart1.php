@@ -9,6 +9,7 @@
 				<div class="row">
 					
 					<div class="cart-inner">
+
 						<div class="breadcrumps-wrap">
 							<ul class="breadcrumps">
 								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg"></a><i>/</i></li>
@@ -26,7 +27,7 @@
 							<div class="cart__left_block__img">
 								<img src="img/sliderbig1.jpg" alt="">
 							</div>
-							<div class="js-owl-slidercart">
+							<div class="js-owl-slidercart cart__sliderbox">
 								<div class="item">
 									<div class="cart__slider_img">
 										<img src="img/slidercart1.jpg" data-bigimg="img/slidercart1.jpg" alt="">
@@ -135,6 +136,50 @@
 								<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,viber,whatsapp,telegram"></div>
 							</div>
 						</div>
+
+						
+						<div class="cart__information">
+							<div class="cart__boxadd">
+								<div class="cart__boxadd__img">
+									<img src="img/infoimg1.png" alt="">
+								</div>
+								<div class="cart__boxadd__text">
+									<span class="cart__boxadd__hover">100% свежести</span>
+									<div class="cart__boxadd__show">
+										Доставка по Москве в пределах МКАД с 9:00 до 21:00—400 руб.
+										Доствка по Московкой области 
+										с 9:00 до 21:00—1000 руб. 
+									</div>
+								</div>
+							</div>
+							<div class="cart__boxadd">
+								<div class="cart__boxadd__img">
+									<img src="img/infoimg2.png" alt="">
+								</div>
+								<div class="cart__boxadd__text">
+									<span class="cart__boxadd__hover">Быстрая доставка</span>
+									<div class="cart__boxadd__show">
+										Доставка по Москве в пределах МКАД с 9:00 до 21:00—400 руб.
+										Доствка по Московкой области 
+										с 9:00 до 21:00—1000 руб. 
+									</div>
+								</div>
+							</div>
+							<div class="cart__boxadd">
+								<div class="cart__boxadd__img">
+									<img src="img/infoimg3.png" alt="">
+								</div>
+								<div class="cart__boxadd__text">
+									<span class="cart__boxadd__hover">Безопасная оплата</span>
+									<div class="cart__boxadd__show">
+										Доставка по Москве в пределах МКАД с 9:00 до 21:00—400 руб.
+										Доствка по Московкой области 
+										с 9:00 до 21:00—1000 руб. 
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
