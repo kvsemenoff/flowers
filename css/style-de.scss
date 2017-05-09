@@ -468,3 +468,159 @@
 		}
 	}
 }
+.review-block{
+	padding: 35px 0;
+	.tabs{
+		border-bottom: 3px solid #58b38a;
+		.tab{
+			background: #fff;
+			cursor: pointer;
+			display: inline-block;
+			margin-right: 3px;
+			border: 1px solid #abd9c4;
+			border-bottom: 0;
+			border-top-right-radius: 2px;
+			border-top-left-radius: 2px;
+			padding: 0 35px;
+			text-align: center;
+			text-transform: uppercase;
+			line-height: 40px;
+			font-size: 14px;
+			color: #333;
+			font-family: 'PT Serif', serif;
+			transition: 0.4s all ease;
+		}
+		.active{
+			background: #58b38a;
+		}
+	}
+	.tab-content{
+		padding: 24px 0 19px;
+		max-width: 950px;
+		width: 100%;
+	}
+	.tab-content__inner{
+		background: #fafaf7;
+		border: 1px solid #e7e5d9;
+		border-bottom: 4px solid #d6d3bf;
+		border-top-right-radius: 2px;
+		border-top-left-radius: 2px;
+		padding: 17px 17px 19px 25px;
+	}
+	.tab-content__title{
+		float: left;
+		width: 170px;
+	}
+	.review__name{
+		line-height: 22px;
+		color: #333;
+		font-size: 16px;
+		font-style: italic;
+		display: block;
+		padding-bottom: 5px;
+	}
+	.review__date{
+		display: block;
+		font-size: 14px;
+		color: #666;
+	}
+	.tab-content__text{
+		background: url(../img/review-arrow.png) 0 5px no-repeat;
+		margin-left: 170px;
+		padding-left: 51px;
+		p{
+			line-height: 22px;
+			font-size: 14px;
+			color: #333;
+			padding-bottom: 19px;
+		}
+	}
+	.review__raiting{
+		display: inline-block;
+		margin-right: 11px;
+		.fa{
+			font-size: 22px;
+			display: inline-block;
+			cursor: pointer;
+		}
+		&_like{
+			.fa{
+				color: #333;
+			}
+			.like-quant{
+				color: #0b845b;
+				font-size: 15px;
+			}
+		}
+		&_dislike{
+			.fa{
+				color: #999;
+			}
+			.dislike-quant{
+				font-size: 15px;
+				color: #d2453d;
+			}
+		}
+	}
+	.button-wrap{
+		padding-bottom: 21px;
+		.button{
+			margin-right: 26px;
+		}
+		.all-review{
+			font-size: 14px;
+			color: #a39762;
+			text-decoration: none;
+			span{
+				letter-spacing: 1px;
+				text-decoration: underline;
+			}
+			.fa{
+				color: inherit;
+				display: inline-block;
+				padding-left: 6px;
+			}
+		}
+	}
+	.take-review{
+		border: 1px solid #eee;
+		border-top: 5px solid #cedada;
+		border-radius: 2px;
+		background: #fafafa;
+		padding: 17px 10px 0;
+		width: 100%;
+		max-width: 950px;
+	}
+	.take-review__title{
+		display: block;
+		text-align: center;
+		font-size: 24px;
+		color: #333;
+		font-weight: 700;
+		padding-bottom: 24px;
+		font-family: 'PT Serif';
+	}
+	.form-inner{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 750px;
+	}
+	.input-wrap{
+		float: left;
+		padding-bottom: 20px;
+		width: 50%;
+		&_right {
+			padding-left: 15px;
+		}
+	}
+	.big-wrap{
+		width: 100%;
+	}
+	.checkbox-wrap{
+		float: left;
+		padding: 9px 0;
+	}
+	.button-right{
+		float: right;
+	}
+}
