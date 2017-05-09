@@ -26,7 +26,7 @@
 							<div class="cart__left_block__img">
 								<img src="img/sliderbig1.jpg" alt="">
 							</div>
-							<div class="cart__slider js-owl-slidercart">
+							<div class="js-owl-slidercart">
 								<div class="item">
 									<div class="cart__slider_img">
 										<img src="img/slidercart1.jpg" data-bigimg="img/slidercart1.jpg" alt="">
@@ -50,8 +50,7 @@
 							</div>
 						</div>
 
-						<div class="cart__right_block">
-							
+						<div class="cart__right_block">							
 							<div class="cart__compound">
 								<span class="cart__compoundtxt">Состав:</span>
 								<table class="cart__compound__table">
@@ -76,46 +75,67 @@
 									<span>Кол-во:</span>
 									<span>Цвет:</span>
 								</div>
+
 								<div class="cart__char__right">
-									<span>20 cм <b>40 cм</b></span>
-									<span>12 34567</span>
+									<span class="cart__size">20 cм <b>40 cм</b></span>
+									<span class="cart__article">12 34567</span>
 									<div class="cart__char__right__number">
 										<span class="cart-button cart-button2">-</span>
 										<input type="text" value="1" disabled="disabled" id="x">  
 										<span class="cart-button cart-button3">+</span>
 									</div>
 									<div class="cart__char__right__colors">
-										<span></span>
-										<span></span>
-										<span></span>
-										<span></span>
-										<span></span>
-										<span></span>
+										<a href="#"><i></i></a>
+										<a href="#"><i></i></a>
+										<a href="#"><i></i></a>
+										<a href="#"><i></i></a>
+										<a href="#"><i></i></a>
+										<a href="#"><i></i></a>
 									</div>
+									<div class="cart__colortxt"><span>желтый</span></div>
 								</div>
 							</div>
+							<div class="cart__optiopn">
+								<span class="cart__optiopn__cap">Цена:</span>
+								<label class="radio cart__radio">
+									<input class="radio__hidden" type="radio" name="checkbox-test">
+									<span class="radio__custom cart__custom"></span>
+									<span class="radio__label cart__label">Уменьшенный</span>
+									<span class="cartoldprice">1 200 руб.</span>
+									<span class="cartnewprice">500 руб.</span>
+								</label>
+								<label class="radio cart__radio cart__radio_checked">
+									<input class="radio__hidden" type="radio" name="checkbox-test" checked="checked">
+									<span class="radio__custom cart__custom"></span>
+									<span class="radio__label cart__label">Стандартный</span>
+									<span class="cartoldprice">1 200 руб.</span>
+									<span class="cartnewprice">900 руб.</span>
+								</label>
+								<label class="radio cart__radio">
+									<input class="radio__hidden" type="radio" name="checkbox-test">
+									<span class="radio__custom cart__custom"></span>
+									<span class="radio__label cart__label">Делюкс</span>
+									<span class="cartoldprice">1 200 руб.</span>
+									<span class="cartnewprice">1200 руб.</span>
+								</label>
+							</div>
 
-
-
+							<div class="cart__choise">
+								<span>Стандартный  — <b>1 200 руб.</b></span>
+								<a href="#" class="tovar_block__add_busket">В КОРЗИНУ</a>
+								<div class="clearfix"></div>
+							</div>
 						</div>
 
-
-
-
-
-
-
-
-
-
-
-
+						<div class="share_block">
+							<span class="share">Поделиться</span>
+							<div class="share__socials">
+								<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+								<script src="//yastatic.net/share2/share.js"></script>
+								<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,viber,whatsapp,telegram"></div>
+							</div>
+						</div>
 					</div>
-
-
-
-
-
 				</div>
 			</div>
 		</div>
