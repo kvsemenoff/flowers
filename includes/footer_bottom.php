@@ -27,4 +27,5 @@
  		<script src="block/select/jquery.formstyler.min.js"></script>
  		<script src="block/select/common.js"></script>
  		<script src="js/common.js"></script>
+ 		<script src="js/cart.js"></script>
  		
