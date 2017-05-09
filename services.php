@@ -5,10 +5,10 @@
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
-			<div class="services">
+			<div class="inner-page">
 				<div class="container">
 					<div class="row">
-						<div class="services-top clearfix">
+						<div class="inner-page-top clearfix">
 							<div class="col-md-12">
 								<div class="breadcrumps-wrap">
 									<ul class="breadcrumps">

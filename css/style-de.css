@@ -90,11 +90,11 @@
 
 .h1-wrap { padding: 0 0 34px; }
 
-.services-top { padding: 17px 0 0; }
-.services-top .h1 { line-height: 22px; }
-.services-top .h1-wrap { padding: 0 0 23px; }
+.inner-page-top { padding: 17px 0 0; }
+.inner-page-top .h1 { line-height: 22px; }
+.inner-page-top .h1-wrap { padding: 0 0 23px; }
 
-.services { padding: 0 0 22px; }
+.inner-page { padding: 0 0 22px; }
 
 .services-items { padding: 15px 0 0; }
 .services-items .services__item { padding: 25px 0 33px; border-bottom: 1px dotted #7f7f7f; }
@@ -109,3 +109,12 @@
 .services-items .item__text_italic { font-style: italic; }
 .services-items .item__text:last-child { padding-bottom: 0; }
 @media screen and (max-width: 991px) { .services-items .item__text { padding-bottom: 10px; } }
+
+@media screen and (max-width: 1200px) and (min-width: 1023px) { .filter-block .tovar_block { text-align: center; } }
+.filter-block .tovar_block__item { margin-right: 22px; }
+.filter-block .tovar_block__item:nth-child(3n+1) { margin-right: 23px; }
+@media screen and (min-width: 1200px) { .filter-block .tovar_block__item:nth-child(4n) { margin-right: 0; } }
+.filter-block .delete { padding: 0 0 25px; }
+.filter-block .instruments__title { font-size: 14px; color: #333; float: left; display: block; padding: 3px 10px 0 0; }
+.filter-block .instruments__buttons { float: left; }
+.filter-block .instruments__buttons .button { margin-left: 8px; }
