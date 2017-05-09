@@ -384,6 +384,9 @@
 	}
 }
 .filter-block{
+	.pagination__style{
+		margin-bottom: 0;
+	}
 	.tovar_block{
 		@media screen and (max-width: 1200px) and (min-width: 1023px) {
 			text-align: center;
@@ -401,19 +404,67 @@
 		}
 	}
 	.delete{
-		padding: 0 0 25px;
+		padding: 0 0 23px;
 	}
 	.instruments__title{
 		font-size: 14px;
 		color: #333;
 		float: left;
 		display: block;
-		padding: 3px 10px 0 0;
+		padding: 3px 8px 0 0;
 	}
 	.instruments__buttons{
 		float: left;
 		.button{
 			margin-left: 8px;
+		}
+	}
+	.instruments__filter-wrap{
+		padding-bottom: 14px;
+	}
+	.instruments__filter{
+		padding-bottom: 10px;
+		float: left;
+	}
+	.filter__button{
+		font-size: 14px;
+		color: #a39762;
+		display: inline-block;
+		text-decoration: none;
+		padding: 0 3px 0 9px;
+		border-left: 1px solid #ccc;
+		line-height: 1;
+		&:first-child{
+			border-left: none;
+			padding-left: 0;
+		}
+		&_active span{
+			text-decoration: underline;
+		}
+	}
+	.filter__quantity{
+		float: right;
+		margin-top: -2px;
+		.instruments__title{
+			float: left;
+		}
+		.select-wrap{
+			width: 45px;
+			display: inline-block;
+			float: left;
+		}
+		.jq-selectbox__select{
+			height: 27px;
+			line-height: 23px;
+	    padding: 0 0 0 3px;
+			border: 1px solid #eee;
+		}
+		.jq-selectbox__trigger{
+			width: 22px;
+		}
+		.jq-selectbox__trigger-arrow{
+			right: 5px;
+			top: 9px;
 		}
 	}
 }

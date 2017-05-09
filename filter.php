@@ -31,16 +31,79 @@
 												<a href="#" class="button button_delete button_delete-all">Удалить все</a>
 											</span>
 										</div>
-										<div class="instruments__filter filter clearfix">
-											<span class="instruments__title">Сортировать по:</span>
-											<span class="instruments__buttons">
-												<a href="#" class="filter__button">Цене</a>
-												<a href="#" class="filter__button">Популярности</a>
-												<a href="#" class="filter__button">Новое</a>
-											</span>
+										<div class="instruments__filter-wrap clearfix">
+											<div class="instruments__filter filter">
+												<span class="instruments__title">Сортировать по:</span>
+												<span class="instruments__buttons">
+													<a href="#" class="filter__button filter__button_active"><span>Цене</span></a>
+													<a href="#" class="filter__button"><span>Популярности</span></a>
+													<a href="#" class="filter__button"><span>Новое</span></a>
+												</span>
+											</div>
+											<div class="filter__quantity clearfix">
+												<span class="instruments__title">Выводить по:</span>
+												<div class="select-wrap">
+													<select class="form-select input__control" id="type">
+														<option value="">16</option>
+														<option value="">12</option>
+														<option value="">8</option>
+														<option value="">4</option>
+													</select>
+												</div>
+											</div>
 										</div>
 									</div>
 									<div class="tovar_block">
+										<div class="tovar_block__item">
+											<div class="tovar_block__img">
+												<img src="img/flower1.jpg" alt="">
+												<span class="tovar_block__sale">СКИДКА</span>
+												<span class="tovar_block__hit">ХИТ</span>					
+											</div>
+											<div class="tovar_block__text">
+												<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
+												<span class="tovar_block__oldprice">1 269 руб.</span>
+												<span class="tovar_block__newprice">2 269 руб.</span>
+												<div class="clearfix"></div>
+												<a href="#" class="tovar_block__add_busket">В КОРЗИНУ</a>
+											</div>
+										</div>
+										<div class="tovar_block__item">
+											<div class="tovar_block__img">
+												<img src="img/flower2.jpg" alt="">					
+											</div>
+											<div class="tovar_block__text">
+												<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
+												<span class="tovar_block__oldprice">1 269 руб.</span>
+												<span class="tovar_block__newprice">2 269 руб.</span>
+												<div class="clearfix"></div>
+												<a href="#" class="tovar_block__add_busket">В КОРЗИНУ</a>
+											</div>
+										</div>
+										<div class="tovar_block__item">
+											<div class="tovar_block__img">
+												<img src="img/flower3.jpg" alt="">					
+											</div>
+											<div class="tovar_block__text">
+												<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
+												<span class="tovar_block__oldprice">1 269 руб.</span>
+												<span class="tovar_block__newprice">2 269 руб.</span>
+												<div class="clearfix"></div>
+												<a href="#" class="tovar_block__add_busket">В КОРЗИНУ</a>
+											</div>
+										</div>
+										<div class="tovar_block__item">
+											<div class="tovar_block__img">
+												<img src="img/flower2.jpg" alt="">					
+											</div>
+											<div class="tovar_block__text">
+												<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
+												<span class="tovar_block__oldprice">1 269 руб.</span>
+												<span class="tovar_block__newprice">2 269 руб.</span>
+												<div class="clearfix"></div>
+												<a href="#" class="tovar_block__add_busket">В КОРЗИНУ</a>
+											</div>
+										</div>
 										<div class="tovar_block__item">
 											<div class="tovar_block__img">
 												<img src="img/flower1.jpg" alt="">

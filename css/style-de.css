@@ -110,11 +110,23 @@
 .services-items .item__text:last-child { padding-bottom: 0; }
 @media screen and (max-width: 991px) { .services-items .item__text { padding-bottom: 10px; } }
 
+.filter-block .pagination__style { margin-bottom: 0; }
 @media screen and (max-width: 1200px) and (min-width: 1023px) { .filter-block .tovar_block { text-align: center; } }
 .filter-block .tovar_block__item { margin-right: 22px; }
 .filter-block .tovar_block__item:nth-child(3n+1) { margin-right: 23px; }
 @media screen and (min-width: 1200px) { .filter-block .tovar_block__item:nth-child(4n) { margin-right: 0; } }
-.filter-block .delete { padding: 0 0 25px; }
-.filter-block .instruments__title { font-size: 14px; color: #333; float: left; display: block; padding: 3px 10px 0 0; }
+.filter-block .delete { padding: 0 0 23px; }
+.filter-block .instruments__title { font-size: 14px; color: #333; float: left; display: block; padding: 3px 8px 0 0; }
 .filter-block .instruments__buttons { float: left; }
 .filter-block .instruments__buttons .button { margin-left: 8px; }
+.filter-block .instruments__filter-wrap { padding-bottom: 14px; }
+.filter-block .instruments__filter { padding-bottom: 10px; float: left; }
+.filter-block .filter__button { font-size: 14px; color: #a39762; display: inline-block; text-decoration: none; padding: 0 3px 0 9px; border-left: 1px solid #ccc; line-height: 1; }
+.filter-block .filter__button:first-child { border-left: none; padding-left: 0; }
+.filter-block .filter__button_active span { text-decoration: underline; }
+.filter-block .filter__quantity { float: right; margin-top: -2px; }
+.filter-block .filter__quantity .instruments__title { float: left; }
+.filter-block .filter__quantity .select-wrap { width: 45px; display: inline-block; float: left; }
+.filter-block .filter__quantity .jq-selectbox__select { height: 27px; line-height: 23px; padding: 0 0 0 3px; border: 1px solid #eee; }
+.filter-block .filter__quantity .jq-selectbox__trigger { width: 22px; }
+.filter-block .filter__quantity .jq-selectbox__trigger-arrow { right: 5px; top: 9px; }
