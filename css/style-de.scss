@@ -272,7 +272,7 @@
 		padding-bottom: 2px;
 	}
 	.form-wrap{
-		background: #fafafa;
+		background: #fafafa url(../img/form-block-bg.png) top right no-repeat;
 		padding: 16px 20px 13px;
 		border: 1px solid #eee;
 		border-top: 5px solid #cedada;
@@ -613,7 +613,7 @@
 		border: 1px solid #eee;
 		border-top: 5px solid #cedada;
 		border-radius: 2px;
-		background: #fafafa;
+		background: #fafafa url(../img/form-block-bg.png) top right no-repeat;
 		padding: 17px 10px 0;
 		width: 100%;
 		max-width: 950px;
@@ -695,6 +695,28 @@
 	@media screen and (max-width: 1199px) and (min-width: 990px) {
 		.tovar_block__item:nth-child(4){
 			display: none;
+		}
+	}
+}
+.registration{
+	&__login{
+		background: #fafafa;
+		max-width: 850px;
+		padding: 23px 10px 13px 25px;
+	}
+	.login__link{
+		font-size: 14px;
+		text-align: left;
+		padding-bottom: 7px;
+		span{
+			display: inline-block;
+			color: #333;
+			padding-right: 7px;
+		}
+		a{
+			color: #0e8a5d;
+			display: inline-block;
+			text-decoration: underline;
 		}
 	}
 }
