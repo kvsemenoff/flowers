@@ -469,9 +469,10 @@
 	}
 }
 .review-block{
-	padding: 35px 0 0;
+	padding: 9px 0 0;
 	.tabs{
 		border-bottom: 3px solid #58b38a;
+		text-align: left;
 		.tab{
 			background: #fff;
 			cursor: pointer;
@@ -489,6 +490,9 @@
 			color: #333;
 			font-family: 'PT Serif', serif;
 			transition: 0.4s all ease;
+			@media screen and (max-width: 500px){
+				padding: 0 15px;
+			}
 		}
 		.active{
 			background: #58b38a;
@@ -500,6 +504,7 @@
 		width: 100%;
 	}
 	.tab-content__inner{
+		text-align: left;
 		background: #fafaf7;
 		border: 1px solid #e7e5d9;
 		border-bottom: 4px solid #d6d3bf;
@@ -510,6 +515,11 @@
 	.tab-content__title{
 		float: left;
 		width: 170px;
+		@media screen and (max-width: 700px){
+			float: none;
+			text-align: center;
+			width: 100%;
+		}
 	}
 	.review__name{
 		line-height: 22px;
@@ -534,6 +544,15 @@
 			color: #333;
 			padding-bottom: 19px;
 		}
+		@media screen and (max-width: 700px){
+			margin-left: 0;
+			padding-left: 0;
+			padding-top: 20px;
+			background: none;
+		}
+	}
+	.review__raitings{
+		text-align: center;
 	}
 	.review__raiting{
 		display: inline-block;
@@ -566,11 +585,19 @@
 		padding-bottom: 21px;
 		.button{
 			margin-right: 26px;
+			@media screen and (max-width: 456px){
+				margin: 0 15px 10px;
+			}
+			@media screen and (max-width: 350px){
+				margin: 0 0 10px;
+		    padding: 0 10px 0 40px;
+			}
 		}
 		.all-review{
 			font-size: 14px;
 			color: #a39762;
 			text-decoration: none;
+			display: inline-block;
 			span{
 				letter-spacing: 1px;
 				text-decoration: underline;
@@ -609,8 +636,15 @@
 		float: left;
 		padding-bottom: 20px;
 		width: 50%;
-		&_right {
-			padding-left: 15px;
+		text-align: left;
+		@media screen and (min-width: 701px){
+			&_right {
+				padding-left: 15px;
+			}
+		}
+		@media screen and (max-width: 700px){
+			float: none;
+			width: 100%;
 		}
 	}
 	.big-wrap{
@@ -624,15 +658,43 @@
 		float: right;
 	}
 }
-.cart-order{
-	padding: 26px 0 0;
-	background: #faf8f8;
+.cart-tovars{
+	padding: 32px 0 0;
+	background: #fff;
+	margin-top: -6px;
+	&_grey{
+		background: #faf8f8;
+	}
 	.h4-wrap{
 		border-bottom: 1px dotted #7d7c7c;
-		padding-bottom: 10px;
+		padding-bottom: 17px;
 		margin: 0 1px;
 	}
 	.tovars-block{
 		padding: 20px 0 0;
+	}
+	.tovar_block__item{
+		margin-bottom: 36px;
+	}
+	.tovar_block__item:nth-child(1){
+		margin-right: 19px;
+	}
+	@media screen and (min-width: 1199px){
+		.tovar_block__item:nth-child(1){
+			margin-right: 19px;
+		}
+	}
+	@media screen and (max-width: 1199px){
+		.tovars-block{
+			text-align: center;
+		}
+		.tovar_block__item:nth-child(1){
+			margin-right: 5px;
+		}
+	}
+	@media screen and (max-width: 1199px) and (min-width: 990px) {
+		.tovar_block__item:nth-child(4){
+			display: none;
+		}
 	}
 }
