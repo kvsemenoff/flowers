@@ -284,7 +284,7 @@ $(function() {
 	});
 
 	$('.tabs-content > .tab-content').each(function(index){
-		if (index != 0) {
+		if (index != 1) {
 			$(this).css('display','none');
 		};
 	});
