@@ -35,7 +35,7 @@
 	}
 }
 .top-line{
-	padding-bottom: 25px;
+	padding-bottom: 17px;
 	@media screen and (max-width: 749px) {
 		.logobox{
 			margin: 0;
@@ -181,6 +181,11 @@
 		margin: 0 0 8px;
 	}
 }
+@media screen and (min-width: 1000px) {
+	.register{
+		margin-bottom: 10px;
+	}
+}
 @media screen and (max-width: 749px) and (min-width: 549px) {
 	.category-button{
 		position: absolute;
@@ -219,4 +224,99 @@
 	color: #333;
 	line-height: 24px;
 	padding-bottom: 20px;
+}
+.contacts-inner{
+	padding: 18px 15px 33px;
+	.breadcrumps-wrap{
+		padding: 0 0 37px;
+	}
+	.h1-wrap{
+		padding: 0 0 34px;
+	}
+	.contacts-info{
+		background: #fafafa;
+		border: 1px solid #eee;
+		padding: 23px 0 7px;
+	}
+	.info{
+		padding-bottom: 20px;
+	}
+	.info__title{
+		font-size: 16px;
+		color: #333;
+		display: block;
+		text-align: center;
+		font-weight: 700;
+		padding-bottom: 12px;
+	}
+	.info__descr{
+		display: block;
+		text-align: center;
+		font-size: 16px;
+		color: #333;
+		padding-bottom: 6px;
+	}
+	.socials{
+		text-align: center;
+	}
+	.contacts-time{
+		padding: 30px 0 35px;
+		span{
+			font-size: 16px;
+			color: #333;
+			display: block;
+		}
+	}
+	.contacts-blocks{
+		margin: 0 -15px;
+	}
+	.time__title{
+		font-weight: 700;
+		padding-bottom: 13px;
+	}
+	.time__info{
+		padding-bottom: 2px;
+	}
+	.form-wrap{
+		background: #fafafa;
+		padding: 16px 20px 13px;
+		border: 1px solid #eee;
+		border-top: 5px solid #cedada;
+		border-radius: 2px;
+		@media screen and (max-width: 1000px) {
+			margin-top: 15px;
+		}
+	}
+	.form__title{
+		display: block;
+		text-align: center;
+		font-weight: 700;
+		font-size: 24px;
+		color: #333;
+		padding-bottom: 10px;
+	}
+	.form__descr{
+		display: block;
+		font-size: 14px;
+		text-align: center;
+		line-height: 16px;
+		color: #666;
+		padding-bottom: 23px;
+		margin: 0 auto;
+		max-width: 385px;
+	}
+	.input-wrap{
+		padding-bottom: 15px;
+		margin: 0 auto;
+		max-width: 294px;
+	}
+	.checkbox-wrap{
+		padding: 7px 0;
+	}
+	.checkbox__label, .radio__label{
+		display: inline;
+	}
+	.button_main{
+		line-height: 40px;
+	}
 }

@@ -10,9 +10,7 @@
   width: 100%;
   background: #fff;
 }
-
-.input__control{
-	font-family: "Segoe UI Regular";	
+.input__control{	
 	color: #333;
 	font-size: 14px;
 	line-height: 39px;
@@ -27,4 +25,31 @@
 	-webkit-box-shadow: 0px 0px 3px 0px rgba(85,176,135,0.45);
 	-moz-box-shadow: 0px 0px 3px 0px rgba(85,176,135,0.45);
 	box-shadow: 0px 0px 3px 0px rgba(85,176,135,0.45);
+}
+.form-select{
+	cursor: pointer;
+}
+.jq-selectbox{
+	padding: 0;
+}
+.jq-selectbox.focused .jq-selectbox__select{
+ 	border: none;
+}
+.jq-selectbox__select{
+	background: #fff;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	&:hover{
+		background: none;
+	}
+}
+.jq-selectbox__trigger{
+	border: none;
+}
+.jq-selectbox .placeholder{
+	color: transparent;
+}
+.jq-selectbox li:hover{
+	background: #0e8a5d;
 }

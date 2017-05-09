@@ -6,6 +6,7 @@
 .button_delete-all:hover { background-color: #fde4e8; }
 .button_main { font-size: 16px; color: #fff; background: #0e8a5d; text-align: center; line-height: 44px; width: 165px; }
 .button_main:hover { background-color: #0b6142; }
+.button_mini { line-height: 40px; }
 .button_review { width: auto; padding: 0 21px 0 49px; background: #0e8a5d url(../../img/comment.png) 11px 13px no-repeat; }
 .button__switch { width: 32px; height: 32px; background: #e5e5e5; text-align: center; border: 1px solid #e5e5e5; color: #fff; border-radius: 0; padding-top: 6px; }
 .button__switch:hover { background: #fff; border-color: #999; color: #000; }

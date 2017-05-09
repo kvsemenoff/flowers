@@ -8,7 +8,7 @@
 .contacts .header-contact__telephone { float: right; }
 .contacts .header-contact__link { float: right; }
 
-.top-line { padding-bottom: 25px; }
+.top-line { padding-bottom: 17px; }
 @media screen and (max-width: 749px) { .top-line .logobox { margin: 0; }
   .top-line .contacts { float: right; }
   .top-line .logobox__img { width: 250px; }
@@ -52,6 +52,7 @@
   .main-menu__button { left: 50%; margin-left: -79px; } }
 @media screen and (max-width: 549px) { .bouquet { position: relative; margin: 0 0 8px; float: left; }
   .main-menu__button { position: relative; float: right; left: auto; margin: 0 0 8px; } }
+@media screen and (min-width: 1000px) { .register { margin-bottom: 10px; } }
 @media screen and (max-width: 749px) and (min-width: 549px) { .category-button { position: absolute; right: 0; } }
 .tech-inner { padding: 21px 15px; }
 .tech-inner .breadcrumps-wrap { padding-bottom: 35px; }
@@ -64,3 +65,25 @@
 .tech-inner .table-wrap { padding: 28px 0 10px; }
 
 .text { font-size: 14px; color: #333; line-height: 24px; padding-bottom: 20px; }
+
+.contacts-inner { padding: 18px 15px 33px; }
+.contacts-inner .breadcrumps-wrap { padding: 0 0 37px; }
+.contacts-inner .h1-wrap { padding: 0 0 34px; }
+.contacts-inner .contacts-info { background: #fafafa; border: 1px solid #eee; padding: 23px 0 7px; }
+.contacts-inner .info { padding-bottom: 20px; }
+.contacts-inner .info__title { font-size: 16px; color: #333; display: block; text-align: center; font-weight: 700; padding-bottom: 12px; }
+.contacts-inner .info__descr { display: block; text-align: center; font-size: 16px; color: #333; padding-bottom: 6px; }
+.contacts-inner .socials { text-align: center; }
+.contacts-inner .contacts-time { padding: 30px 0 35px; }
+.contacts-inner .contacts-time span { font-size: 16px; color: #333; display: block; }
+.contacts-inner .contacts-blocks { margin: 0 -15px; }
+.contacts-inner .time__title { font-weight: 700; padding-bottom: 13px; }
+.contacts-inner .time__info { padding-bottom: 2px; }
+.contacts-inner .form-wrap { background: #fafafa; padding: 16px 20px 13px; border: 1px solid #eee; border-top: 5px solid #cedada; border-radius: 2px; }
+@media screen and (max-width: 1000px) { .contacts-inner .form-wrap { margin-top: 15px; } }
+.contacts-inner .form__title { display: block; text-align: center; font-weight: 700; font-size: 24px; color: #333; padding-bottom: 10px; }
+.contacts-inner .form__descr { display: block; font-size: 14px; text-align: center; line-height: 16px; color: #666; padding-bottom: 23px; margin: 0 auto; max-width: 385px; }
+.contacts-inner .input-wrap { padding-bottom: 15px; margin: 0 auto; max-width: 294px; }
+.contacts-inner .checkbox-wrap { padding: 7px 0; }
+.contacts-inner .checkbox__label, .contacts-inner .radio__label { display: inline; }
+.contacts-inner .button_main { line-height: 40px; }

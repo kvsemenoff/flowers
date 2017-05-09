@@ -24,5 +24,7 @@
  		<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
  		<script src="js/jquery.maskedinput.min.js"></script>
  		<script src="js/fonts.js"></script>
+ 		<script src="block/select/jquery.formstyler.min.js"></script>
+ 		<script src="block/select/common.js"></script>
  		<script src="js/common.js"></script>
  		
