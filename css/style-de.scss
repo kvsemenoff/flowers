@@ -227,12 +227,6 @@
 }
 .contacts-inner{
 	padding: 18px 15px 33px;
-	.breadcrumps-wrap{
-		padding: 0 0 37px;
-	}
-	.h1-wrap{
-		padding: 0 0 34px;
-	}
 	.contacts-info{
 		background: #fafafa;
 		border: 1px solid #eee;
@@ -318,5 +312,74 @@
 	}
 	.button_main{
 		line-height: 40px;
+	}
+}
+.breadcrumps-wrap{
+	padding: 0 0 37px;
+}
+.h1-wrap{
+	padding: 0 0 34px;
+}
+.services-top{
+	padding: 17px 0 0;
+	.h1{
+		line-height: 22px;
+	}
+	.h1-wrap{
+		padding: 0 0 23px;
+	}
+}
+.services{
+	padding: 0 0 22px;
+}
+.services-items{
+  padding: 15px 0 0;
+	.services__item{
+		padding: 25px 0 33px;
+		border-bottom: 1px dotted #7f7f7f;
+	  &:last-child{
+  		border-bottom-color: transparent;
+  	}
+	}
+	.h4-wrap{
+		padding-bottom: 21px;
+	}
+	.item__img{
+		width: 263px;
+		height: 263px;
+		overflow: hidden;
+		float: left;
+		margin-top: 5px;
+		@media screen and (max-width: 991px) {
+			float: none;
+			margin: 0 auto 10px;
+		}
+		img{
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+			display: block;
+		}
+	}
+	.item__text-wrap{
+		margin-left: 295px;
+		@media screen and (max-width: 991px) {
+			margin-left: 0;
+		}
+	}
+	.item__text{
+		color: #333;
+		font-size: 14px;
+		line-height: 24px;
+		padding-bottom: 23px;
+		&_italic{
+			font-style: italic;
+		}
+		&:last-child{
+			padding-bottom: 0;
+		}
+		@media screen and (max-width: 991px) {
+			padding-bottom: 10px;
+		}
 	}
 }
