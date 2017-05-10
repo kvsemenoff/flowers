@@ -18,6 +18,50 @@
 		</div>
 	</div>
 </div>
+
+
+
+<!-- ====================popup================== -->
+
+
+<a href="#modal__thanks" data-name="modal"></a>
+
+<div id="mask"></div>
+
+<div id="popup__log-in" class="popup__log_in js-window" >
+	<div class="dd-close"></div>	
+	<form action="#" method="post" class="js-submit">
+		<div class="popup__input_box">
+			<h4 class="popup__caption">Вход</h4>
+			<span class="inptoptext">Ваш логин (e-mail)</span>
+			<input type="text" class="input__control" name="email" required>
+
+			<span class="inptoptext">Ваш пароль</span>
+			<input type="password" class="input__control" name="password" required>
+			
+			<div class="checkboxpassword">	
+				<label class="checkbox popup__checkbox">
+					<input class="checkbox__hidden" type="checkbox" name="checkbox-test" checked="checked">
+					<span class="checkbox__custom"></span>
+					<span class="checkbox__label">Запомнить</span>
+				</label>
+				<a href="#" class="forget__password">Забыли пароль</a>
+			</div>
+			<div class="clearfix"></div>
+			<div class="register__in">
+				<a href="#" class="register__in_link">Регистрация</a>
+				<input type="submit" class="popup_submit" value="Войти">
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</form>
+</div>
+
+<div id="modal__thanks" class="modal__thanks js-window">
+	<h2>Спасибо за заявку</h2>
+	<span>Наш менеджер свяжется с вами в ближайшее время</span>
+</div>
+
  		<!-- JS_BLOCK -->
  		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
  		<script src="libs/owl.carousel/owl.carousel.js"></script>

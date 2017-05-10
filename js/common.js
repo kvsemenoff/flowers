@@ -46,18 +46,11 @@ $(document).ready(function(){
 		$(id).css('left', winW/2-$(id).width()/2);
 		$(id).fadeIn(500); 
 	});
-	$('.window .dd-close').click(function (e) {
+	$('.js-window .dd-close, #mask').click(function (e) {
 		e.preventDefault();
-		$('#mask, .window').hide();
-		$('.window').hide();
-	}); 
-
-	$('#mask, .an-exit__krest').click(function () {
-		$('#mask').hide();
-		$('.window').hide();
-	}); 
-
-	
+		$('#mask, .js-window').hide();
+		$('.js-window').hide();
+	}); 	
 
 
 
@@ -80,6 +73,8 @@ $(document).ready(function(){
 					$('.js-window').hide();
 					$("input[type=text]").val("");
 					$("input[type=tel]").val("");
+					$("input[type=email]").val("");
+					$("input[type=password]").val("");
 					$("textarea").val("");
 					$('a[href=#modal__thanks]').trigger('click');
 				// location = "thanks.php";
