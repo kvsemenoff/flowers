@@ -177,7 +177,7 @@ $(document).ready(function(){
 		closeEffect	: 'true'
 	});
 
-	$("a[rel=group]").fancybox({
+	$("a[data-fancybox-group=group]").fancybox({
 		'transitionIn' : 'none',
 		'transitionOut' : 'none',
 		'titlePosition' : 'over',
