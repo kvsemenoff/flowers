@@ -34,7 +34,7 @@
 		<div class="popup__input_box">
 			<h4 class="popup__caption">Вход</h4>
 			<span class="inptoptext">Ваш логин (e-mail)</span>
-			<input type="email" class="input__control" name="email" required>
+			<input type="text" class="input__control" name="email" required>
 
 			<span class="inptoptext">Ваш пароль</span>
 			<input type="password" class="input__control" name="password" required>
