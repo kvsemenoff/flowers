@@ -34,11 +34,11 @@
 							<div class="h4-wrap">
 								<h4 class="h4">Ваши контакты</h4>
 							</div>
-							<div class="registration registration__busket">
+							<div class="registration registration__busket registration__contact">
 								<div class="registration-form">
 									<form action="#" id="formregist">
 									  <div class="input-wrap clearfix">
-									  	<label class="input__label" for="uname">Имя Фамилия получателя <i class="green-star">*</i></label>
+									  	<label class="input__label" for="uname">Имя Фамилия <i class="green-star">*</i></label>
 									    <input id="uname" class="input__control" type="text" name="uname" required>
 									  </div>
 									  <div class="input-wrap clearfix">
@@ -58,6 +58,29 @@
 									    <textarea name="wish" class="message message_theme_rosa input__control" id="wish"></textarea>
 									  </div>
 									  <div class="input-wrap input-wrap_button">
+									  	<div class="call-time">
+									  		<span class="call-time__button">Когда мне удобно принимать звонки и sms</span>
+									  		<div class="time">
+									  			<span class="time__title">Звонки:</span>
+									  			<span class="time__button">Любые дни</span>
+									  			<span class="time__button">Будние</span>
+									  			<span class="time__button">Выходные</span>
+									  			<span class="time__rb-wrap">
+									  				<span class="time__rb">с:<input type="number" value="9">:00</span>
+									  				<span class="time__rb"><input type="number" value="21">:00</span>
+									  			</span>
+									  		</div>
+									  		<div class="time">
+									  			<span class="time__title">SMS:</span>
+									  			<span class="time__button">Любые дни</span>
+									  			<span class="time__button">Будние</span>
+									  			<span class="time__button">Выходные</span>
+									  			<span class="time__rb-wrap">
+									  				<span class="time__rb">с:<input type="number" value="9">:00</span>
+									  				<span class="time__rb"><input type="number" value="21">:00</span>
+									  			</span>
+									  		</div>
+									  	</div>
 											<span class="form__descr">Поля отмеченные <i class="green-star">* </i>обязательны для заполнения</span>
 											<button class="button button_main">Далее</button>
 									  </div>
