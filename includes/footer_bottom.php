@@ -25,7 +25,6 @@
 
 
 <a href="#modal__thanks" data-name="modal"></a>
-
 <div id="mask"></div>
 
 <div id="popup__log-in" class="popup__log_in js-window" >

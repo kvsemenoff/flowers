@@ -4,8 +4,9 @@ $(document).ready(function() {
 		evt.preventDefault();       		
 		var imgPath = $(this).attr('data-bigimg');         
 		var oldImage = $('.cart__left_block__img img');              
-		var newImage = $('<img src="' + imgPath +'">' ); 		
-		$(this).parents('.cart__left_block').find('.cart__left_block__img').html(newImage); 
+		var newImage = $('<img src="' + imgPath +'">' ); 
+		$('.cart__left_block__img a').attr('href', imgPath);		
+		$(this).parents('.cart__left_block').find('.cart__left_block__img a').html(newImage); 
 	});
 
 	
