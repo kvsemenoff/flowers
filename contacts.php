@@ -119,9 +119,9 @@
 											<span class="input-label">Цель звонка</span>
 											<div class="input input_theme_rosa">
 												<select class="form-select input__control" id="type">
-													<option value=""></option>
-													<option value="">Дом</option>
-													<option value="">Подселение</option>
+													<option label="lorem" value="1"> </option>
+													<option label="lorem" value="2">Дом</option>
+													<option label="lorem" value="3">Подселение</option>
 												</select>
 											</div>
 										</div>
