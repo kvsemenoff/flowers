@@ -293,8 +293,20 @@ i.green-star { color: #0e8a5d; font-size: 16px; }
 .registration__busket .registration-form { padding: 17px 0 37px; }
 .registration__busket .registration-form .input__label { width: 227px; }
 .registration__busket .registration-form .input__control { max-width: 326px; }
-.registration__busket .registration-form .input-wrap { margin-bottom: 26px; }
+@media screen and (min-width: 1000px) { .registration__busket .registration-form .input-wrap { margin-bottom: 26px; } }
 .registration__busket .registration-form .form-select { max-width: 230px !important; }
-.registration__busket .registration-form .input-wrap_button { padding-left: 226px; }
+@media screen and (min-width: 1000px) { .registration__busket .registration-form .input-wrap_button { padding-left: 226px; } }
 .registration__busket .registration-form .form__descr { padding: 27px 0 19px; }
 .registration__busket .registration-form .button_main { width: 169px; line-height: 38px; }
+.registration__busket .registration-form .err { letter-spacing: -0.5px; }
+
+.pay-block .pay__info { color: #333; font-size: 14px; line-height: 20px; padding: 20px; background: #f1f1f1; margin-bottom: 30px; }
+.pay-block .pay__info i { font-weight: 700; text-transform: uppercase; }
+
+.pay__order .pay__price { font-size: 14px; color: #333; display: block; padding-bottom: 28px; }
+.pay__order .pay__price i { font-weight: 700; font-size: 20px; }
+.pay__order .checkbox { float: left; padding-top: 16px; }
+.pay__order .button { float: right; border: none; line-height: 38px; }
+.pay__order .pay__variant { padding: 20px 0 15px; }
+.pay__order .pay__title { text-align: center; display: block; max-width: 210px; margin: 0 auto; }
+.pay__order .pay__img { text-align: center; }

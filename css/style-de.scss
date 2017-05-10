@@ -1145,13 +1145,17 @@ i.green-star{
 			max-width: 326px;
 		}
 		.input-wrap{
-			margin-bottom: 26px;
+			@media screen and (min-width: 1000px){
+				margin-bottom: 26px;
+			}
 		}
 		.form-select{
 			max-width: 230px!important;
 		}
 		.input-wrap_button{
-			padding-left: 226px;
+			@media screen and (min-width: 1000px){
+				padding-left: 226px;
+			}
 		}
 		.form__descr{
 			padding: 27px 0 19px;
@@ -1160,5 +1164,56 @@ i.green-star{
 			width: 169px;
 			line-height: 38px;
 		}
+		.err{
+			letter-spacing: -0.5px;
+		}
 	}
+}
+.pay-block{
+	.pay__info{
+		color: #333;
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px;
+		background: #f1f1f1;
+		margin-bottom: 30px;
+		i{
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+	}
+}
+.pay__order{
+	.pay__price{
+		font-size: 14px;
+		color: #333;
+		display: block;
+		padding-bottom: 28px;
+		i{
+			font-weight: 700;
+			font-size: 20px;
+		}
+	}
+	.checkbox{
+		float: left;
+		padding-top: 16px;
+	}
+	.button{
+		float: right;
+		border: none;
+		line-height: 38px;
+	}
+	.pay__title{
+		text-align: center;
+		display: block;
+		max-width: 210px;
+		margin: 0 auto;
+	}
+	.pay__img{
+		text-align: center;
+	}
+}
+.pay__variant{
+	padding: 20px 0 15px;
+	float: left;
 }
