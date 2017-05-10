@@ -35,13 +35,20 @@
   font-weight: 400;
   color: #67676a;
   display: inline-block;
-  vertical-align: 20%;
   letter-spacing: 0.22px;
-  margin-left: 9px; }
+  margin-left: 9px;
+  width: 214px;
+  vertical-align: top; }
   .checkbox__label a, .radio__label a {
     color: #148d61;
     text-decoration: underline;
     display: inline-block; }
+  @media only screen and (min-width: 380px) {
+    .checkbox__label, .radio__label {
+      width: 250px; } }
+  @media only screen and (min-width: 550px) {
+    .checkbox__label, .radio__label {
+      width: auto; } }
 
 .radio__custom {
   position: relative;
