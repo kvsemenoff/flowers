@@ -422,10 +422,14 @@
 .cart__radio_checked {
   background-color: #d6d3be; }
 
-.cart__custom {
+.cart__optiopn .cart__custom {
   border-color: #988e5b; }
-  .cart__custom:before {
-    background: url("../img/radio2.png") no-repeat !important; }
+  .cart__optiopn .cart__custom:before {
+    background: none !important;
+    background-color: #988e5b !important;
+    border-radius: 49%;
+    top: 1.5px;
+    left: 2px; }
 
 .cart__label {
   color: black;
