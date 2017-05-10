@@ -33,6 +33,43 @@
 								<a href="#">Восстановление пароля</a>
 							</div>
 						</div>
+						<div class="registration-form">
+							<form action="#" id="formregist">
+							  <div class="input-wrap clearfix">
+							  	<label class="input__label" for="uname">Имя</label>
+							    <input id="uname" class="input__control" type="text" name="uname" required>
+							  </div>
+							  <div class="input-wrap clearfix">
+							  	<label class="input__label" for="second-name">Фамилия</label>
+							    <input class="input__control" type="text" name="second-name" id="second-name">
+							  </div>
+							  <div class="input-wrap clearfix">
+							  	<label class="input__label" for="patronymic">Отчество</label>
+							    <input class="input__control" type="text" name="patronymic" id="patronymic">
+							  </div>
+							  <div class="input-wrap clearfix">
+							  	<label class="input__label" for="mail">E-mail</label>
+							    <input class="input__control" type="email" name="mail" id="mail" required>
+							  </div>
+							  <div class="input-wrap clearfix">
+							  	<label class="input__label" for="password">Пароль</label>
+							    <input class="input__control" type="password" name="password" id="password" required>
+							  </div>
+							  <div class="input-wrap clearfix">
+							  	<label class="input__label" for="r_password">Повторите пароль</label>
+							    <input class="input__control" type="password" name="r_password" id="r_password" required>
+							  </div>
+							  <div class="input-wrap input-wrap_button">
+							    <label class="checkbox">
+										<input class="checkbox__hidden" type="checkbox" name="checkbox-test" checked="checked">
+										<span class="checkbox__custom"></span>
+										<span class="checkbox__label"> Я согласен на использование моих данных и с <a href="#">политикой конфиденциальности</a></span>
+									</label>
+									<span class="form__descr"><i>* </i>Поля обязательные для заполнения</span>
+									<button class="button button_main">Зарегистрироваться</button>
+							  </div>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>

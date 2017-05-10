@@ -41,6 +41,7 @@
 	<link rel="stylesheet" href="block/ol/style.css">
 	<link rel="stylesheet" href="block/select/jquery.formstyler.css">
 	<link rel="stylesheet" href="block/select/style.css">
+	<link rel="stylesheet" href="block/label+control/style.css">
 	<link rel="stylesheet" href="block/table/style.css">
 	
 

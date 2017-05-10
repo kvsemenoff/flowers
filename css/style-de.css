@@ -184,3 +184,12 @@
 .registration .login__link { font-size: 14px; text-align: left; padding-bottom: 7px; }
 .registration .login__link span { display: inline-block; color: #333; padding-right: 7px; }
 .registration .login__link a { color: #0e8a5d; display: inline-block; text-decoration: underline; }
+
+.registration-form { padding: 31px 0 37px; }
+.registration-form .input-wrap { margin-bottom: 16px; }
+@media screen and (min-width: 1000px) { .registration-form .input-wrap_button { padding-left: 195px; } }
+.registration-form .checkbox { margin-top: 21px; margin-bottom: 30px; }
+@media screen and (max-width: 999px) { .registration-form .checkbox { margin-top: 30px; } }
+.registration-form .form__descr { display: block; padding-bottom: 19px; color: #333; font-size: 14px; }
+.registration-form .form__descr i { color: #0e8a5d; font-size: 16px; }
+.registration-form .button_main { width: 190px; font-size: 14px; border: none; }

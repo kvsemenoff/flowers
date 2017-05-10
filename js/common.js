@@ -304,4 +304,10 @@ $(function() {
 	});
 
 
+	(function($) {
+  $(function() {
+   $('select').styler();
+  });
+ })(jQuery);
+
 });

@@ -720,3 +720,36 @@
 		}
 	}
 }
+.registration-form{
+	padding: 31px 0 37px;
+	.input-wrap{
+		margin-bottom: 16px;
+	}
+	.input-wrap_button{
+		@media screen and (min-width: 1000px){
+			padding-left: 195px;
+		}
+	}
+	.checkbox{
+    margin-top: 21px;
+    margin-bottom: 30px;
+    @media screen and (max-width: 999px){
+			margin-top: 30px;
+		}
+	}
+	.form__descr{
+		display: block;
+		padding-bottom: 19px;
+		color: #333;
+		font-size: 14px;
+		i{
+			color: #0e8a5d;
+			font-size: 16px;
+		}
+	}
+	.button_main{
+		width: 190px;
+		font-size: 14px;
+		border: none;
+	}
+}

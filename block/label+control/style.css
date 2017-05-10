@@ -1,0 +1,11 @@
+.registration-form .input-wrap { margin-bottom: 20px; position: relative; }
+.registration-form .input__label { padding-top: 11px; cursor: pointer; font-size: 14px; color: #333; display: block; width: 195px; }
+@media screen and (min-width: 1000px) { .registration-form .input__label { float: left; } }
+.registration-form .input__control { max-width: 292px; }
+@media screen and (min-width: 1000px) { .registration-form .input__control { float: left; } }
+.registration-form .error { border-color: #cb5867; }
+.registration-form .input__control:focus, .registration-form .input__control:active { border: 1px solid #a8d5c1; -webkit-box-shadow: 0px 0px 3px 0px rgba(85, 176, 135, 0.45); -moz-box-shadow: 0px 0px 3px 0px rgba(85, 176, 135, 0.45); box-shadow: 0px 0px 3px 0px rgba(85, 176, 135, 0.45); }
+.registration-form .err { color: #bb1833; display: block; font-style: normal; font-size: 11px; background: #fde4e8; }
+@media screen and (min-width: 1000px) { .registration-form .err { font-size: 13px; padding: 13px 17px 13px; margin-left: 30px; float: left; } }
+@media screen and (max-width: 999px) { .registration-form .err { position: absolute; } }
+.registration-form .err_grey { background: #fafafa; color: #666; }
