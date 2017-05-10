@@ -18,13 +18,13 @@
 									</ul>
 								</div>
 								<div class="h1-wrap">
-									<h1 class="h1">Оформление заказа</h1>
+									<h1 class="h1">Оформить заказ</h1>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="busket">
-						<div class="busket__nav-wrap clearfix">
+						<div class="busket__nav-wrap busket__nav-wrap_inner clearfix">
 							<span class="busket__nav">Корзина</span>
 							<span class="busket__nav busket__nav_active">Доставка</span>
 							<span class="busket__nav">Ваши контакты</span>
