@@ -742,16 +742,16 @@
 		padding-bottom: 19px;
 		color: #333;
 		font-size: 14px;
-		i{
-			color: #0e8a5d;
-			font-size: 16px;
-		}
 	}
 	.button_main{
 		width: 190px;
 		font-size: 14px;
 		border: none;
 	}
+}
+i.green-star{
+	color: #0e8a5d;
+	font-size: 16px;
 }
 .busket{
 	&__nav-wrap{
@@ -1124,5 +1124,12 @@
 		@media screen and (max-width: 400px){
 			display: block;
 		}
+	}
+}
+.registration__busket{
+	.message{
+		height: 85px;
+		line-height: 1.3;
+		padding: 15px 18px;
 	}
 }
