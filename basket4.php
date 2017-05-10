@@ -36,24 +36,24 @@
 							</div>
 							<div class="pay-block">
 								<div class="pay__variant-wrap clearfix">
-									<div class="pay__variant">
+									<a href="#" class="pay__variant">
 										<div class="pay__img">
 											<img src="img/pay-1.jpg" alt="">
 										</div>
 										<span class="pay__title pay__title_bold">Robokassa</span>
-									</div>
-									<div class="pay__variant">
+									</a>
+									<a href="#"class="pay__variant">
 										<div class="pay__img">
 											<img src="img/pay-2.jpg" alt="">
 										</div>
 										<span class="pay__title">Налчными или картой в салоне</span>
-									</div>
-									<div class="pay__variant">
+									</a>
+									<a href="#" class="pay__variant">
 										<div class="pay__img">
 											<img src="img/pay-3.jpg" alt="">
 										</div>
 										<span class="pay__title">Налчными курьеру</span>
-									</div>
+									</a>
 								</div>
 								<p class="pay__info"><i>ROBOKASSA</i> - это универсальное решение проблемы приема платежей от Ваших клиентов. Начав свою работу в 2003 году,ROBOKASSA зарекомендовала себя как высоконадежный сервис по приему платежей. Нашими клиентами являются более 50 000компаний, среди которых крупные российские компании, компании малого и среднего бизнеса, государственные организации, а также иностранные компании. </p>
 							  <div class="pay__order">

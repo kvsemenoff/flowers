@@ -1170,13 +1170,15 @@ i.green-star{
 	}
 }
 .pay-block{
+	padding-top: 5px;
 	.pay__info{
 		color: #333;
 		font-size: 14px;
 		line-height: 20px;
-		padding: 20px;
+		padding: 19px 19px 29px;
 		background: #f1f1f1;
-		margin-bottom: 30px;
+		margin-bottom: 26px;
+		max-width: 850px;
 		i{
 			font-weight: 700;
 			text-transform: uppercase;
@@ -1184,11 +1186,12 @@ i.green-star{
 	}
 }
 .pay__order{
+	max-width: 850px;
 	.pay__price{
 		font-size: 14px;
 		color: #333;
 		display: block;
-		padding-bottom: 28px;
+		padding-bottom: 14px;
 		i{
 			font-weight: 700;
 			font-size: 20px;
@@ -1199,9 +1202,11 @@ i.green-star{
 		padding-top: 16px;
 	}
 	.button{
-		float: right;
 		border: none;
 		line-height: 38px;
+		@media screen and (min-width: 500px){
+			float: right;
+		}
 	}
 	.pay__title{
 		text-align: center;
@@ -1214,6 +1219,39 @@ i.green-star{
 	}
 }
 .pay__variant{
-	padding: 20px 0 15px;
+	display: block;
 	float: left;
+	border: 1px solid #eeeeef;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	width: 263px;
+	text-align: center;
+	height: 155px;
+	padding: 12px 30px 0;
+	@media screen and (max-width: 991px){
+		width: 230px;
+		margin-right: 15px;
+	}
+	@media screen and (max-width: 519px){
+		width: 230px;
+		float: none;
+		margin: 0 auto 10px;
+	}
+	&:last-child{
+		@media screen and (min-width: 520px){
+			margin-right: 0;
+		}
+	}
+	.pay__title{
+		font-size: 14px;
+		color: #333;
+		text-decoration: underline;
+		text-decoration-style: dashed;
+		line-height: 20px;
+		&_bold{
+			font-weight: 700;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+	}
 }
