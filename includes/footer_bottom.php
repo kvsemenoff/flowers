@@ -19,12 +19,16 @@
 	</div>
 </div>
 
-<a href="#popup__log-in" data-name="modal">aaaaaaaaaaaaaaaaa</a>
+
+
+<!-- ====================popup================== -->
+
+
 <a href="#modal__thanks" data-name="modal"></a>
 
 <div id="mask"></div>
 
-<div class="popup__log_in js-window" id="popup__log-in">
+<div id="popup__log-in" class="popup__log_in js-window" >
 	<div class="dd-close"></div>	
 	<form action="#" method="post" class="js-submit">
 		<div class="popup__input_box">
