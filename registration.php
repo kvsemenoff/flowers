@@ -27,7 +27,7 @@
 						<div class="registration__login">
 							<div class="login__link">
 								<span>Вы уже зарегистрировались?</span>
-								<a href="#">Войти</a>
+								<a href="#popup__log-in" data-name="modal">Войти</a>
 							</div>
 							<div class="login__link">
 								<a href="#">Восстановление пароля</a>

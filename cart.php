@@ -25,7 +25,7 @@
 
 						<div class="cart__left_block">
 							<div class="cart__left_block__img">
-								<img src="img/sliderbig1.jpg" alt="">
+								<a href="img/sliderbig1.jpg" data-fancybox-group="group"><img src="img/sliderbig1.jpg" alt=""></a>
 							</div>
 							<div class="js-owl-slidercart cart__sliderbox">
 								<div class="item">

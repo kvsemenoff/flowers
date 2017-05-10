@@ -39,13 +39,21 @@
 	font-weight: 400;
 	color: #67676a;
 	display: inline-block;
-	vertical-align: 20%;
+	// vertical-align: 20%;
 	letter-spacing: 0.22px;
 	margin-left: 9px;	
+	width: 214px;
+    vertical-align: top;
 	a{
 		color: #148d61;
 		text-decoration: underline;
 		display: inline-block;
+	}
+	@media only screen and (min-width : 380px) {
+ 		width: 250px;	
+	}
+	@media only screen and (min-width : 550px) {
+ 		width:auto; 		
 	}
 }
 
