@@ -9,32 +9,65 @@ $(document).ready(function() {
 		$(this).parents('.cart__left_block').find('.cart__left_block__img a').html(newImage); 
 	});
 
+	$('.cart__char__right__colors a').hover(function() {
+		var thiscolor = $(this).attr('data-color');
+		$('.cart__colortxt span').show().text(thiscolor);		
+	}, function() {
+		$('.cart__colortxt span').hide();	
+	});
 	
 	var owlcart = $(".js-owl-slidercart");
-		owlcart.owlCarousel({
-			loop:true,
-			nav:true, 
-			autoplay:false,
-			smartSpeed:1000,
-			margin:10,
-			mouseDrag:false,
-			touchDrag: false,
-			center:false,    
-			navText:['<span class="cart-left"></span>','<span class="cart-right"></span>'],
-			responsive:{
-				0:{
-					items:1
-				},
-				320:{
-					items:2   
-				},        
-				500:{
-					items:3
-				},
-				1200:{
-					items:4
-				}
+	owlcart.owlCarousel({
+		loop:true,
+		nav:true, 
+		autoplay:false,
+		smartSpeed:1000,
+		margin:10,
+		mouseDrag:false,
+		touchDrag: false,
+		center:false, 			
+		navText:['<span class="cart-left"></span>','<span class="cart-right"></span>'],
+		responsive:{
+			0:{
+				items:0
+			},
+			320:{
+				items:0  
+			},        
+			750:{
+				items:4
+			},
+			1200:{
+				items:4
 			}
+		}
+	});
+
+	var owlcartmob = $(".owl-slider-mob");
+	owlcartmob.owlCarousel({
+		loop:true,
+		nav:true, 
+		autoplay:false,
+		smartSpeed:1000,
+		margin:0,
+		mouseDrag:false,
+		touchDrag: false,
+		center:false, 			
+		navText:['<span class="cart-left"></span>','<span class="cart-right"></span>'],
+		responsive:{
+			0:{
+				items:1
+			},
+			320:{
+				items:1  
+			},
+			990:{
+				items:1  
+			},
+			1024:{
+				items:1  
+			}				
+		}
 	});
 
 
