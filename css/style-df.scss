@@ -491,12 +491,7 @@
 	.cart__custom{
 		border-color: #988e5b;
 		&:before{
-			// background: url("../img/radio2.png") no-repeat !important;
-			background: none !important;			
-			background-color: #988e5b !important;
-			border-radius: 49%;
-			top: 1.5px;
-			left: 2px;
+			background: url("../img/radio2.png") no-repeat !important;				
 		}
 	}
 }
