@@ -545,6 +545,8 @@
     border-bottom: 1px dotted #7d7c7c;
     padding-bottom: 17px;
     margin: 0 1px; }
+    .cart-tovars .h4-wrap h4 {
+      font-size: 24px; }
   .cart-tovars .tovars-block {
     padding: 20px 0 0; }
   .cart-tovars .tovar_block__item {
