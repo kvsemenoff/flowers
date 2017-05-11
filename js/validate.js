@@ -28,7 +28,12 @@ $(document).ready(function(){
                 minlength: 6, // Минимальное число символов - 6
                 maxlength:20,// Максимальное число символов -20
             },
-            r_password:{
+            password:{
+                required: true, // поле обязательное для заполнения
+                minlength: 6, // Минимальное число символов - 6
+                maxlength:20,// Максимальное число символов -20
+            },
+            old_password:{
                 required: true, // поле обязательное для заполнения
                 equalTo: "#password",
             },
@@ -64,6 +69,11 @@ $(document).ready(function(){
             r_password:{
                 required: "<i class='err'>! Повторите пароль</i>",
                 equalTo: "<i class='err err_grey'>Пароль не совпадает!</i>",
+            },
+           old_password:{
+                required: "<i class='err'>! Проверьте правильность заполнения поля Пароль</i>", 
+                minlength: "<i class='err err_grey'>Пароль должен быть не менее 6 символов!</i>",
+                maxlength: "<i class='err err_grey'>Пароль должен быть не более 20 символов!</i>",
             },
  
        }

@@ -216,7 +216,7 @@
 									</div>
 								</div>
 								<div class="tabs-content">
-									<div class="tab-content tab-1">
+									<div class="tab-content tab-1 active">
 										<div class="tab-content__inner clearfix">
 											<div class="tab-content__title">
 												<span class="review__name">Татьяна Иванова</span>

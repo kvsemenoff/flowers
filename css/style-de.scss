@@ -1354,3 +1354,193 @@ i.green-star{
 		}
 	}
 }
+.tab-content{
+	display: none;
+}
+.tab-content.active{
+	display: block;
+}
+.client-info{
+	background: #f9f8f6;
+	padding: 21px 115px 20px 21px;
+	position: relative;
+	margin-bottom: 23px;
+	max-width: 945px;
+	text-align: left;
+	@media screen and (max-width: 500px){
+		padding: 20px;
+	}
+	.client__name{
+		font-size: 22px;
+		color: #333;
+		padding-bottom: 20px;
+	}
+	.client__number{
+		font-size: 20px;
+		color: #666;
+	}
+	.client__mail{
+		color: #666;
+		font-size: 14px;
+	}
+	.client__exit{
+		font-size: 14px;
+		color: #a39762;
+		display: block;
+		position: absolute;
+		padding-bottom: 1px;
+		border-bottom: 1px solid #a39762;
+		right: 63px;
+    bottom: 21px;
+		letter-spacing: -0.5px;
+		&:hover{
+			border-bottom-color: transparent;
+		}
+		@media screen and (max-width: 700px){
+			right: 25px;
+		}
+	}
+	.client__photo{
+		width: 75px;
+		height: 88px;
+		overflow: hidden;
+		float: left;
+		background: url(../img/avatar-big.png) center no-repeat;
+		@media screen and (max-width: 500px){
+			float: none;
+			margin: 0 auto 15px;
+		}
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+		}
+	}
+	.client__cart{
+		margin-left: 120px;
+		@media screen and (max-width: 500px){
+			margin-left: 0;
+		}
+	}
+}
+.registration-form_client{
+	.input-wrap{
+		float: none;
+		width: 100%;
+	}
+}
+.client__order{
+	border: 1px solid #e7e5d9;
+	border-bottom: none;
+	background: #fafaf7;
+	&:last-child{
+		border-bottom: 1px solid #e7e5d9;
+	}
+	.order__about{
+		width: 390px;
+		float: left;
+		padding: 26px 30px 30px 30px;
+		text-align: left;
+		@media screen and (max-width: 1200px){
+			width: 383px;
+		}
+		@media screen and (max-width: 1000px){
+			width: 280px;
+		}
+		@media screen and (max-width: 749px){
+			padding: 15px;
+		}
+		@media screen and (max-width: 500px){
+			padding: 10px;
+		}
+	}
+	.order__number{
+		font-size: 22px;
+		color: #333;
+		display: block;
+		padding-bottom: 70px;
+		@media screen and (max-width: 749px){
+			padding-bottom: 20px;
+		}
+		@media screen and (max-width: 500px){
+			padding-bottom: 10px;
+		}
+	}
+	.order__date{
+		display: block;
+		color: #999;
+		font-size: 14px;
+	}
+	.order__info{
+		border-left: 1px solid #e7e5d9;
+		width: 558px;
+		background: #fff;
+		float: left;
+		padding: 28px 24px 26px 43px;
+		text-align: left;
+		@media screen and (max-width: 1200px){
+			width: 555px;
+		}
+		@media screen and (max-width: 1000px){
+			width: 438px;
+		}
+		@media screen and (max-width: 749px){
+			width: 100%;
+			border-left: none;
+			border-top: 1px solid #e7e5d9;
+			padding: 15px;
+		}
+		@media screen and (max-width: 500px){
+			padding: 10px;
+		}
+	}
+	.order__kind{
+		display: block;
+		float: left;
+		width: 50%;
+		color: #999;
+		font-size: 14px;
+		font-weight: 600;
+		padding-bottom: 10px;
+		@media screen and (max-width: 500px){
+			font-size: 13px;
+			letter-spacing: -0.5px;
+			width: 100%;
+			padding-bottom: 0px;
+		}
+	}
+	.order__name{
+		display: block;
+		float: left;
+		width: 50%;
+		color: #333;
+		font-size: 14px;
+		font-weight: 600;
+		padding-bottom: 10px;
+		@media screen and (max-width: 500px){
+			font-size: 12px;
+			letter-spacing: -0.5px;
+			width: 100%;
+		}
+	}
+}
+.h1-wrap_client{
+	padding-bottom: 12px;
+	.h1{
+		padding-bottom: 25px;
+	}
+}
+@media screen and (max-width: 500px){
+	.registration-form {
+		padding: 0;
+		.input-wrap{
+			margin-bottom: 0;
+		}
+	}
+}
+@media screen and (max-width: 360px){
+.review-block .tabs .tab{
+		display: block;
+	}
+}
