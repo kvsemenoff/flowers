@@ -496,6 +496,7 @@
 		}
 		.active{
 			background: #58b38a;
+			color: #fff;
 		}
 	}
 	.tab-content{
@@ -564,7 +565,10 @@
 		}
 		&_like{
 			.fa{
-				color: #333;
+				color: #999;
+				&:hover{
+					color: #333;
+				}
 			}
 			.like-quant{
 				color: #0b845b;
@@ -574,6 +578,9 @@
 		&_dislike{
 			.fa{
 				color: #999;
+				&:hover{
+					color: #333;
+				}
 			}
 			.dislike-quant{
 				font-size: 15px;
@@ -669,6 +676,9 @@
 		border-bottom: 1px dotted #7d7c7c;
 		padding-bottom: 17px;
 		margin: 0 1px;
+		h4{
+			font-size: 24px;
+		}
 	}
 	.tovars-block{
 		padding: 20px 0 0;

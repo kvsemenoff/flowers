@@ -24,31 +24,65 @@
 						
 
 						<div class="cart__left_block">
-							<div class="cart__left_block__img">
-								<a href="img/sliderbig1.jpg" data-fancybox-group="group"><img src="img/sliderbig1.jpg" alt=""></a>
+							<div class="hiddenslider">
+								<div class="cart__left_block__img">
+									<a href="img/sliderbig1.jpg" data-fancybox-group="group"><img src="img/sliderbig1.jpg" alt=""></a>
+								</div>
+								<div class="js-owl-slidercart cart__sliderbox">
+									<div class="item">
+										<div class="cart__slider_img">
+											<img src="img/slidercart1.jpg" data-bigimg="img/slidercart1.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="cart__slider_img">
+											<img src="img/slidercart1.jpg" data-bigimg="img/sliderbig1.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="cart__slider_img">
+											<img src="img/slidercart1.jpg" data-bigimg="img/sliderbig1.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="cart__slider_img">
+											<img src="img/slidercart1.jpg" data-bigimg="img/sliderbig1.jpg" alt="">
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="js-owl-slidercart cart__sliderbox">
-								<div class="item">
-									<div class="cart__slider_img">
-										<img src="img/slidercart1.jpg" data-bigimg="img/slidercart1.jpg" alt="">
+							
+							<div class="slidermobile">
+								<div class="owl-slider-mob">
+									<div class="item">
+										<div class="cart__left_block__img">
+											<a href="img/sliderbig1.jpg" data-fancybox-group="group"><img src="img/sliderbig1.jpg" alt=""></a>
+										</div>
 									</div>
-								</div>
-								<div class="item">
-									<div class="cart__slider_img">
-										<img src="img/slidercart1.jpg" data-bigimg="img/sliderbig1.jpg" alt="">
+									<div class="item">
+										<div class="cart__left_block__img">
+											<a href="img/sliderbig1.jpg" data-fancybox-group="group"><img src="img/sliderbig1.jpg" alt=""></a>
+										</div>
 									</div>
-								</div>
-								<div class="item">
-									<div class="cart__slider_img">
-										<img src="img/slidercart1.jpg" data-bigimg="img/sliderbig1.jpg" alt="">
-									</div>
-								</div>
-								<div class="item">
-									<div class="cart__slider_img">
-										<img src="img/slidercart1.jpg" data-bigimg="img/sliderbig1.jpg" alt="">
+									<div class="item">
+										<div class="cart__left_block__img">
+											<a href="img/sliderbig1.jpg" data-fancybox-group="group"><img src="img/sliderbig1.jpg" alt=""></a>
+										</div>
 									</div>
 								</div>
 							</div>
+
+
+							<div class="share_block">
+								<span class="share">Поделиться</span>
+								<div class="share__socials">
+									<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+									<script src="//yastatic.net/share2/share.js"></script>
+									<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,viber,whatsapp,telegram"></div>
+								</div>
+							</div>
+
+
 						</div>
 
 						<div class="cart__right_block">							
@@ -86,12 +120,12 @@
 										<span class="cart-button cart-button3">+</span>
 									</div>
 									<div class="cart__char__right__colors">
-										<a href="#"><i></i></a>
-										<a href="#"><i></i></a>
-										<a href="#"><i></i></a>
-										<a href="#"><i></i></a>
-										<a href="#"><i></i></a>
-										<a href="#"><i></i></a>
+										<a href="#" data-color="белый"><i></i></a>
+										<a href="#" data-color="желтый"><i></i></a>
+										<a href="#" data-color="оранжевый"><i></i></a>
+										<a href="#" data-color="красный"><i></i></a>
+										<a href="#" data-color="синий"><i></i></a>
+										<a href="#" data-color="смесь"><i></i></a>
 									</div>
 									<div class="cart__colortxt"><span>желтый</span></div>
 								</div>
@@ -128,14 +162,7 @@
 							</div>
 						</div>
 
-						<div class="share_block">
-							<span class="share">Поделиться</span>
-							<div class="share__socials">
-								<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-								<script src="//yastatic.net/share2/share.js"></script>
-								<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,viber,whatsapp,telegram"></div>
-							</div>
-						</div>
+
 
 						
 						<div class="cart__information">
@@ -146,9 +173,7 @@
 								<div class="cart__boxadd__text">
 									<span class="cart__boxadd__hover">100% свежести</span>
 									<div class="cart__boxadd__show">
-										Доставка по Москве в пределах МКАД с 9:00 до 21:00—400 руб.
-										Доствка по Московкой области 
-										с 9:00 до 21:00—1000 руб. 
+										Всегда в наличии и под заказ свежие букеты и цветы
 									</div>
 								</div>
 							</div>
@@ -172,9 +197,7 @@
 								<div class="cart__boxadd__text">
 									<span class="cart__boxadd__hover">Безопасная оплата</span>
 									<div class="cart__boxadd__show">
-										Доставка по Москве в пределах МКАД с 9:00 до 21:00—400 руб.
-										Доствка по Московкой области 
-										с 9:00 до 21:00—1000 руб. 
+										Оплата с помощью системы ROBOKASSA
 									</div>
 								</div>
 							</div>
@@ -183,77 +206,78 @@
 						<!-- part -2 -->
 						<div class="review-block">
 							<div class="tabs-block">
-					      <div class="tabs">
-					        <div class="tab tab-0">Описание</div>
-					        <div class="tab tab-1 active">Отзывы</div>
-					      </div>
-					      <div class="tabs-content">
-					        <div class="tab-content tab-0">
-					          <div class="tab-content__inner">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Злых толку ручеек запятой продолжил великий приставка, прямо свою дорогу переулка ему продолжил щеке, маленький, языком ее своего буквенных речью?</div>
-					        </div>
-					      </div>
-					      <div class="tabs-content">
-					        <div class="tab-content tab-1">
-						        <div class="tab-content__inner clearfix">
-						          <div class="tab-content__title">
-						          	<span class="review__name">Татьяна Иванова</span>
-						          	<span class="review__date">21.02.2017</span>
-						          </div>
-						          <div class="tab-content__text">
-						          	<p>Рыбные тексты также применяются для демонстрации различных видов шрифта и в разработке макетов. Как правило их содержание бессмысленно. По причине своей функции текста-заполнителя для макетов нечитабельность рыбных текстов имеет особое значение, так как человеческое восприятие имеет особенность, распознавать определенные образцы и повторения.</p>
-						          	<div class="review__raitings">
-						          		<div class="review__raiting review__raiting_like">
-						          			<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-						          			<i class="like-quant">0</i>
-					          			</div>
-						          		<div class="review__raiting review__raiting_dislike">
-						          			<i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
-						          			<i class="dislike-quant">0</i>
-						          		</div>
-						          	</div>
-						          </div>
-						        </div>
-					        </div>
-					      </div>
-					    </div>
-					    <div class="button-wrap">
+								<div class="tabs">
+									<div class="tab tab-0">Описание</div>
+									<div class="tab tab-1 active">Отзывы</div>
+								</div>
+								<div class="tabs-content">
+									<div class="tab-content tab-0">
+										<div class="tab-content__inner">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Злых толку ручеек запятой продолжил великий приставка, прямо свою дорогу переулка ему продолжил щеке, маленький, языком ее своего буквенных речью?</div>
+									</div>
+								</div>
+								<div class="tabs-content">
+									<div class="tab-content tab-1">
+										<div class="tab-content__inner clearfix">
+											<div class="tab-content__title">
+												<span class="review__name">Татьяна Иванова</span>
+												<span class="review__date">21.02.2017</span>
+											</div>
+											<div class="tab-content__text">
+												<p>Рыбные тексты также применяются для демонстрации различных видов шрифта и в разработке макетов. Как правило их содержание бессмысленно. По причине своей функции текста-заполнителя для макетов нечитабельность рыбных текстов имеет особое значение, так как человеческое восприятие имеет особенность, распознавать определенные образцы и повторения.</p>
+												<div class="review__raitings">
+													<div class="review__raiting review__raiting_like">
+														<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+														<i class="like-quant">0</i>
+													</div>
+													<div class="review__raiting review__raiting_dislike">
+														<i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+														<i class="dislike-quant">0</i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="button-wrap">
 								<a href="#" class="button button_main button_review">Оставьте отзыв о товаре</a>
-					    	<a href="#" class="all-review"><span>Все отзывы (4)</span><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-					    </div>
-					    <div class="take-review">
-					    	<span class="take-review__title">Оставить отзыв</span>
-					    	<form action="#">
-					    		<div class="form-inner clearfix">
-					    			<div class="input-wrap">
-						    			<span class="input-label">Ваше имя</span>
+								<a href="#" class="all-review"><span>Все отзывы (4)</span><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+							</div>
+							<div class="take-review">
+								<span class="take-review__title">Оставить отзыв</span>
+								<form action="#" class="js-submit" method="post">
+									<div class="form-inner clearfix">
+										<div class="input-wrap">
+											<span class="input-label">Ваше имя</span>
 											<div class="input input_theme_rosa">
 												<input type="text" class="input__control" name="uname" required>
 											</div> 
-						    		</div>
-						    		<div class="input-wrap input-wrap_right">
-						    			<span class="input-label">Ваш e-mail</span>
+										</div>
+										<div class="input-wrap input-wrap_right">
+											<span class="input-label">Ваш e-mail</span>
 											<div class="input input_theme_rosa">
 												<input type="email" class="input__control" name="email" required>
 											</div>
-						    		</div>
-						    		<div class="input-wrap big-wrap">
-						    			<textarea name="message" class="message message_theme_rosa"></textarea>
-						    		</div>
-						    		<div class="input-wrap big-wrap clearfix">
-						    			<div class="checkbox-wrap">
-						    				<label class="checkbox">
+										</div>
+										<div class="input-wrap big-wrap">
+											<textarea name="message" class="message message_theme_rosa"></textarea>
+										</div>
+										<div class="input-wrap big-wrap clearfix">
+											<div class="checkbox-wrap">
+												<label class="checkbox">
 													<input class="checkbox__hidden" type="checkbox" name="checkbox-test" checked="checked">
 													<span class="checkbox__custom"></span>
 													<span class="checkbox__label"> Я согласен на обработку моих <a href="#">персональных данных</a></span>
 												</label>
-						    			</div>
-											<div class="button-right">
-												<a href="#" class="button button_main button_mini">Далее</a>
 											</div>
-						    		</div>
-					    		</div>
-					    	</form>
-					    </div>
+											<div class="button-right">
+												<!-- <a href="#" class="button button_main button_mini">Далее</a> -->
+												<input type="submit" value="Отправить" class="button button_main button_mini">
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
