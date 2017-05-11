@@ -459,14 +459,14 @@
       display: inline-block;
       cursor: pointer; }
     .review-block .review__raiting_like .fa {
-      color: #666666; }
+      color: #999; }
       .review-block .review__raiting_like .fa:hover {
         color: #333; }
     .review-block .review__raiting_like .like-quant {
       color: #0b845b;
       font-size: 15px; }
     .review-block .review__raiting_dislike .fa {
-      color: #666666; }
+      color: #999; }
       .review-block .review__raiting_dislike .fa:hover {
         color: #333; }
     .review-block .review__raiting_dislike .dislike-quant {
