@@ -212,7 +212,12 @@
 								</div>
 								<div class="tabs-content">
 									<div class="tab-content tab-0">
-										<div class="tab-content__inner">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Злых толку ручеек запятой продолжил великий приставка, прямо свою дорогу переулка ему продолжил щеке, маленький, языком ее своего буквенных речью?</div>
+										<div class="tab-text">
+											<p>Монобукет из хризантем смело можно назвать самым универсальным подарком. Достаточно строгий с первого взгляда, он станет достойным презентом для мужчины. Но скромность хризантем обманчива, не зря они являются символом солнца, дающего жизнь и свет. Дам порадует классический образ букета, красота цветов и ненавязчивый аромат.</p>
+										</div>
+										<div class="button-wrap">
+											<a href="#take-review" class="take-review-fancybox button button_main button_review">Оставьте отзыв о товаре</a>
+										</div>
 									</div>
 								</div>
 								<div class="tabs-content">
@@ -236,14 +241,15 @@
 												</div>
 											</div>
 										</div>
+										<div class="button-wrap">
+											<a href="#take-review" class="take-review-fancybox button button_main button_review">Оставьте отзыв о товаре</a>
+											<a href="#" class="all-review"><span>Все отзывы (4)<span><i class="fa fa-chevron-down" aria-hidden="true"></i>
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="button-wrap">
-								<a href="#" class="button button_main button_review">Оставьте отзыв о товаре</a>
-								<a href="#" class="all-review"><span>Все отзывы (4)</span><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-							</div>
-							<div class="take-review">
+							<div class="take-review take-review-popup" id="take-review">
 								<span class="take-review__title">Оставить отзыв</span>
 								<form action="#" class="js-submit" method="post">
 									<div class="form-inner clearfix">
@@ -287,10 +293,12 @@
 					<div class="h4-wrap">
 						<h4 class="h4">Закажите с товаром</h4>
 					</div>
-					<div class="tovars-block">
+					<div class="tovars-block tovar__slider">
 						<div class="tovar_block__item">
 							<div class="tovar_block__img">
-								<img src="img/flower2.jpg" alt="">					
+								<img src="img/flower1.jpg" alt="">
+								<span class="tovar_block__sale">СКИДКА</span>
+								<span class="tovar_block__hit">ХИТ</span>					
 							</div>
 							<div class="tovar_block__text">
 								<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
@@ -302,7 +310,9 @@
 						</div>
 						<div class="tovar_block__item">
 							<div class="tovar_block__img">
-								<img src="img/flower3.jpg" alt="">					
+								<img src="img/flower1.jpg" alt="">
+								<span class="tovar_block__sale">СКИДКА</span>
+								<span class="tovar_block__hit">ХИТ</span>					
 							</div>
 							<div class="tovar_block__text">
 								<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
@@ -314,7 +324,9 @@
 						</div>
 						<div class="tovar_block__item">
 							<div class="tovar_block__img">
-								<img src="img/flower4.jpg" alt="">					
+								<img src="img/flower1.jpg" alt="">
+								<span class="tovar_block__sale">СКИДКА</span>
+								<span class="tovar_block__hit">ХИТ</span>					
 							</div>
 							<div class="tovar_block__text">
 								<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
@@ -326,7 +338,23 @@
 						</div>
 						<div class="tovar_block__item">
 							<div class="tovar_block__img">
-								<img src="img/flower5.jpg" alt="">				
+								<img src="img/flower1.jpg" alt="">
+								<span class="tovar_block__sale">СКИДКА</span>
+								<span class="tovar_block__hit">ХИТ</span>					
+							</div>
+							<div class="tovar_block__text">
+								<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
+								<span class="tovar_block__oldprice">1 269 руб.</span>
+								<span class="tovar_block__newprice">2 269 руб.</span>
+								<div class="clearfix"></div>
+								<a href="#" class="tovar_block__add_busket">В КОРЗИНУ</a>
+							</div>
+						</div>
+						<div class="tovar_block__item">
+							<div class="tovar_block__img">
+								<img src="img/flower1.jpg" alt="">
+								<span class="tovar_block__sale">СКИДКА</span>
+								<span class="tovar_block__hit">ХИТ</span>					
 							</div>
 							<div class="tovar_block__text">
 								<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
@@ -344,10 +372,12 @@
 					<div class="h4-wrap">
 						<h4 class="h4">Вы смотрели</h4>
 					</div>
-					<div class="tovars-block">
+					<div class="tovars-block tovar__slider">
 						<div class="tovar_block__item">
 							<div class="tovar_block__img">
-								<img src="img/flower2.jpg" alt="">					
+								<img src="img/flower1.jpg" alt="">
+								<span class="tovar_block__sale">СКИДКА</span>
+								<span class="tovar_block__hit">ХИТ</span>					
 							</div>
 							<div class="tovar_block__text">
 								<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
@@ -359,7 +389,9 @@
 						</div>
 						<div class="tovar_block__item">
 							<div class="tovar_block__img">
-								<img src="img/flower3.jpg" alt="">					
+								<img src="img/flower1.jpg" alt="">
+								<span class="tovar_block__sale">СКИДКА</span>
+								<span class="tovar_block__hit">ХИТ</span>					
 							</div>
 							<div class="tovar_block__text">
 								<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
@@ -371,7 +403,9 @@
 						</div>
 						<div class="tovar_block__item">
 							<div class="tovar_block__img">
-								<img src="img/flower4.jpg" alt="">					
+								<img src="img/flower1.jpg" alt="">
+								<span class="tovar_block__sale">СКИДКА</span>
+								<span class="tovar_block__hit">ХИТ</span>					
 							</div>
 							<div class="tovar_block__text">
 								<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
@@ -383,7 +417,23 @@
 						</div>
 						<div class="tovar_block__item">
 							<div class="tovar_block__img">
-								<img src="img/flower5.jpg" alt="">				
+								<img src="img/flower1.jpg" alt="">
+								<span class="tovar_block__sale">СКИДКА</span>
+								<span class="tovar_block__hit">ХИТ</span>					
+							</div>
+							<div class="tovar_block__text">
+								<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>
+								<span class="tovar_block__oldprice">1 269 руб.</span>
+								<span class="tovar_block__newprice">2 269 руб.</span>
+								<div class="clearfix"></div>
+								<a href="#" class="tovar_block__add_busket">В КОРЗИНУ</a>
+							</div>
+						</div>
+						<div class="tovar_block__item">
+							<div class="tovar_block__img">
+								<img src="img/flower1.jpg" alt="">
+								<span class="tovar_block__sale">СКИДКА</span>
+								<span class="tovar_block__hit">ХИТ</span>					
 							</div>
 							<div class="tovar_block__text">
 								<a href="#" class="tovar_block__name">Драцента Джанет Крейг</a>

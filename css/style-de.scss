@@ -504,6 +504,15 @@
 		max-width: 950px;
 		width: 100%;
 	}
+	.tab-text{
+		padding-bottom: 20px;
+		p{
+			color: #333;
+			font-size: 14px;
+			line-height: 22px;
+			padding-bottom: 5px;
+		}
+	}
 	.tab-content__inner{
 		text-align: left;
 		background: #fafaf7;
@@ -589,7 +598,7 @@
 		}
 	}
 	.button-wrap{
-		padding-bottom: 21px;
+		margin-top: 20px;
 		.button{
 			margin-right: 26px;
 			@media screen and (max-width: 456px){
@@ -613,6 +622,11 @@
 				color: inherit;
 				display: inline-block;
 				padding-left: 6px;
+			}
+			&:hover{
+				span{
+					text-decoration: none;
+				}
 			}
 		}
 	}
@@ -665,6 +679,9 @@
 		float: right;
 	}
 }
+.take-review-popup{
+	display: none;
+}
 .cart-tovars{
 	padding: 32px 0 0;
 	background: #fff;
@@ -676,12 +693,30 @@
 		border-bottom: 1px dotted #7d7c7c;
 		padding-bottom: 17px;
 		margin: 0 1px;
+	  max-width: 1116px;
 		h4{
 			font-size: 24px;
 		}
 	}
 	.tovars-block{
 		padding: 20px 0 0;
+		position: relative;
+	}
+	.de-right,
+	.de-left{
+    position: absolute;
+    top: 113px;
+    left: 3px;
+    width: 41px;
+    height: 41px;
+    background-image: url(../img/cart-left.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+	}
+	.de-right{
+    right: 23px;
+    left: auto;
+    background-image: url(../img/cart-right2.png);
 	}
 	.tovar_block__item{
 		margin-bottom: 36px;
