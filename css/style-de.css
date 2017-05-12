@@ -71,17 +71,17 @@
 .contacts-inner { padding: 18px 15px 33px; }
 .contacts-inner .contacts-info { background: #fafafa; border: 1px solid #eee; padding: 23px 0 7px; }
 .contacts-inner .info { padding-bottom: 20px; }
-.contacts-inner .info__title { font-size: 16px; color: #333; display: block; text-align: center; font-weight: 700; padding-bottom: 12px; }
+.contacts-inner .info__title { font-size: 16px; color: #333; display: block; text-align: center; font-family: "OpenSansBold"; padding-bottom: 12px; }
 .contacts-inner .info__descr { display: block; text-align: center; font-size: 16px; color: #333; padding-bottom: 6px; }
 .contacts-inner .socials { text-align: center; }
 .contacts-inner .contacts-time { padding: 30px 0 35px; }
 .contacts-inner .contacts-time span { font-size: 16px; color: #333; display: block; }
 .contacts-inner .contacts-blocks { margin: 0 -15px; }
-.contacts-inner .time__title { font-weight: 700; padding-bottom: 13px; }
+.contacts-inner .time__title { font-family: "OpenSansBold"; padding-bottom: 13px; }
 .contacts-inner .time__info { padding-bottom: 2px; }
 .contacts-inner .form-wrap { background: #fafafa url(../img/form-block-bg.png) top right no-repeat; padding: 16px 20px 13px; border: 1px solid #eee; border-top: 5px solid #cedada; border-radius: 2px; }
 @media screen and (max-width: 1000px) { .contacts-inner .form-wrap { margin-top: 15px; } }
-.contacts-inner .form__title { display: block; text-align: center; font-weight: 700; font-size: 24px; color: #333; padding-bottom: 10px; }
+.contacts-inner .form__title { display: block; text-align: center; font-family: "OpenSansBold"; font-size: 24px; color: #333; padding-bottom: 10px; }
 .contacts-inner .form__descr { display: block; font-size: 14px; text-align: center; line-height: 16px; color: #666; padding-bottom: 23px; margin: 0 auto; max-width: 385px; }
 .contacts-inner .input-wrap { padding-bottom: 15px; margin: 0 auto; max-width: 294px; }
 .contacts-inner .checkbox-wrap { padding: 7px 0; }
@@ -108,7 +108,7 @@
 .services-items .item__text-wrap { margin-left: 295px; }
 @media screen and (max-width: 991px) { .services-items .item__text-wrap { margin-left: 0; } }
 .services-items .item__text { color: #333; font-size: 14px; line-height: 24px; padding-bottom: 23px; }
-.services-items .item__text_italic { font-style: italic; }
+.services-items .item__text_italic { font-family: "OpenSansRegularItalic"; }
 .services-items .item__text:last-child { padding-bottom: 0; }
 @media screen and (max-width: 991px) { .services-items .item__text { padding-bottom: 10px; } }
 
@@ -144,7 +144,7 @@
 .review-block .tab-content__inner { text-align: left; background: #fafaf7; border: 1px solid #e7e5d9; border-bottom: 4px solid #d6d3bf; border-top-right-radius: 2px; border-top-left-radius: 2px; padding: 17px 17px 19px 25px; margin-bottom: 10px; }
 .review-block .tab-content__title { float: left; width: 170px; }
 @media screen and (max-width: 700px) { .review-block .tab-content__title { float: none; text-align: center; width: 100%; } }
-.review-block .review__name { line-height: 22px; color: #333; font-size: 16px; font-style: italic; display: block; padding-bottom: 5px; }
+.review-block .review__name { line-height: 22px; color: #333; font-size: 16px; font-family: "OpenSansRegularItalic"; display: block; padding-bottom: 5px; }
 .review-block .review__date { display: block; font-size: 14px; color: #666; }
 .review-block .tab-content__text { background: url(../img/review-arrow.png) 0 5px no-repeat; margin-left: 170px; padding-left: 51px; }
 .review-block .tab-content__text p { line-height: 22px; font-size: 14px; color: #333; padding-bottom: 19px; }
@@ -238,13 +238,13 @@ i.green-star { color: #0e8a5d; font-size: 16px; }
 @media screen and (min-width: 770px) { .tovar__info { height: 150px; padding: 14px 0; } }
 .tovar__info .tovar__descr { color: #000; display: block; font-size: 14px; line-height: 59px; background: #fafaf7; width: 100%; border-bottom: 1px solid #f1f0e8; margin-bottom: 14px; }
 @media screen and (min-width: 770px) { .tovar__info .tovar__descr { display: none; } }
-.tovar__info .tovar__name { font-size: 16px; font-style: italic; color: #333; display: block; text-align: left; padding-bottom: 8px; }
+.tovar__info .tovar__name { font-size: 16px; font-family: "OpenSansRegularItalic"; color: #333; display: block; text-align: left; padding-bottom: 8px; }
 .tovar__info .tovar__kind { display: block; font-size: 14px; color: #999; text-align: left; }
 .tovar__info .tovar__img { width: 150px; height: 117px; overflow: hidden; float: left; }
 .tovar__info .tovar__img img { width: 100%; height: auto; min-height: 100%; }
 .tovar__info .tovar__title { float: left; padding: 31px 10px 0 30px; }
 .tovar__info .cart__char__right__number, .tovar__info .tovar__price, .tovar__info .tovar__delete { padding-top: 34px; display: block; }
-.tovar__info .tovar__price { color: #333; font-size: 18px; font-weight: 700; }
+.tovar__info .tovar__price { color: #333; font-size: 18px; font-family: "OpenSansBold"; }
 .tovar__info .tovar__delete { font-size: 14px; color: #a49864; text-decoration: underline; }
 .tovar__info .tovar__delete:hover { text-decoration: none; }
 .tovar__info_view { width: 375px; }
@@ -299,7 +299,7 @@ i.green-star { color: #0e8a5d; font-size: 16px; }
 .order__price-title { font-size: 14px; color: #333; }
 @media screen and (min-width: 1200px) { .order__price-title { padding: 20px 0 40px; } }
 @media screen and (max-width: 992px) { .order__price-title { padding-bottom: 15px; } }
-.order__price-title i { font-style: normal; font-size: 20px; font-weight: 700; color: #333; }
+.order__price-title i { font-style: normal; font-size: 20px; font-family: "OpenSansBold"; color: #333; }
 @media screen and (max-width: 1200px) and (min-width: 992px) { .order__price-title i { display: block; padding-bottom: 25px; } }
 @media screen and (max-width: 400px) { .order__price-title i { display: block; } }
 
@@ -316,11 +316,11 @@ i.green-star { color: #0e8a5d; font-size: 16px; }
 
 .pay-block { padding-top: 5px; }
 .pay-block .pay__info { color: #333; font-size: 14px; line-height: 20px; padding: 19px 19px 29px; background: #f1f1f1; margin-bottom: 26px; max-width: 850px; }
-.pay-block .pay__info i { font-weight: 700; text-transform: uppercase; }
+.pay-block .pay__info i { font-family: "OpenSansBold"; text-transform: uppercase; }
 
 .pay__order { max-width: 850px; }
 .pay__order .pay__price { font-size: 14px; color: #333; display: block; padding-bottom: 14px; }
-.pay__order .pay__price i { font-weight: 700; font-size: 20px; }
+.pay__order .pay__price i { font-family: "OpenSansBold"; font-size: 20px; }
 .pay__order .checkbox { float: left; padding-top: 16px; }
 .pay__order .button { border: none; line-height: 38px; }
 @media screen and (min-width: 500px) { .pay__order .button { float: right; } }
@@ -332,7 +332,7 @@ i.green-star { color: #0e8a5d; font-size: 16px; }
 @media screen and (max-width: 519px) { .pay__variant { width: 230px; float: none; margin: 0 auto 10px; } }
 @media screen and (min-width: 520px) { .pay__variant:last-child { margin-right: 0; } }
 .pay__variant .pay__title { font-size: 14px; color: #333; text-decoration: underline; text-decoration-style: dashed; line-height: 20px; }
-.pay__variant .pay__title_bold { font-weight: 700; text-transform: uppercase; text-decoration: none; }
+.pay__variant .pay__title_bold { font-family: "OpenSansBold"; text-transform: uppercase; text-decoration: none; }
 
 .registration__contact .call-time__button { display: inline-block; color: #148d61; font-size: 14px; position: relative; padding-bottom: 1px; border-bottom: 1px dashed #148d61; margin-bottom: 25px; cursor: pointer; }
 @media screen and (max-width: 600px) { .registration__contact .call-time__button { margin-bottom: 0; font-size: 11px; letter-spacing: -0.5px; } }
@@ -387,9 +387,9 @@ i.green-star { color: #0e8a5d; font-size: 16px; }
 @media screen and (max-width: 1000px) { .client__order .order__info { width: 438px; } }
 @media screen and (max-width: 749px) { .client__order .order__info { width: 100%; border-left: none; border-top: 1px solid #e7e5d9; padding: 15px; } }
 @media screen and (max-width: 500px) { .client__order .order__info { padding: 10px; } }
-.client__order .order__kind { display: block; float: left; width: 50%; color: #999; font-size: 14px; font-weight: 600; padding-bottom: 10px; }
+.client__order .order__kind { display: block; float: left; width: 50%; color: #999; font-size: 14px; font-family: "OpenSansSemiBold"; padding-bottom: 10px; }
 @media screen and (max-width: 500px) { .client__order .order__kind { font-size: 13px; letter-spacing: -0.5px; width: 100%; padding-bottom: 0px; } }
-.client__order .order__name { display: block; float: left; width: 50%; color: #333; font-size: 14px; font-weight: 600; padding-bottom: 10px; }
+.client__order .order__name { display: block; float: left; width: 50%; color: #333; font-size: 14px; font-family: "OpenSansSemiBold"; padding-bottom: 10px; }
 @media screen and (max-width: 500px) { .client__order .order__name { font-size: 12px; letter-spacing: -0.5px; width: 100%; } }
 
 .h1-wrap_client { padding-bottom: 12px; }

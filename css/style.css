@@ -1,18 +1,7 @@
-.body {
-  font-family: 'Open Sans', sans-serif;
-  background: url(../img/body-bg.jpg); }
+.body { font-family: 'Open Sans', sans-serif; background: url(../img/body-bg.jpg); }
 
-body, html {
-  min-height: 100%;
-  height: auto; }
+body, html { min-height: 100%; height: auto; }
 
-.n-wrapper {
-  background: #fff;
-  width: 100%;
-  max-width: 1214px;
-  margin: 0 auto;
-  -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18);
-  box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); }
+.n-wrapper { background: #fff; width: 100%; max-width: 1214px; margin: 0 auto; -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); -moz-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.18); }
 
-strong {
-  font-weight: 600; }
+strong { font-family: "OpenSansSemiBold"; }

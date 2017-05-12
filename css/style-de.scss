@@ -245,7 +245,7 @@
 		color: #333;
 		display: block;
 		text-align: center;
-		font-weight: 700;
+		font-family: "OpenSansBold";
 		padding-bottom: 12px;
 	}
 	.info__descr{
@@ -270,7 +270,7 @@
 		margin: 0 -15px;
 	}
 	.time__title{
-		font-weight: 700;
+		font-family: "OpenSansBold";
 		padding-bottom: 13px;
 	}
 	.time__info{
@@ -289,7 +289,7 @@
 	.form__title{
 		display: block;
 		text-align: center;
-		font-weight: 700;
+		font-family: "OpenSansBold";
 		font-size: 24px;
 		color: #333;
 		padding-bottom: 10px;
@@ -378,7 +378,7 @@
 		line-height: 24px;
 		padding-bottom: 23px;
 		&_italic{
-			font-style: italic;
+			font-family: "OpenSansRegularItalic";
 		}
 		&:last-child{
 			padding-bottom: 0;
@@ -541,7 +541,7 @@
 		line-height: 22px;
 		color: #333;
 		font-size: 16px;
-		font-style: italic;
+		font-family: "OpenSansRegularItalic";
 		display: block;
 		padding-bottom: 5px;
 	}
@@ -939,7 +939,7 @@ i.green-star{
 	}
 	.tovar__name{
 		font-size: 16px;
-		font-style: italic;
+		font-family: "OpenSansRegularItalic";
 		color: #333;
 		display: block;
 		text-align: left;
@@ -975,7 +975,7 @@ i.green-star{
 	.tovar__price{
 		color: #333;
 		font-size: 18px;
-		font-weight: 700;
+		font-family: "OpenSansBold";
 	}
 	.tovar__delete{
 		font-size: 14px;
@@ -1175,7 +1175,7 @@ i.green-star{
 	i{
 		font-style: normal;
 		font-size: 20px;
-		font-weight: 700;
+		font-family: "OpenSansBold";
 		color: #333;
 		@media screen and (max-width: 1200px) and (min-width: 992px){
 			display: block;
@@ -1237,7 +1237,7 @@ i.green-star{
 		margin-bottom: 26px;
 		max-width: 850px;
 		i{
-			font-weight: 700;
+			font-family: "OpenSansBold";
 			text-transform: uppercase;
 		}
 	}
@@ -1250,7 +1250,7 @@ i.green-star{
 		display: block;
 		padding-bottom: 14px;
 		i{
-			font-weight: 700;
+			font-family: "OpenSansBold";
 			font-size: 20px;
 		}
 	}
@@ -1306,7 +1306,7 @@ i.green-star{
 		text-decoration-style: dashed;
 		line-height: 20px;
 		&_bold{
-			font-weight: 700;
+			font-family: "OpenSansBold";
 			text-transform: uppercase;
 			text-decoration: none;
 		}
@@ -1548,7 +1548,7 @@ i.green-star{
 		width: 50%;
 		color: #999;
 		font-size: 14px;
-		font-weight: 600;
+		font-family: "OpenSansSemiBold";
 		padding-bottom: 10px;
 		@media screen and (max-width: 500px){
 			font-size: 13px;
@@ -1563,7 +1563,7 @@ i.green-star{
 		width: 50%;
 		color: #333;
 		font-size: 14px;
-		font-weight: 600;
+		font-family: "OpenSansSemiBold";
 		padding-bottom: 10px;
 		@media screen and (max-width: 500px){
 			font-size: 12px;

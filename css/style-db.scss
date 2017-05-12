@@ -152,7 +152,7 @@
 	&__span2{
 		color: #333;
 		font-size: 16px;
-		font-style: italic;
+    font-family: "OpenSansItalic";
 		display: block;
 		padding-bottom: 9px;
 		padding-left: 4px;
@@ -281,7 +281,7 @@
 	&_view{
 		background: url("../img/sale.jpg") no-repeat;
 		color: white;
-		font-weight: 200;
+		font-family: "OpenSansLight";
 		font-size: 18px;
 		line-height: 22px;
 		max-width: 262px;
@@ -302,7 +302,7 @@
 	}
 	&__span2{
 		font-size: 34px;
-		font-weight: 600;
+    font-family: "OpenSansSemiBold";
 		line-height: 37px;
 		text-align: right;
 		display: block;
