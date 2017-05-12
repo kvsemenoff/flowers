@@ -188,6 +188,17 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.tab-content__inner_akkordeon').slideUp(0);
+	$('.all-review').click(function(){
+		if (!$(this).hasClass('all-review-active')){
+			$(this).addClass('all-review-active');
+			$('.tab-content__inner_akkordeon').slideDown(300)
+		} else {
+			$(this).removeClass('all-review-active');
+			$('.tab-content__inner_akkordeon').slideUp(300)
+		}
+	});
+
 
 	$(".take-review-fancybox").fancybox({
 		openEffect	: 'true',

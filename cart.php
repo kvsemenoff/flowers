@@ -7,9 +7,7 @@
 		<div class="n-content-inner vertical-align">
 			<div class="container">
 				<div class="row">
-					
 					<div class="cart-inner">
-
 						<div class="breadcrumps-wrap">
 							<ul class="breadcrumps">
 								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg"></a><i>/</i></li>
@@ -21,8 +19,6 @@
 						<div class="h1-wrap">
 							<h1 class="h1">Букет из хризантем </h1>
 						</div>
-						
-
 						<div class="cart__left_block">
 							<div class="hiddenslider">
 								<div class="cart__left_block__img">
@@ -241,10 +237,66 @@
 												</div>
 											</div>
 										</div>
+										<div class="tab-content__inner tab-content__inner_akkordeon clearfix">
+											<div class="tab-content__title">
+												<span class="review__name">Татьяна Иванова</span>
+												<span class="review__date">21.02.2017</span>
+											</div>
+											<div class="tab-content__text">
+												<p>Рыбные тексты также применяются для демонстрации различных видов шрифта и в разработке макетов. Как правило их содержание бессмысленно. По причине своей функции текста-заполнителя для макетов нечитабельность рыбных текстов имеет особое значение, так как человеческое восприятие имеет особенность, распознавать определенные образцы и повторения.</p>
+												<div class="review__raitings">
+													<div class="review__raiting review__raiting_like">
+														<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+														<i class="like-quant">0</i>
+													</div>
+													<div class="review__raiting review__raiting_dislike">
+														<i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+														<i class="dislike-quant">0</i>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="tab-content__inner tab-content__inner_akkordeon clearfix">
+											<div class="tab-content__title">
+												<span class="review__name">Татьяна Иванова</span>
+												<span class="review__date">21.02.2017</span>
+											</div>
+											<div class="tab-content__text">
+												<p>Рыбные тексты также применяются для демонстрации различных видов шрифта и в разработке макетов. Как правило их содержание бессмысленно. По причине своей функции текста-заполнителя для макетов нечитабельность рыбных текстов имеет особое значение, так как человеческое восприятие имеет особенность, распознавать определенные образцы и повторения.</p>
+												<div class="review__raitings">
+													<div class="review__raiting review__raiting_like">
+														<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+														<i class="like-quant">0</i>
+													</div>
+													<div class="review__raiting review__raiting_dislike">
+														<i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+														<i class="dislike-quant">0</i>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="tab-content__inner tab-content__inner_akkordeon clearfix">
+											<div class="tab-content__title">
+												<span class="review__name">Татьяна Иванова</span>
+												<span class="review__date">21.02.2017</span>
+											</div>
+											<div class="tab-content__text">
+												<p>Рыбные тексты также применяются для демонстрации различных видов шрифта и в разработке макетов. Как правило их содержание бессмысленно. По причине своей функции текста-заполнителя для макетов нечитабельность рыбных текстов имеет особое значение, так как человеческое восприятие имеет особенность, распознавать определенные образцы и повторения.</p>
+												<div class="review__raitings">
+													<div class="review__raiting review__raiting_like">
+														<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+														<i class="like-quant">0</i>
+													</div>
+													<div class="review__raiting review__raiting_dislike">
+														<i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+														<i class="dislike-quant">0</i>
+													</div>
+												</div>
+											</div>
+										</div>
 										<div class="button-wrap">
 											<a href="#take-review" class="take-review-fancybox button button_main button_review">Оставьте отзыв о товаре</a>
-											<a href="#" class="all-review"><span>Все отзывы (4)<span><i class="fa fa-chevron-down" aria-hidden="true"></i>
-											</a>
+											<span class="all-review"><span>Все отзывы (4)<span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
 										</div>
 									</div>
 								</div>

@@ -141,7 +141,7 @@
 .review-block .tab-content { padding: 24px 0 19px; max-width: 950px; width: 100%; }
 .review-block .tab-text { padding-bottom: 20px; }
 .review-block .tab-text p { color: #333; font-size: 14px; line-height: 22px; padding-bottom: 5px; }
-.review-block .tab-content__inner { text-align: left; background: #fafaf7; border: 1px solid #e7e5d9; border-bottom: 4px solid #d6d3bf; border-top-right-radius: 2px; border-top-left-radius: 2px; padding: 17px 17px 19px 25px; }
+.review-block .tab-content__inner { text-align: left; background: #fafaf7; border: 1px solid #e7e5d9; border-bottom: 4px solid #d6d3bf; border-top-right-radius: 2px; border-top-left-radius: 2px; padding: 17px 17px 19px 25px; margin-bottom: 10px; }
 .review-block .tab-content__title { float: left; width: 170px; }
 @media screen and (max-width: 700px) { .review-block .tab-content__title { float: none; text-align: center; width: 100%; } }
 .review-block .review__name { line-height: 22px; color: #333; font-size: 16px; font-style: italic; display: block; padding-bottom: 5px; }
@@ -158,14 +158,15 @@
 .review-block .review__raiting_dislike .fa { color: #999; }
 .review-block .review__raiting_dislike .fa:hover { color: #333; }
 .review-block .review__raiting_dislike .dislike-quant { font-size: 15px; color: #d2453d; }
-.review-block .button-wrap { margin-top: 20px; }
+.review-block .button-wrap { margin-top: 10px; }
 .review-block .button-wrap .button { margin-right: 26px; }
 @media screen and (max-width: 456px) { .review-block .button-wrap .button { margin: 0 15px 10px; } }
 @media screen and (max-width: 350px) { .review-block .button-wrap .button { margin: 0 0 10px; padding: 0 10px 0 40px; } }
-.review-block .button-wrap .all-review { font-size: 14px; color: #a39762; text-decoration: none; display: inline-block; }
+.review-block .button-wrap .all-review { font-size: 14px; color: #a39762; text-decoration: none; display: inline-block; cursor: pointer; }
 .review-block .button-wrap .all-review span { letter-spacing: 1px; text-decoration: underline; }
 .review-block .button-wrap .all-review .fa { color: inherit; display: inline-block; padding-left: 6px; }
 .review-block .button-wrap .all-review:hover span { text-decoration: none; }
+.review-block .button-wrap .all-review-active .fa { transform: rotate(180deg); padding-left: 0; padding-right: 6px; }
 .review-block .take-review { border: 1px solid #eee; border-top: 5px solid #cedada; border-radius: 2px; background: #fafafa url(../img/form-block-bg.png) top right no-repeat; padding: 17px 10px 0; width: 100%; max-width: 950px; }
 .review-block .take-review__title { display: block; text-align: center; font-size: 24px; color: #333; padding-bottom: 24px; font-family: 'pt_serifbold'; }
 .review-block .form-inner { margin: 0 auto; width: 100%; max-width: 750px; }
@@ -396,3 +397,4 @@ i.green-star { color: #0e8a5d; font-size: 16px; }
 @media screen and (max-width: 500px) { .registration-form { padding: 0; }
   .registration-form .input-wrap { margin-bottom: 0; } }
 @media screen and (max-width: 360px) { .review-block .tabs .tab { display: block; } }
+.owl-controls .cart-right { left: auto; }
