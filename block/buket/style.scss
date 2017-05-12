@@ -12,7 +12,8 @@
 	box-shadow: 0 2px 3px rgba(0, 74, 47, 0.35);
 	height: 42px;
 	@media only screen and (min-width : 750px) {
-		height: 53px;
+		// height: 53px;
+		height: 100%;
 		width: 135px;
 		padding: 17px 0px 15px 14px;
 	}

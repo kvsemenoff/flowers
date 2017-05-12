@@ -45,7 +45,7 @@
 				<!-- desktop  menu-->
 		<div class="akkordeons clearfix">
 			<div class="main-menu-wrap">
-
+			<div class="mainmenudesk">
 				<div class="bouquet js-bouquet">
 					<div class="bouquet__burger">
 						<!--this span - burger css -->
@@ -552,7 +552,7 @@
 					<li><a href="#" class="main-menu__link">Доставка</a></li>
 				</ul>
 				<!-- end desktop -->
-
+			</div>
 				<!-- mobile -->
 				<div class="bouquet js-bouquet-mob">
 					<div class="bouquet__burger">
