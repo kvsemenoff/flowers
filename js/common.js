@@ -127,6 +127,31 @@ $(document).ready(function(){
 		$('.rate_block__nums i').text(x);		
 	});
 
+		var owl2 = $(".tovar__slider");
+		owl2.owlCarousel({
+			loop:true,
+			nav:true, 
+			autoplay:false,
+			smartSpeed:1000,
+			margin:0,
+			mouseDrag:true,
+			touchDrag: false,
+			center:false,     //если нужны обрезаные края
+			navText:['<span class="de-left"></span>','<span class="de-right"></span>'],
+			responsive:
+			{
+				0:{
+					items:1
+				},      
+				990:{
+					items:3
+				},  
+				1248:{
+					items:4
+				}
+			}
+	});
+
 
 
 	$('.menu-button').click(function(){
@@ -163,10 +188,10 @@ $(document).ready(function(){
 		}
 	});
 
-	$(".category-fancybox").fancybox({
-		fitToView	: false,
-		closeClick	: false,
+
+	$(".take-review-fancybox").fancybox({
 		openEffect	: 'true',
+		autoWidth : 'true',
 		closeEffect	: 'true'
 	});
 
@@ -278,11 +303,6 @@ $(function() {
 		$('body,html').animate({scrollTop:0},800);
 	});
 
-	$('.tabs-content > .tab-content').each(function(index){
-		if (index != 1) {
-			$(this).css('display','none');
-		};
-	});
 	$('.tab').click(function(){
 		$('.tab').removeClass('active');
 		$('.tabs-content').find('div').removeClass('active');

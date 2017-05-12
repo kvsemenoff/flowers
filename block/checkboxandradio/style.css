@@ -50,6 +50,9 @@
     .checkbox__label, .radio__label {
       width: auto; } }
 
+.checkbox__label a:hover {
+  text-decoration: none; }
+
 .radio__custom {
   position: relative;
   width: 15px;
