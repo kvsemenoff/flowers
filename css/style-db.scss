@@ -25,10 +25,8 @@
 		line-height: 24px;
 		span{
 			color: #333;
-			font-family: 'PT Serif', serif;
+			font-family: 'pt_serifbold_italic', serif;
 			font-size: 20px;
-			font-weight: 700;
-			font-style: italic;
 			line-height: 26px;
 			padding-bottom: 20px;
 			display: inline-block;
@@ -73,10 +71,8 @@
 	}
 	&__title{
 		color: #333;
-		font-family: 'PT Serif', serif;
+		font-family: 'pt_serifbold_italic', serif;
 		font-size: 22px;
-		font-weight: 700;
-		font-style: italic;
 		line-height: 26px;
 		padding-bottom: 10px;
 		display: inline-block;
@@ -131,10 +127,8 @@
 	&__span1{
 		color: #444;
 		font-size: 22px;
-		font-weight: 700;
-		font-style: italic;
 		line-height: 26px;
-		font-family: 'PT Serif', serif;
+		font-family: 'pt_serifbold_italic', serif;
 		padding-left: 23px;
 		padding-bottom: 24px;
 		display: block;
@@ -215,10 +209,8 @@
 	span{
 		color: #333;
 		font-size: 13px;
-		font-weight: 700;
-		font-style: italic;
 		line-height: 46px;
-		font-family: 'PT Serif', serif;
+		font-family: 'pt_serifbold_italic', serif;
 		padding-left: 23px;
 		display: block;
 		@media only screen and (min-width : 768px) {

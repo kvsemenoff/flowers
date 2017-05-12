@@ -24,11 +24,7 @@
 	<link rel="stylesheet" href="block/register-and-cart/style.css">
 	<link rel="stylesheet" href="block/logobox/style.css">
 	<link rel="stylesheet" href="block/category/style.css">
-	<link rel="stylesheet" href="block/link/link.css">
-	<link rel="stylesheet" href="block/address/address.css">
-	<link rel="stylesheet" href="block/search/search.css">
 	<link rel="stylesheet" href="block/button/style.css">
-	<link rel="stylesheet" href="block/order/style.css">
 	<link rel="stylesheet" href="block/socials/socials.css">
 	<link rel="stylesheet" href="block/q/style.css">
 	<link rel="stylesheet" href="block/mape/style.css">
@@ -47,14 +43,9 @@
 
 
 	<link rel="stylesheet" href="css/style-db.css">
-	<link rel="stylesheet" href="css/style-dc.css">
 	<link rel="stylesheet" href="css/style-dd.css">
 	<link rel="stylesheet" href="css/style-de.css">
 	<link rel="stylesheet" href="css/style-df.css">
-	<link rel="stylesheet" href="css/style-dg.css">
-	<link rel="stylesheet" href="css/style-dh.css">
-	<link rel="stylesheet" href="css/style-di.css">
-	<link rel="stylesheet" href="css/style-dj.css">
 	
 
 </head>

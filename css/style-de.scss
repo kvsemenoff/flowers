@@ -493,7 +493,7 @@
 			line-height: 40px;
 			font-size: 14px;
 			color: #333;
-			font-family: 'PT Serif', serif;
+			font-family: 'pt_serifbold';
 			transition: 0.4s all ease;
 			@media screen and (max-width: 500px){
 				padding: 0 15px;
@@ -649,9 +649,8 @@
 		text-align: center;
 		font-size: 24px;
 		color: #333;
-		font-weight: 700;
 		padding-bottom: 24px;
-		font-family: 'PT Serif';
+		font-family: 'pt_serifbold';
 	}
 	.form-inner{
 		margin: 0 auto;
@@ -812,7 +811,7 @@ i.green-star{
 		}
 	}
 	&__nav{
-		font-family: 'PT Serif';
+		font-family: 'PT serif';
 		float: left;
 		text-align: center;
 		display: block;
@@ -1140,6 +1139,7 @@ i.green-star{
 	.input__control{
 		line-height: 37px;
 		background: #fff;
+		height: 37px;
 	}
 	.order__discount-info{
 		font-size: 12px;
