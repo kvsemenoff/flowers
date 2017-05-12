@@ -167,15 +167,16 @@
 .review-block .button-wrap .all-review .fa { color: inherit; display: inline-block; padding-left: 6px; }
 .review-block .button-wrap .all-review:hover span { text-decoration: none; }
 .review-block .button-wrap .all-review-active .fa { transform: rotate(180deg); padding-left: 0; padding-right: 6px; }
-.review-block .take-review { border: 1px solid #eee; border-top: 5px solid #cedada; border-radius: 2px; background: #fafafa url(../img/form-block-bg.png) top right no-repeat; padding: 17px 10px 0; width: 100%; max-width: 950px; }
-.review-block .take-review__title { display: block; text-align: center; font-size: 24px; color: #333; padding-bottom: 24px; font-family: 'pt_serifbold'; }
-.review-block .form-inner { margin: 0 auto; width: 100%; max-width: 750px; }
-.review-block .input-wrap { float: left; padding-bottom: 20px; width: 50%; text-align: left; }
-@media screen and (min-width: 701px) { .review-block .input-wrap_right { padding-left: 15px; } }
-@media screen and (max-width: 700px) { .review-block .input-wrap { float: none; width: 100%; } }
-.review-block .big-wrap { width: 100%; }
-.review-block .checkbox-wrap { float: left; padding: 9px 0; }
-.review-block .button-right { float: right; }
+
+.take-review { border: 1px solid #eee; border-top: 5px solid #cedada; border-radius: 2px; background: #fafafa url(../img/form-block-bg.png) top right no-repeat; padding: 17px 10px 0; width: 100%; max-width: 950px; }
+.take-review .take-review__title { display: block; text-align: center; font-size: 24px; color: #333; padding-bottom: 24px; font-family: 'pt_serifbold'; }
+.take-review .form-inner { margin: 0 auto; width: 100%; max-width: 750px; }
+.take-review .input-wrap { float: left; padding-bottom: 20px; width: 50%; text-align: left; }
+@media screen and (min-width: 701px) { .take-review .input-wrap_right { padding-left: 15px; } }
+@media screen and (max-width: 700px) { .take-review .input-wrap { float: none; width: 100%; } }
+.take-review .big-wrap { width: 100%; }
+.take-review .checkbox-wrap { float: left; padding: 9px 0; }
+.take-review .button-right { float: right; }
 
 .take-review-popup { display: none; }
 
