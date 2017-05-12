@@ -12,15 +12,11 @@ var css_our = new Array(
 	'block/register-and-cart/style.css',
 	'block/logobox/style.css',
 	'block/category/style.css',
-	'block/link/link.css',
-	'block/address/address.css',
-	'block/search/search.css',
 	'block/button/style.css',
-	'block/order/style.css',
 	'block/socials/socials.css',
 	'block/q/style.css',
 	'block/mape/style.css',
-	'block/header-contact/header-contact.css',
+	'block/header-contact/style.css',
 	'block/buket/style.css',	
 	'block/main-menu/main-menu.css',
 	'block/checkboxandradio/style.css',
@@ -32,14 +28,9 @@ var css_our = new Array(
 	'block/label+control/style.css',
 	'block/table/style.css',
 	'css/style-db.css',
-	'css/style-dc.css',
 	'css/style-dd.css',
 	'css/style-de.css',
-	'css/style-df.css',
-	'css/style-dg.css',
-	'css/style-dh.css',
-	'css/style-di.css',
-	'css/style-dj.css'
+	'css/style-df.css'
 );
 
 var scss_our = new Array(
@@ -55,15 +46,11 @@ var scss_our = new Array(
 	'block/register-and-cart/style.scss',
 	'block/logobox/style.scss',
 	'block/category/style.scss',
-	'block/link/link.scss',
-	'block/address/address.scss',
-	'block/search/search.scss',
 	'block/button/style.scss',
-	'block/order/style.scss',
 	'block/socials/socials.scss',
 	'block/q/style.scss',
 	'block/mape/style.scss',
-	'block/header-contact/header-contact.scss',
+	'block/header-contact/style.scss',
 	'block/buket/style.scss',	
 	'block/main-menu/main-menu.scss',
 	'block/checkboxandradio/style.scss',
@@ -75,14 +62,9 @@ var scss_our = new Array(
 	'block/label+control/style.scss',
 	'block/table/style.scss',
 	'css/style-db.scss',
-	'css/style-dc.scss',
 	'css/style-dd.scss',
 	'css/style-de.scss',
-	'css/style-df.scss',
-	'css/style-dg.scss',
-	'css/style-dh.scss',
-	'css/style-di.scss',
-	'css/style-dj.scss'
+	'css/style-df.scss'
 );
 var css_libs = new Array(
 	'libs/bootstrap/bootstrap-grid-3.3.1.min.css',
