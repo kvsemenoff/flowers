@@ -201,11 +201,11 @@ $(document).ready(function(){
 
 	$('.take-review').slideUp(0);
 	$('.take-review-button').click(function(){
-		if (!$(this).hasClass('take-review-active')){
-			$(this).addClass('take-review-active');
+		if (!$('.take-review-button').hasClass('take-review-active')){
+			$('.take-review-button').addClass('take-review-active');
 			$('.take-review').slideDown(300)
 		} else {
-			$(this).removeClass('take-review-active');
+			$('.take-review-button').removeClass('take-review-active');
 			$('.take-review').slideUp(300)
 		}
 	});
