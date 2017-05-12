@@ -1,4 +1,4 @@
-.button { font-family: 'Open sans'; display: inline-block; text-decoration: none; border-radius: 3px; transition: 0.3s all ease; }
+.button { display: inline-block; text-decoration: none; border-radius: 3px; transition: 0.3s all ease; }
 .button_delete { font-size: 14px; background: #fff; border: 1px solid #0e8a5d; line-height: 30px; padding: 0 31px 0 16px; }
 .button_delete-single { background: url(../../img/cross-green.png) top 9px right 12px no-repeat; color: #0e8a5d; border-color: #baddcb; }
 .button_delete-single:hover { background-color: #baddcb; }
