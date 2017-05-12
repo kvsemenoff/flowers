@@ -52,17 +52,17 @@
 								<div class="owl-slider-mob">
 									<div class="item">
 										<div class="cart__left_block__img">
-											<a href="img/sliderbig1.jpg" data-fancybox-group="group"><img src="img/sliderbig1.jpg" alt=""></a>
+											<img src="img/sliderbig1.jpg" alt="">
 										</div>
 									</div>
 									<div class="item">
 										<div class="cart__left_block__img">
-											<a href="img/sliderbig1.jpg" data-fancybox-group="group"><img src="img/sliderbig1.jpg" alt=""></a>
+											<img src="img/sliderbig1.jpg" alt="">
 										</div>
 									</div>
 									<div class="item">
 										<div class="cart__left_block__img">
-											<a href="img/sliderbig1.jpg" data-fancybox-group="group"><img src="img/sliderbig1.jpg" alt=""></a>
+											<img src="img/sliderbig1.jpg" alt="">
 										</div>
 									</div>
 								</div>
