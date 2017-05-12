@@ -15,7 +15,8 @@
     .bouquet {
       height: 53px;
       width: 135px;
-      padding: 19px 0px 15px 14px; } }
+      padding: 19px 0px 15px 14px;
+      vertical-align: top; } }
 
 .bouquet__burger {
   text-align: center;
