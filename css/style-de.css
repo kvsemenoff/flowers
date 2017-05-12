@@ -3,7 +3,7 @@
 
 .contacts { padding-top: 15px; float: left; width: 288px; }
 @media screen and (max-width: 1000px) { .contacts { float: right; } }
-.contacts .socials-wrap { float: left; padding-right: 10px; }
+.contacts .socials-wrap { float: left; padding-right: 5px; }
 .contacts .header-contact__telephone { float: right; }
 .contacts .header-contact__telephone { float: right; }
 .contacts .header-contact__link { float: right; display: block; }
