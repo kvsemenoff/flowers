@@ -28,7 +28,7 @@
 	<link rel="stylesheet" href="block/socials/socials.css">
 	<link rel="stylesheet" href="block/q/style.css">
 	<link rel="stylesheet" href="block/mape/style.css">
-	<link rel="stylesheet" href="block/header-contact/header-contact.css">
+	<link rel="stylesheet" href="block/header-contact/style.css">
 	<link rel="stylesheet" href="block/buket/style.css">	
 	<link rel="stylesheet" href="block/main-menu/main-menu.css">
 	<link rel="stylesheet" href="block/checkboxandradio/style.css">
