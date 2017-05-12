@@ -509,9 +509,16 @@
   background-color: #d6d3be; }
 
 .cart__optiopn .cart__custom {
-  border-color: #988e5b; }
+  width: 16px;
+  height: 16px;
+  border: none;
+  background: url("../img/radio4.png") no-repeat center;
+  z-index: 1; }
   .cart__optiopn .cart__custom:before {
-    background: url("../img/radio2.png") no-repeat !important; }
+    width: 16px !important;
+    height: 16px !important;
+    background: url("../img/radio3.png") no-repeat !important;
+    z-index: 99; }
 
 .cart__label {
   color: black;
