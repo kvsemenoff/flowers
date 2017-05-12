@@ -295,13 +295,13 @@
 											</div>
 										</div>
 										<div class="button-wrap">
-											<a href="#take-review" class="take-review-fancybox button button_main button_review">Оставьте отзыв о товаре</a>
+											<span class="take-review-button button button_main button_review">Оставьте отзыв о товаре</span>
 											<span class="all-review"><span>Все отзывы (4)<span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="take-review take-review-popup" id="take-review">
+							<div class="take-review">
 								<span class="take-review__title">Оставить отзыв</span>
 								<form action="#" class="js-submit" method="post">
 									<div class="form-inner clearfix">

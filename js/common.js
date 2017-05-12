@@ -199,19 +199,17 @@ $(document).ready(function(){
 		}
 	});
 
-
-	$(".take-review-fancybox").fancybox({
-		openEffect	: 'true',
-		autoWidth : 'true',
-		closeEffect	: 'true'
+	$('.take-review').slideUp(0);
+	$('.take-review-button').click(function(){
+		if (!$(this).hasClass('take-review-active')){
+			$(this).addClass('take-review-active');
+			$('.take-review').slideDown(300)
+		} else {
+			$(this).removeClass('take-review-active');
+			$('.take-review').slideUp(300)
+		}
 	});
 
-	$(".fancybox").fancybox({
-		fitToView	: false,
-		closeClick	: false,
-		openEffect	: 'true',
-		closeEffect	: 'true'
-	});
 
 	$("a[data-fancybox-group=group]").fancybox({
 		'transitionIn' : 'none',

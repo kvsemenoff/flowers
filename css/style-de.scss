@@ -643,6 +643,9 @@
 		}
 	}
 }
+.take-review-button{
+	cursor: pointer;
+}
 .take-review{
 	border: 1px solid #eee;
 	border-top: 5px solid #cedada;
@@ -689,9 +692,6 @@
 	.button-right{
 		float: right;
 	}
-}
-.take-review-popup{
-	display: none;
 }
 .cart-tovars{
 	padding: 32px 0 0;

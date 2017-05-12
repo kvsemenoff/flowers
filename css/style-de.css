@@ -168,6 +168,8 @@
 .review-block .button-wrap .all-review:hover span { text-decoration: none; }
 .review-block .button-wrap .all-review-active .fa { transform: rotate(180deg); padding-left: 0; padding-right: 6px; }
 
+.take-review-button { cursor: pointer; }
+
 .take-review { border: 1px solid #eee; border-top: 5px solid #cedada; border-radius: 2px; background: #fafafa url(../img/form-block-bg.png) top right no-repeat; padding: 17px 10px 0; width: 100%; max-width: 950px; }
 .take-review .take-review__title { display: block; text-align: center; font-size: 24px; color: #333; padding-bottom: 24px; font-family: 'pt_serifbold'; }
 .take-review .form-inner { margin: 0 auto; width: 100%; max-width: 750px; }
@@ -177,8 +179,6 @@
 .take-review .big-wrap { width: 100%; }
 .take-review .checkbox-wrap { float: left; padding: 9px 0; }
 .take-review .button-right { float: right; }
-
-.take-review-popup { display: none; }
 
 .cart-tovars { padding: 32px 0 0; background: #fff; margin-top: -6px; }
 .cart-tovars_grey { background: #faf8f8; }
