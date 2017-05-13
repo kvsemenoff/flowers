@@ -142,11 +142,14 @@ $(document).ready(function(){
 			{
 				0:{
 					items:1
-				},      
+				}, 
+				750:{
+					items:2
+				},     
 				990:{
 					items:3
 				},  
-				1248:{
+				1200:{
 					items:4
 				}
 			}

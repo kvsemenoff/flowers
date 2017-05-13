@@ -203,11 +203,11 @@
 						<div class="review-block">
 							<div class="tabs-block">
 								<div class="tabs">
-									<div class="tab tab-0">Описание</div>
-									<div class="tab tab-1 active">Отзывы</div>
+									<div class="tab tab-0 active">Описание</div>
+									<div class="tab tab-1 ">Отзывы</div>
 								</div>
 								<div class="tabs-content">
-									<div class="tab-content tab-0">
+									<div class="tab-content tab-0 active">
 										<div class="tab-text">
 											<p>Монобукет из хризантем смело можно назвать самым универсальным подарком. Достаточно строгий с первого взгляда, он станет достойным презентом для мужчины. Но скромность хризантем обманчива, не зря они являются символом солнца, дающего жизнь и свет. Дам порадует классический образ букета, красота цветов и ненавязчивый аромат.</p>
 										</div>
@@ -217,7 +217,7 @@
 									</div>
 								</div>
 								<div class="tabs-content">
-									<div class="tab-content tab-1 active">
+									<div class="tab-content tab-1 ">
 										<div class="tab-content__inner clearfix">
 											<div class="tab-content__title">
 												<span class="review__name">Татьяна Иванова</span>
