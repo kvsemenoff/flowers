@@ -96,11 +96,9 @@ $(document).ready(function() {
 	});
 
 
-	$(".dfopen1 a").click(function() {
-	    $('html, body').animate({
-	        scrollTop: $(".dfimge1").offset().top - 170
-	    }, 500);
-	});
+	$('.cart__sliderbox a[data-fancybox-group]').on('click', function () {
+		return false;
+	})
 
 
 

@@ -26,24 +26,24 @@
 								</div>
 								<div class="js-owl-slidercart cart__sliderbox">
 									<div class="item">
-										<div class="cart__slider_img">
+										<a href="img/sliderbig1.jpg" data-fancybox-group="group"><div class="cart__slider_img">
 											<img src="img/slidercart1.jpg" data-bigimg="img/slidercart1.jpg" alt="">
-										</div>
+										</div></a>
 									</div>
 									<div class="item">
-										<div class="cart__slider_img">
+										<a href="img/sliderbig1.jpg" data-fancybox-group="group"><div class="cart__slider_img">
 											<img src="img/slidercart1.jpg" data-bigimg="img/sliderbig1.jpg" alt="">
-										</div>
+										</div></a>
 									</div>
 									<div class="item">
-										<div class="cart__slider_img">
+										<a href="img/sliderbig1.jpg" data-fancybox-group="group"><div class="cart__slider_img">
 											<img src="img/slidercart1.jpg" data-bigimg="img/sliderbig1.jpg" alt="">
-										</div>
+										</div></a>
 									</div>
 									<div class="item">
-										<div class="cart__slider_img">
+										<a href="img/sliderbig1.jpg" data-fancybox-group="group"><div class="cart__slider_img">
 											<img src="img/slidercart1.jpg" data-bigimg="img/sliderbig1.jpg" alt="">
-										</div>
+										</div></a>
 									</div>
 								</div>
 							</div>
