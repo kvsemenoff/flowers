@@ -351,7 +351,11 @@
 .filter-block .instruments__buttons {
   float: left; }
   .filter-block .instruments__buttons .button {
-    margin-left: 8px; }
+    margin-left: 8px;
+    margin-bottom: 15px; }
+    @media only screen and (min-width: 600px) {
+      .filter-block .instruments__buttons .button {
+        margin-bottom: 0; } }
 .filter-block .instruments__filter-wrap {
   padding-bottom: 14px; }
 .filter-block .instruments__filter {
@@ -1216,7 +1220,19 @@ i.green-star {
 
 .registration-form_client .input-wrap {
   float: none;
-  width: 100%; }
+  width: 100%;
+  text-align: left; }
+.registration-form_client .input__label {
+  display: inline-block;
+  margin-bottom: 10px; }
+  @media only screen and (min-width: 990px) {
+    .registration-form_client .input__label {
+      margin-bottom: 0; } }
+.registration-form_client .input-wrap_button {
+  margin-top: 15px; }
+  @media only screen and (min-width: 990px) {
+    .registration-form_client .input-wrap_button {
+      margin-top: 0; } }
 
 .client__order {
   border: 1px solid #e7e5d9;

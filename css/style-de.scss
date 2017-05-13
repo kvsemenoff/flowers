@@ -437,6 +437,10 @@
 		float: left;
 		.button{
 			margin-left: 8px;
+			margin-bottom: 15px;
+			@media only screen and (min-width : 600px) {
+				margin-bottom: 0;
+			}
 		}
 	}
 	.instruments__filter-wrap{
@@ -1502,6 +1506,20 @@ i.green-star{
 	.input-wrap{
 		float: none;
 		width: 100%;
+		text-align: left;
+	}
+	.input__label{
+		display: inline-block;
+		margin-bottom: 10px;
+		@media only screen and (min-width : 990px) {
+			margin-bottom: 0;
+		}
+	}
+	.input-wrap_button{
+		margin-top: 15px;
+		@media only screen and (min-width : 990px) {
+			margin-top: 0;	
+		}
 	}
 }
 .client__order{
